@@ -6,6 +6,10 @@ import "/public/assets/css/swiper.min.css";
 import "/public/assets/css/aos.css";
 import "/public/assets/css/main.css";
 import { Manrope, Plus_Jakarta_Sans } from "next/font/google";
+import acceptLanguage from "accept-language";
+import { cookieI18Name, fallbackLng, languages } from "../locales/lang";
+import { cookies } from "next/headers";
+import { I18NProvider } from "../locales";
 
 const manrope = Manrope({
   weight: ["300", "400", "500", "600", "700"],
@@ -29,12 +33,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  acceptLanguage.languages(languages);
+  const lng =
+    acceptLanguage.get(cookies().get(cookieI18Name)?.value) || fallbackLng;
   return (
     <html lang="en">
       <body
         className={`${manrope.variable} ${jakarta.variable} position-relative bg2-clr`}
       >
-        {children}
+        <I18NProvider {...{ lng }}>{children}</I18NProvider>
       </body>
     </html>
   );

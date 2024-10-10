@@ -1,5 +1,8 @@
+"use client";
 import Link from "next/link";
 import Menu from "../Menu";
+import { LocaleSwitcher } from "../../lang/language-popover";
+import { useTranslationClient } from "../../../locales/client";
 
 type Props = {
   scroll: boolean;
@@ -108,6 +111,7 @@ export default function Header1({
                         </defs>
                       </svg>
                     </Link>
+                    <LocaleSwitcher />
                   </div>
                   <Link
                     href="/contact"
