@@ -1,6 +1,7 @@
 "use client";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslationClient } from "../../locales/client";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -24,6 +25,7 @@ const swiperOptions = {
 };
 
 export default function Testimonial1() {
+  const { t } = useTranslationClient();
   return (
     <>
       <section className="testimonial-version01-section pt-20 pb-space position-relative">
@@ -36,29 +38,31 @@ export default function Testimonial1() {
                     <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
                       <div className="thumb">
                         <img
-                          src="/assets/img/testimonial/t-version01.png"
+                          src="/assets/img/testimonial/images.png"
                           alt="img"
                         />
                       </div>
-                      <div className="vector d-md-block d-none">
+                      {/* <div className="vector d-md-block d-none">
                         <img
                           src="/assets/img/testimonial/vector01.png"
                           alt="img"
                         />
-                      </div>
+                      </div> */}
                       <div className="content ps-md-10">
                         <div className="icon mb-xxl-6 mb-xl-5 mb-4">
                           <i className="fas fa-quote-right theme-clr" />
                         </div>
                         <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
-                          Posuere luctus orci. Donec vitae mattis quam, vitae
-                          tempor arcu. Aenean non odio porttitor, convallis erat
-                          sit amet, facilisis velit. Nulla ornare convallis
-                          malesuada. Phasellus molestie, ipsum ac fringilla.
+                          {t("testimonials.customer1.text")}
+                        </p>
+                        <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
+                          {t("testimonials.customer1.company")}
                         </p>
                         <div className="desig">
-                          <h6 className="white-clr mb-2">Daniel Smith</h6>
-                          <span className="theme-clr">Senior engineer</span>
+                          <h6 className="white-clr mb-2">Patricia Vallarino</h6>
+                          <span className="theme-clr">
+                            {t("testimonials.customer1.role")}
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -67,29 +71,64 @@ export default function Testimonial1() {
                     <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
                       <div className="thumb">
                         <img
-                          src="/assets/img/testimonial/t-version01.png"
+                          src="/assets/img/testimonial/download.jpeg"
                           alt="img"
                         />
                       </div>
-                      <div className="vector d-md-block d-none">
+                      {/* <div className="vector d-md-block d-none">
                         <img
                           src="/assets/img/testimonial/vector01.png"
                           alt="img"
                         />
-                      </div>
+                      </div> */}
                       <div className="content ps-md-10">
                         <div className="icon mb-xxl-6 mb-xl-5 mb-4">
                           <i className="fas fa-quote-right theme-clr" />
                         </div>
                         <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
-                          Posuere luctus orci. Donec vitae mattis quam, vitae
-                          tempor arcu. Aenean non odio porttitor, convallis erat
-                          sit amet, facilisis velit. Nulla ornare convallis
-                          malesuada. Phasellus molestie, ipsum ac fringilla.
+                          {t("testimonials.customer2.text")}
+                        </p>
+                        <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
+                          {t("testimonials.customer2.company")}
                         </p>
                         <div className="desig">
-                          <h6 className="white-clr mb-2">Daniel Smith</h6>
-                          <span className="theme-clr">Senior engineer</span>
+                          <h6 className="white-clr mb-2">Alejandro Aleman</h6>
+                          <span className="theme-clr">
+                            {t("testimonials.customer2.role")}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
+                      <div className="thumb">
+                        <img
+                          src="/assets/img/testimonial/download (1).jpeg"
+                          alt="img"
+                        />
+                      </div>
+                      {/* <div className="vector d-md-block d-none">
+                        <img
+                          src="/assets/img/testimonial/vector01.png"
+                          alt="img"
+                        />
+                      </div> */}
+                      <div className="content ps-md-10">
+                        <div className="icon mb-xxl-6 mb-xl-5 mb-4">
+                          <i className="fas fa-quote-right theme-clr" />
+                        </div>
+                        <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
+                          {t("testimonials.customer3.text")}
+                        </p>
+                        <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
+                          {t("testimonials.customer3.company")}
+                        </p>
+                        <div className="desig">
+                          <h6 className="white-clr mb-2">Frank Pereira</h6>
+                          <span className="theme-clr">
+                            {t("testimonials.customer3.role")}
+                          </span>
                         </div>
                       </div>
                     </div>

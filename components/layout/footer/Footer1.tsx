@@ -1,6 +1,10 @@
+"use client";
 import Link from "next/link";
+import Logo from "../header/Logo";
+import { useTranslationClient } from "../../../locales/client";
 
 export default function Footer1() {
+  const { t } = useTranslationClient();
   return (
     <>
       <footer className="footer-version-one zindex1 position-relative">
@@ -14,7 +18,7 @@ export default function Footer1() {
                     data-aos="zoom-in-down"
                     data-aos-duration={1900}
                   >
-                    About Us
+                    {t("footer.about-us")}
                     <svg
                       className="d-block mt-xxl-4 mt-3"
                       width={83}
@@ -40,10 +44,10 @@ export default function Footer1() {
                           y2="0.000110496"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset={0} stopColor="#E3FF04" />
+                          <stop offset={0} stopColor="#EF7F1A" />
                           <stop
                             offset={1}
-                            stopColor="#E3FF04"
+                            stopColor="#EF7F1A"
                             stopOpacity={0}
                           />
                         </linearGradient>
@@ -55,12 +59,15 @@ export default function Footer1() {
                     data-aos="zoom-in"
                     data-aos-duration={1600}
                   >
-                    Phasellus ultricies aliquam volutpat ullamcorper laoreet
-                    neque, a lacinia curabitur lacinia mollis
+                    {t("footer.about-us-text")}
                   </p>
                   <ul className="common-social d-flex align-items-center gap-2">
                     <li data-aos="zoom-in-right" data-aos-duration={1400}>
-                      <Link href="/#" className="d-center">
+                      <Link
+                        href="https://www.facebook.com/VERITEPRODUCCIONES/timeline/"
+                        className="d-center"
+                        target="_blank"
+                      >
                         <svg
                           width={10}
                           height={16}
@@ -83,7 +90,10 @@ export default function Footer1() {
                       </Link>
                     </li>
                     <li data-aos="zoom-in-right" data-aos-duration={1600}>
-                      <Link href="/#" className="d-center">
+                      <Link
+                        href="https://twitter.com/veritepanama"
+                        className="d-center"
+                      >
                         <svg
                           width={16}
                           height={16}
@@ -99,25 +109,33 @@ export default function Footer1() {
                       </Link>
                     </li>
                     <li data-aos="zoom-in-right" data-aos-duration={1800}>
-                      <Link href="/#" className="d-center">
+                      <Link
+                        href="https://instagram.com/explore/tags/veriteproducciones/"
+                        className="d-center"
+                      >
                         <svg
-                          width={14}
-                          height={16}
-                          viewBox="0 0 14 16"
-                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
-                          <g opacity="0.8">
-                            <path
-                              d="M3.13375 13.9997H0.23125V4.65281H3.13375V13.9997ZM1.68094 3.37781C0.752813 3.37781 0 2.60906 0 1.68094C6.64312e-09 1.23513 0.177098 0.807572 0.492335 0.492335C0.807572 0.177098 1.23513 0 1.68094 0C2.12675 0 2.5543 0.177098 2.86954 0.492335C3.18478 0.807572 3.36188 1.23513 3.36188 1.68094C3.36188 2.60906 2.60875 3.37781 1.68094 3.37781ZM13.9969 13.9997H11.1006V9.44969C11.1006 8.36531 11.0787 6.97469 9.59156 6.97469C8.0825 6.97469 7.85125 8.15281 7.85125 9.37156V13.9997H4.95188V4.65281H7.73562V5.92781H7.77625C8.16375 5.19344 9.11031 4.41844 10.5225 4.41844C13.46 4.41844 14 6.35281 14 8.86531V13.9997H13.9969Z"
-                              fill="white"
-                            />
-                          </g>
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                          <path d="M16.5 7.5l0 .01" />
                         </svg>
                       </Link>
                     </li>
                     <li data-aos="zoom-in-right" data-aos-duration={1900}>
-                      <Link href="/#" className="d-center">
+                      <Link
+                        href="https://www.youtube.com/channel/UCq60h08B8Y-x3-SlULBkZaw/videos"
+                        className="d-center"
+                      >
                         <svg
                           width={18}
                           height={12}
@@ -135,14 +153,14 @@ export default function Footer1() {
                   </ul>
                 </div>
               </div>
-              <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-sm-6">
+              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div className="footer-widget">
                   <h5
                     className="footer-title mb-xxl-7 mb-xl-6 mb-5"
                     data-aos="zoom-in-down"
                     data-aos-duration={1900}
                   >
-                    Quick Links
+                    {t("footer.contact-us")}
                     <svg
                       className="d-block mt-xxl-4 mt-3"
                       width={83}
@@ -168,10 +186,10 @@ export default function Footer1() {
                           y2="0.000110496"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset={0} stopColor="#E3FF04" />
+                          <stop offset={0} stopColor="#EF7F1A" />
                           <stop
                             offset={1}
-                            stopColor="#E3FF04"
+                            stopColor="#EF7F1A"
                             stopOpacity={0}
                           />
                         </linearGradient>
@@ -185,47 +203,63 @@ export default function Footer1() {
                   >
                     <li>
                       <Link
-                        href="/about"
+                        href="https://www.google.ca/maps/place/Verite+Producciones,+S.+A./@9.0180786,-79.488278,17z/data=!3m1!4b1!4m2!3m1!1s0x8faca9eb5f4dec0f:0x4618abe8beafe0ea"
                         className="d-flex align-items-center gap-2 flink-items pra-clr"
                       >
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        About Xstar
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
+                        </svg>
+                        {t("footer.our-place")}
                       </Link>
+                      Ave. 5b Sur en Parque Lefebre en la Ciudad de Panama.
                     </li>
                     <li>
-                      <Link
-                        href="/service"
-                        className="d-flex align-items-center gap-2 flink-items pra-clr"
-                      >
+                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        Our Services
-                      </Link>
+                        Skype: rickybarria
+                      </div>
                     </li>
                     <li>
-                      <Link
-                        href="/blog-grid"
-                        className="d-flex align-items-center gap-2 flink-items pra-clr"
-                      >
+                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        Our Blogs
-                      </Link>
+                        Twitter: @veritepanama
+                      </div>
                     </li>
                     <li>
-                      <Link
-                        href="/contact"
-                        className="d-flex align-items-center gap-2 flink-items pra-clr"
-                      >
+                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        Contact Us
-                      </Link>
+                        Facebook: Veriteproducciones
+                      </div>
+                    </li>
+                    <li>
+                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                        <span className="ani-icons">
+                          <i className="fas fa-angle-double-right pra-clr" />
+                        </span>
+                        Instagram: Veriteproducciones
+                      </div>
+                    </li>
+                    <li>
+                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                        <span className="ani-icons">
+                          <i className="fas fa-angle-double-right pra-clr" />
+                        </span>
+                        {t("footer.email")}: P.O.BOX 0832 - 02237 WTC Panamá
+                        Rep. of Panamá
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -237,7 +271,7 @@ export default function Footer1() {
                     data-aos="zoom-in-down"
                     data-aos-duration={1900}
                   >
-                    Services
+                    {t("footer.services")}
                     <svg
                       className="d-block mt-xxl-4 mt-3"
                       width={83}
@@ -263,10 +297,10 @@ export default function Footer1() {
                           y2="0.000110496"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset={0} stopColor="#E3FF04" />
+                          <stop offset={0} stopColor="#EF7F1A" />
                           <stop
                             offset={1}
-                            stopColor="#E3FF04"
+                            stopColor="#EF7F1A"
                             stopOpacity={0}
                           />
                         </linearGradient>
@@ -280,52 +314,52 @@ export default function Footer1() {
                   >
                     <li>
                       <Link
-                        href="/service"
+                        href="/production"
                         className="d-flex align-items-center gap-2 flink-items pra-clr"
                       >
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        UI/UX Experience
+                        {t("services.production")}
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/study-grid"
+                        href="/movil"
                         className="d-flex align-items-center gap-2 flink-items pra-clr"
                       >
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        Web Development
+                        {t("services.movil")}
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/study-grid"
+                        href="/satelite"
                         className="d-flex align-items-center gap-2 flink-items pra-clr"
                       >
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        Product Design
+                        {t("services.satelite")}
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/service"
+                        href="/equipment"
                         className="d-flex align-items-center gap-2 flink-items pra-clr"
                       >
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        SEO Optimization
+                        {t("services.equipment")}
                       </Link>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              {/* <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div className="footer-widget">
                   <h5
                     className="footer-title mb-xxl-7 mb-xl-6 mb-5"
@@ -358,10 +392,10 @@ export default function Footer1() {
                           y2="0.000110496"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset={0} stopColor="#E3FF04" />
+                          <stop offset={0} stopColor="#EF7F1A" />
                           <stop
                             offset={1}
-                            stopColor="#E3FF04"
+                            stopColor="#EF7F1A"
                             stopOpacity={0}
                           />
                         </linearGradient>
@@ -414,7 +448,7 @@ export default function Footer1() {
                     </button>
                   </form>
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
           <div
@@ -423,7 +457,9 @@ export default function Footer1() {
             data-aos-duration={1600}
           >
             <Link href="/" className="footer-logov1 m-sm-0 m-auto">
-              <img src="/assets/img/logo/logo.png" alt="img" />
+              <Logo />
+
+              {/* <img src="/assets/img/logo/logo.png" alt="img" /> */}
             </Link>
             <Link href="/#mains" className="footer-topscroll d-center themebg">
               <i className="fas fa-arrow-up" />
@@ -431,9 +467,15 @@ export default function Footer1() {
             <p className="pra-clr">
               © All Copyright {new Date().getFullYear()} by{" "}
               <Link href="/" className="theme-clr">
-                Xstar
+                Verite Producciones
               </Link>
             </p>
+          </div>
+          <div>
+            {t("footer.proud-member")}
+            <Link href="https://internationalquorum.com/" className="theme-clr">
+              <img src="/assets/img/footer/iq_red-dot_logo.png" alt="" />
+            </Link>
           </div>
         </div>
       </footer>

@@ -1,7 +1,11 @@
+"use server";
 import Link from "next/link";
 import VideoPopup from "../elements/VideoPopup";
+import { useTranslationServer } from "../../locales/server";
+import Logo from "../layout/header/Logo";
 
-export default function Hero1() {
+export default async function Hero1() {
+  const { t } = await useTranslationServer();
   return (
     <>
       <section className="hero-section-version1 position-relative">
@@ -15,23 +19,23 @@ export default function Hero1() {
                     data-aos="zoom-in-left"
                     data-aos-duration={1800}
                   >
-                    Next Generation
+                    {t("weAre")}
                   </span>
-                  <span>
+                  <span className="text-banner">
                     <span
                       className="text-italic me-3"
                       data-aos="zoom-in-right"
                       data-aos-duration={2100}
                     >
-                      Creative
-                    </span>
+                      VERITE
+                    </span>{" "}
                     <span
                       className="designers"
-                      data-text="Agency"
+                      data-text="Productions"
                       data-aos="zoom-in"
                       data-aos-duration={2000}
                     >
-                      Agency
+                      Productions
                     </span>
                   </span>
                 </h1>
@@ -39,21 +43,27 @@ export default function Hero1() {
               </div>
               <div className="hero-sponsor">
                 <div className="sponsor-inner d-flex align-items-center gap-xxl-13 gap-xl-10 gap-lg-8 gap-md-6 gap-5 mb-xxl-10 mb-xl-7 mb-lg-6 mb-6">
-                  <Link href="/">
-                    <img src="/assets/img/client/c1.png" alt="img" />
-                  </Link>
-                  <Link href="/">
-                    <img src="/assets/img/client/c2.png" alt="img" />
-                  </Link>
-                  <Link href="/">
-                    <img src="/assets/img/client/c3.png" alt="img" />
-                  </Link>
+                  {/* <img
+                    src="\assets\img\client\download (4).jpeg"
+                    style={{ width: "168px", height: "53px" }}
+                    alt="img"
+                  />
+                  <img
+                    src="\assets\img\client\download (2).png"
+                    style={{ width: "130px", height: "72px" }}
+                    alt="img"
+                  />
+                  <img
+                    src="\assets\img\testimonial\download.jpeg"
+                    style={{ width: "168px", height: "53px" }}
+                    alt="img"
+                  /> */}
                 </div>
-                <div className="brandin-wrap d-block">
+                {/* <div className="brandin-wrap d-block">
                   <h4 className="white-clr brading-text">
                     1k + Brands Trust Us
                   </h4>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -61,25 +71,30 @@ export default function Hero1() {
         {/* Hero Exprience box */}
         <div className="hero-expriencebox d-flex align-items-center">
           <div className="expri-thumb">
-            <img src="/assets/img/banner/bn-expri.png" alt="img" />
+            <img src="/assets/img/banner/6.jpg" alt="img" />
           </div>
           <div className="expri-content d-flex align-items-center gap-xxl-11 gap-xl-9 gap-lg-7 gap-6">
             <div className="expri-cont-item">
-              <h6 className="white-clr mb-2">12+</h6>
-              <span className="yer spantext-clr">years of experience</span>
+              <h6 className="white-clr mb-2">22+</h6>
+              <span className="yer spantext-clr">{t("yearsOfService")}</span>
             </div>
             <div className="expri-cont-item">
-              <h6 className="white-clr mb-2">25K+</h6>
-              <span className="yer spantext-clr">completed projects</span>
+              <h6 className="white-clr mb-2">2200+</h6>
+              <span className="yer spantext-clr">{t("completedProjects")}</span>
             </div>
           </div>
         </div>
         {/* Element */}
-        <img
-          src="/assets/img/element/arrow-right-storke.png"
-          alt="img"
-          className="hero-arrow"
-        />
+        <div
+          style={{
+            position: "absolute",
+            bottom: "180px",
+            left: "0",
+            padding: "15px",
+          }}
+        >
+          <Logo />
+        </div>
       </section>
     </>
   );

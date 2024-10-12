@@ -1,9 +1,11 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { useTranslationClient } from "../../locales/client";
 
 export default function Service1() {
   const [isAccordion, setIsAccordion] = useState(1);
+  const { t } = useTranslationClient();
   const handleAccordion = (key: number) => {
     setIsAccordion((prevState) => (prevState === key ? 0 : key));
   };
@@ -14,17 +16,14 @@ export default function Service1() {
           <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-17 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
             <div className="pricing-title">
               <div className="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5">
-                WHAT WE OFFER
+                {t("whatWeOffer")}
               </div>
-              <h2 className="stitle">
-                Most <span className="fw-400">experienced</span> services
-              </h2>
             </div>
             <Link
               href="/service"
               className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2"
             >
-              View All Service
+              {t("seeMore")}
               <span className="rot60 d-inline-block">
                 <i className="fas fa-arrow-up theme-clr" />
               </span>
@@ -52,35 +51,52 @@ export default function Service1() {
                           href="/service-details"
                           className="white-clr whitehover"
                         >
-                          Digitalization
+                          {t("services.production")}
                         </Link>
                       </span>
-                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                      {/* <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
                         We build intelligent next-generation solutions at the
                         intersection of new business opportunities and
                         technological innovations.
-                      </span>
+                      </span> */}
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
                       <ul className="modern-list d-grid gap-2">
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Legacy
-                          Modernization
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.publicity")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Solution Design
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.services")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Technology
-                          Enabling
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.movil")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Mobile-First
-                          Systems
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.led-screens")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.streaming")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.file-archive")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.prompter")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.timelapse")}
                         </li>
                       </ul>
                       <div className="tab-remove-thumb">
-                        <img src="/assets/img/service/tab1.png" alt="img" />
+                        <img src="\assets\img\element\1.jpg" alt="img" />
                       </div>
                     </div>
                   </div>
@@ -105,20 +121,18 @@ export default function Service1() {
                           href="/service-details"
                           className="white-clr whitehover"
                         >
-                          Modernization
+                          {t("services.movil")}
                         </Link>
                       </span>
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        We build intelligent next-generation solutions at the
-                        intersection of new business opportunities and
-                        technological innovations.
+                        {t("movil.text")}
                       </span>
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
-                      <ul className="modern-list d-grid gap-2">
+                      {/* <ul className="modern-list d-grid gap-2">
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Legacy
-                          Modernization
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("services.movil")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
                           <i className="fas fa-chevron-right" /> Solution Design
@@ -131,9 +145,9 @@ export default function Service1() {
                           <i className="fas fa-chevron-right" /> Mobile-First
                           Systems
                         </li>
-                      </ul>
+                      </ul> */}
                       <div className="tab-remove-thumb">
-                        <img src="/assets/img/service/tab2.png" alt="img" />
+                        <img src="\assets\img\element\um2.jpg" alt="img" />
                       </div>
                     </div>
                   </div>
@@ -158,20 +172,18 @@ export default function Service1() {
                           href="/service-details"
                           className="white-clr whitehover"
                         >
-                          Accelerating Innovation
+                          {t("services.satelite")}
                         </Link>
                       </span>
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        We build intelligent next-generation solutions at the
-                        intersection of new business opportunities and
-                        technological innovations.
+                        {t("satelite.text")}
                       </span>
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
-                      <ul className="modern-list d-grid gap-2">
+                      {/* <ul className="modern-list d-grid gap-2">
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Legacy
-                          Modernization
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("services.movil")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
                           <i className="fas fa-chevron-right" /> Solution Design
@@ -184,9 +196,9 @@ export default function Service1() {
                           <i className="fas fa-chevron-right" /> Mobile-First
                           Systems
                         </li>
-                      </ul>
+                      </ul> */}
                       <div className="tab-remove-thumb">
-                        <img src="/assets/img/service/tab3.png" alt="img" />
+                        <img src="\assets\img\element\um4.jpg" alt="img" />
                       </div>
                     </div>
                   </div>
@@ -211,35 +223,48 @@ export default function Service1() {
                           href="/service-details"
                           className="white-clr whitehover"
                         >
-                          Business consulting
+                          {t("services.equipment")}
                         </Link>
                       </span>
-                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                      {/* <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
                         We build intelligent next-generation solutions at the
                         intersection of new business opportunities and
                         technological innovations.
-                      </span>
+                      </span> */}
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
                       <ul className="modern-list d-grid gap-2">
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Legacy
-                          Modernization
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.cameras")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Solution Design
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.filters")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Technology
-                          Enabling
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.lights")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Mobile-First
-                          Systems
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.grip")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.audio")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.movil-portatil")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.movil-movil")}
                         </li>
                       </ul>
                       <div className="tab-remove-thumb">
-                        <img src="/assets/img/service/tab4.png" alt="img" />
+                        <img src="\assets\img\element\7.jpg" alt="img" />
                       </div>
                     </div>
                   </div>

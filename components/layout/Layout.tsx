@@ -52,12 +52,16 @@ export default function Layout({
 
     const firstLineShape = document.querySelector(".line-shape.first");
     if (firstLineShape) {
+      while (firstLineShape.firstChild) {
+        firstLineShape.firstChild.remove();
+      }
       for (let i = 0; i < 3; i++) {
         const span = document.createElement("span");
         firstLineShape.appendChild(span);
       }
     }
-  }, []);
+  }, [scroll]);
+
   return (
     <>
       <div id="top" />

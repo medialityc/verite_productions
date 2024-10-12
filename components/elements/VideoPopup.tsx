@@ -13,7 +13,7 @@ export default function VideoPopup({ style }: { style: number }) {
             <i className="fas fa-play" />
           </span>
           <img
-            src="/assets/img/element/bn1-circle.png"
+            src="/assets/img/element/Group.png"
             alt="img"
             className="hero-circle"
           />
@@ -52,7 +52,7 @@ export default function VideoPopup({ style }: { style: number }) {
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
-        videoId="vfhzo499OeA"
+        videoId="exbOAK_ijfo"
         onClose={() => setOpen(false)}
       />
     </>

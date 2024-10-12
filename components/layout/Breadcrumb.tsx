@@ -1,10 +1,14 @@
+"use client";
 import Link from "next/link";
+import { useTranslationClient } from "../../locales/client";
+import LogoOnly from "./header/LogoOnly";
 
 export default function Breadcrumb({
   breadcrumbTitle,
 }: {
   breadcrumbTitle: string;
 }) {
+  const { t } = useTranslationClient();
   return (
     <>
       <section className="breadcrumnd-banner position-relative">
@@ -25,8 +29,8 @@ export default function Breadcrumb({
                   data-aos-duration={2000}
                 >
                   <li>
-                    <Link href="/" className="text-uppercase htheme">
-                      Home
+                    <Link href="/" className=" htheme">
+                      {t("nav-bar.home")}
                     </Link>
                   </li>
                   <li>
@@ -42,7 +46,7 @@ export default function Breadcrumb({
         </div>
         {/*Element*/}
         <img
-          src="/assets/img/element/cmn-dost.png"
+          src="\assets\img\element\Group.png"
           alt="img"
           className="cmn-dots"
         />
@@ -56,7 +60,7 @@ export default function Breadcrumb({
           >
             <path
               d="M153.353 98.3617V190.413H210V1H20.5872V57.6468H112.638L2 168.285L42.7149 209L153.353 98.3617Z"
-              stroke="url(#paint0_linear_6584_3026)"
+              stroke="#ef7f1a"
               strokeWidth={2}
             />
             <defs>
