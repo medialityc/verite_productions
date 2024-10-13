@@ -3368,10 +3368,10 @@ input.main-search-input::placeholder {
 .team-common-item .namebox {
   background: radial-gradient(
     267.9% 200.83% at 47.19% -80%,
-    rgba(255, 255, 255, 0.4) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(0, 0, 0, 0.6) 0%, /* Cambié el color a negro con más opacidad */
+    rgba(0, 0, 0, 0) 100%
   );
-  opacity: 0.8;
+  opacity:1; /* Ajusté la opacidad general para hacerla más oscura */
   backdrop-filter: blur(21px);
   border-radius: 10px;
   position: absolute;
