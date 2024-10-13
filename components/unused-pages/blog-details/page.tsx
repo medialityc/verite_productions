@@ -1,4 +1,4 @@
-import Layout from "../../components/layout/Layout";
+import Layout from "../../layout/Layout";
 import Link from "next/link";
 export default function BlogDetails() {
   return (

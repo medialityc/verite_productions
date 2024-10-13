@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Layout from "../../components/layout/Layout";
+import Layout from "../../layout/Layout";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
