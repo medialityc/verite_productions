@@ -31,8 +31,8 @@ export default function Header1({
           scroll ? "animated fadeInDown header-fixed" : ""
         }`}
       >
-        <div className="container">
-          <div className="main-navbar">
+        <div className=" mx-8  ">
+          <div className="main-navbar ">
             <nav className="navbar-custom">
               <div className="d-lg-flex flex-xl-nowrap flex-wrap align-items-center justify-content-lg-between">
                 <div className="d-flex align-items-center justify-content-between">
@@ -45,12 +45,15 @@ export default function Header1({
                     <Logo />
                   </Link>
                   <div className="d-flex align-items-center gap-xxl-5 gap-5">
-                    <Link
+                    {/* <Link
                       href="/javascript:void(0)"
                       className="search-trigger search-icon d-lg-none d-block"
                     >
                       <i className="fal fa-search" />
-                    </Link>
+                    </Link> */}
+                    <div className="d-block d-lg-none">
+                      <LocaleSwitcher />
+                    </div>
                     <button
                       className={`navbar-toggle-btn d-block d-lg-none ${
                         isMobileMenu ? "open" : ""
@@ -71,7 +74,14 @@ export default function Header1({
                 >
                   <Menu />
                 </div>
-                {/* <LocaleSwitcher /> */}
+                <div
+                  className="d-none d-lg-block"
+                  style={{
+                    display: `${window.innerWidth > 991 ? "block" : "none"}`,
+                  }}
+                >
+                  <LocaleSwitcher />
+                </div>
                 {/* <div className="d-lg-flex d-none d-grid justify-content-center ph-clickwrap align-items-center gap-xxl-7 gap-xl-6 gap-lg-5 gap-3">
                   <div className="search-shopcart d-flex gap-xxl-9 gap-xl-5 gap-3">
                     <a

@@ -40,7 +40,7 @@ export default function Menu() {
                     <Link href="//about">about</Link>
                 </li>
             </ul> */}
-      <ul className="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5">
+      <ul className="custom-nav  d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5">
         {/*<li className="menu-item position-relative">*/}
         {/*  <button*/}
         {/*    className="position-relative ps-5  white-clr fw_500 cus-z1"*/}
@@ -96,22 +96,22 @@ export default function Menu() {
             style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}
           >
             <li className="menu-link py-1">
-              <Link href="#about" className="fw_500 white-clr">
+              <Link href="#about" className="fw_500 white-clr text-sm">
                 {t("nav-bar.about")}
               </Link>
             </li>
             <li className="menu-link py-1">
-              <Link href="/privacypolicy" className="fw_500 white-clr">
+              <Link href="/privacypolicy" className="fw_500 white-clr text-sm">
                 {t("nav-bar.privacy")}
               </Link>
             </li>
             <li className="menu-link py-1">
-              <Link href="/team" className="fw_500 white-clr">
+              <Link href="/team" className="fw_500 white-clr text-sm">
                 {t("nav-bar.client-list")}
               </Link>
             </li>
             <li className="menu-link py-1">
-              <Link href="/team-details" className="fw_500 white-clr">
+              <Link href="/team-details" className="fw_500 white-clr text-sm">
                 {t("nav-bar.our-blog")}
               </Link>
             </li>
@@ -119,7 +119,7 @@ export default function Menu() {
         </li>
         {/*<li className="menu-item position-relative">*/}
         {/*  <button*/}
-        {/*    className="position-relative  ps-5 fw_500 white-clr cus-z1"*/}
+        {/*    className="position-relative  ps-5 fw_500 white-clr text-sm cus-z1"*/}
         {/*    onClick={() => handleAccordion(3)}*/}
         {/*  >*/}
         {/*    Services*/}
