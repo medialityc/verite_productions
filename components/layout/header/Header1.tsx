@@ -74,12 +74,7 @@ export default function Header1({
                 >
                   <Menu />
                 </div>
-                <div
-                  className="d-none d-lg-block"
-                  style={{
-                    display: `${window.innerWidth > 991 ? "block" : "none"}`,
-                  }}
-                >
+                <div className=" element d-none d-lg-block">
                   <LocaleSwitcher />
                 </div>
                 {/* <div className="d-lg-flex d-none d-grid justify-content-center ph-clickwrap align-items-center gap-xxl-7 gap-xl-6 gap-lg-5 gap-3">

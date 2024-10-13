@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import { useTranslationServer } from "../../locales/server";
-import Link from "next/link";
 
 async function Page() {
   const { t } = await useTranslationServer();

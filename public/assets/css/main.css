@@ -4832,4 +4832,14 @@ input.main-search-input::placeholder {
   z-index: 9;
 }
 
+.element {
+  display: none; /* Oculta el elemento por defecto */
+}
+
+@media (min-width: 992px) {
+  .element {
+    display: block; /* Muestra el elemento cuando el ancho de la pantalla es mayor a 991px */
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function SpainFlag() {
   return (
@@ -6,18 +6,18 @@ function SpainFlag() {
       xmlns="http://www.w3.org/2000/svg"
       height={32}
       width={32}
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       viewBox="0 0 39.35 27.42"
     >
       <path
         fill="#CCC"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         d="M2.23 0h34.89c.61 0 1.17.25 1.57.66.41.4.66.96.66 1.57v22.96c0 .61-.25 1.17-.66 1.57-.4.41-.96.66-1.57.66H2.23c-.61 0-1.17-.25-1.57-.65-.41-.41-.66-.97-.66-1.58V2.23C0 1.62.25 1.06.66.66 1.06.25 1.62 0 2.23 0z"
       />
       <path
         fill="#fff"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         d="M37.12.15H2.23C1.66.15 1.14.39.76.76c-.37.38-.61.9-.61 1.47v22.96c0 .57.24 1.09.61 1.47.38.37.9.61 1.47.61h34.89c.57 0 1.09-.24 1.47-.61.37-.38.61-.9.61-1.47V2.23c0-.57-.24-1.09-.61-1.47-.38-.37-.9-.61-1.47-.61z"
       />
       <path
@@ -26,7 +26,7 @@ function SpainFlag() {
       />
       <path
         fill="#CCC"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         d="M19.67 0h17.45c.61 0 1.17.25 1.57.66.41.4.66.96.66 1.57v11.56c-6.58-.01-13.17 0-19.75 0V0h.07zm17.45.15H19.75v13.48H39.2V2.23c0-.57-.24-1.09-.61-1.47-.38-.37-.9-.61-1.47-.61z"
       />
       <path
@@ -35,21 +35,21 @@ function SpainFlag() {
       />
       <path
         fill="#CCC"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         d="M19.67 27.42H2.23c-.61 0-1.17-.25-1.57-.65-.41-.41-.66-.97-.66-1.58V13.63h19.75v13.79h-.08zm-17.44-.15H19.6V13.79H.15v11.4c0 .57.24 1.09.61 1.47.38.37.9.61 1.47.61z"
       />
       <path
         fill="#DA121A"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         d="M29.47 17.06l2.25 6.93-5.89-4.28h7.29l-5.9 4.28z"
       />
       <path
         fill="#072357"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         d="M9.88 3.43l2.25 6.93-5.9-4.28h7.29l-5.9 4.28z"
       />
     </svg>
   );
 }
 
-export default SpainFlag
+export default SpainFlag;

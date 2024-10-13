@@ -1,5 +1,4 @@
-"use client";
-import Layout from "../../components/layout/Layout";
+import Layout from "../../layout/Layout";
 import Link from "next/link";
 import { Tilt } from "react-tilt";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
