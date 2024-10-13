@@ -1,5 +1,5 @@
-import Layout from "../../layout/Layout";
 import Link from "next/link";
+import Layout from "../../layout/Layout";
 export default function BlogDetails() {
   return (
     <>
