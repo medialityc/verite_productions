@@ -1,0 +1,253 @@
+import React from "react";
+import Layout from "../../components/layout/Layout";
+import { useTranslationServer } from "../../locales/server";
+
+async function Page() {
+  const { t } = await useTranslationServer();
+  return (
+    <Layout
+      headerStyle={1}
+      footerStyle={3}
+      breadcrumbTitle={t("nav-bar.services")}
+    >
+      <div
+        style={{ display: "flex", flexDirection: "column", gap: "60px" }}
+        className="container p-6"
+      >
+        <div className={"data-equipment-container"}>
+          <div className="equipment-container">
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/2 (1).jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment.cameras")}</h5>
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type1").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type2").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type3").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type4").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type5").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type6").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type7").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type8").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+              </div>
+            </div>
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/11.jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment.cameras")}</h5>
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.grip").replace(/\n/g, "<br>"),
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="equipment-container2">
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/7 (1).jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment.filters")}</h5>
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.filters.type1").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.filters.type2").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.filters.type3").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.filters.type4").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.filters.type5").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+              </div>
+            </div>
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/10.jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment.cameras")}</h5>
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.illumination").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+              </div>
+            </div>
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/13.jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment.audio")}</h5>
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.audio").replace(/\n/g, "<br>"),
+                  }}
+                />
+              </div>
+            </div>
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/12.jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment.movil")}</h5>
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.movil-portatil").replace(
+                      /\n/g,
+                      "<br>",
+                    ),
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
+}
+
+export default Page;

@@ -106,7 +106,7 @@ export default function Menu() {
               </Link>
             </li>
             <li className="menu-link py-1">
-              <Link href="/team" className="fw_500 white-clr text-sm">
+              <Link href="/clients" className="fw_500 white-clr text-sm">
                 {t("nav-bar.client-list")}
               </Link>
             </li>
