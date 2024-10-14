@@ -96,7 +96,7 @@ export default function Menu() {
             style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}
           >
             <li className="menu-link py-1">
-              <Link href="#about" className="fw_500 white-clr text-sm">
+              <Link href="/#about" className="fw_500 white-clr text-sm">
                 {t("nav-bar.about")}
               </Link>
             </li>

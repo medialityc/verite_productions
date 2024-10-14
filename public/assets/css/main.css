@@ -1021,7 +1021,8 @@ footer {
   }
 }
 
-.equipment-container, .equipment-container2 {
+.equipment-container,
+.equipment-container2 {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -1030,13 +1031,13 @@ footer {
   gap: 24px;
 }
 
-.equipment-subcontainer{
+.equipment-subcontainer {
   padding: 24px;
   background-color: #262626 !important;
   border-radius: 20px;
 }
 
-.equipment-container2{
+.equipment-container2 {
   margin-top: 20%;
 }
 
@@ -1052,14 +1053,14 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .equipment-container {
+  .equipment-container,
+  .equipment-container2 {
     width: 100%;
   }
-  .equipment-container2{
+  .equipment-container2 {
     margin-top: 0;
   }
 }
-
 
 .service-container {
   display: flex;
@@ -3408,10 +3409,10 @@ input.main-search-input::placeholder {
 .team-common-item .namebox {
   background: radial-gradient(
     267.9% 200.83% at 47.19% -80%,
-    rgba(0, 0, 0, 0.6) 0%, /* Cambié el color a negro con más opacidad */
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.6) 0%,
+    /* Cambié el color a negro con más opacidad */ rgba(0, 0, 0, 0) 100%
   );
-  opacity:1; /* Ajusté la opacidad general para hacerla más oscura */
+  opacity: 1; /* Ajusté la opacidad general para hacerla más oscura */
   backdrop-filter: blur(21px);
   border-radius: 10px;
   position: absolute;
