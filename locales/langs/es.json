@@ -143,10 +143,14 @@
     "audio": "Mixer portatil 302Sound Devices\nLectrosonics wireless mics\nShot gun audio technica\nShot gun beyer dinamic\nGrip con zepellin para audio technica\nGrip con zepellin para beyer dinamic\nMicrofono lavalier sony ecb 55\nMicrofono Shure SM68\nAudiofonos\nCables XLR\nBocinas amplificadas\nRadios Motorola CP200",
     "movil-portatil": "Switcher Blackmagic Atem 2\nControl panel Atem\nBlackmagic Hyperdeck studio recorder\nBlackmagic Teranex 2D\nViewsonic 22/24/27” HDMI monitors\nHarris 16x16 router panel\nBlackmagic Dual monitors\nCG Compix\nMackie 12 channel mixer\nClear-Com set wireless\nMatrox splitter\nDispositivo in/out para edicion y codificacion"
   },
-   "ob_mobile": {
+  "ob_mobile": {
     "description": "Esta versátil y moderna unidad móvil auto contenida viene completa con todas las necesidades de una producción televisiva remota, todo dentro de un Eurovan Volkswagen LT-35. La unidad móvil, que viene equipada con dos aires acondicionados y su propia planta eléctrica, puede ser alquilada en varias configuraciones, desde 1 hasta 16 cámaras, con personal o sin personal.",
     "included_equiptment_intro": "En cualquiera configuración se incluye el siguiente equipo:",
     "opt": "Opcional:",
     "quote": "Conferencias, eventos deportivos, graduaciones, lanzamientos, conciertos, programas de tv y más."
+  },
+  "cctv": {
+    "description": "Un completo despliegue de equipo de ultima generación es provisto para la cobertura de cumbres, conferencias, webinars, conciertos y convenciones, tanto pequeñas como grandes. Ofrecemos montajes multi-camaras HD con transmisión via fibra óptica, administración de media, transmisión via IP a sistemas de CCTV internos, conversiones de estándares (NTSC/PAL/SECAM) y distribución a un “pool\" de media. También ofrecemos “streaming” via web o up/down linking satelital.",
+    "clients_description": "Entre nuestros clientes internacionales contamos con el Banco Interamericano de Desarrollo (BID), La Union Internacional de Telecomunicaciones (ITU), las Naciones Unidas (UN), La Organizacion de Estados Americanos (OEA) y el Parlamento Latinoamericano (Parlatino). Localmente hemos trabajado con el Gobierno de la Republica de Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Magic Dreams y muchos mas."
   }
 }

@@ -74,8 +74,8 @@ export default function BlogList() {
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Unidad Móvil">
         <section className="blog-list pt-space pb-space">
           <div className="container">
-            <div className="container-mobile">
-              <div className="cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 item-mobile">
+            <div className="my-container row-cols-2 ">
+              <div className="cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 my-item">
                 <div className="post-content">
                   <p
                     className="pra-clr  "
@@ -94,9 +94,9 @@ export default function BlogList() {
                   <EquipmentList items={equipmentItems} />
                 </div>
               </div>
-              <div className="item-mobile cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center">
+              <div className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center">
                 <div
-                  style={{ height: "60%", width: "100%" }}
+                  className="carousel"
                   data-aos="fade-left"
                   data-aos-duration={1550}
                 >
@@ -114,7 +114,7 @@ export default function BlogList() {
                 </div>
               </div>
               <div
-                className="item-mobile cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3"
+                className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3"
                 style={{ height: "50%" }}
               >
                 <div

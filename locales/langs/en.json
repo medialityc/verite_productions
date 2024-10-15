@@ -147,5 +147,9 @@
     "included_equiptment_intro": "In any configuration, the following equipment is included:",
     "opt": "Optional:",
     "quote": "Conferences, sporting events, graduations, product launchings, concerts/imag, tv programing and much more."
+  },
+  "cctv": {
+    "description": "A complete lineup of state-of-the-art equipment is provided for coverage of Summits, conferences, Webinars, concerts and conventions, both small or large. We offer multi-HD camera setups with fibre optic transmission, media management, IP transmission to a CCTV system within a venue, Standards conversions and distribution to a Media Pool. We also offer streaming via web or Satellite down/uplinking.",
+    "clients_description": "Our International clients include the Interamerican Development Bank (IDB), the International Telecommunications Union (ITU), the United Nations (UN), the Organization of American States (OAS) and the Latin American Parliament (Parlatino) amongst others. Locally we have worked with the Government of the Republic of Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Magic Dreams and many others."
   }
 }
