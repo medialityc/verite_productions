@@ -4903,4 +4903,25 @@ input.main-search-input::placeholder {
   }
 }
 
+.container-mobile{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.item-mobile {
+ width: 30%;
+}
+
+@media (max-width:767px ){
+  .container-mobile{
+    flex-direction: column;
+  }
+  .item-mobile{
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

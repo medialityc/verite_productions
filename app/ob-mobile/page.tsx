@@ -18,7 +18,7 @@ const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
       data-aos="fade-left"
       data-aos-duration={1550}
     >
-      {items.map(item => (
+      {items.map((item) => (
         <li className="mb-2" key={item.id}>
           <i className="fas fa-circle " style={{ marginRight: "20px" }} />
           <span className="pra-clr"> {item.text}</span>
@@ -56,27 +56,26 @@ export default function BlogList() {
   ];
 
   const { t } = useTranslationClient();
- const slides = Array.from({ length: 8 }, (_, index) => {
-   const imgIndex = index + 1; // Para que vaya de 1 a 10
-   return (
-     <img
-       key={imgIndex}
-       src={`/assets/img/ob_mobile/opt-img-${imgIndex}.jpg`}
-       alt={`opt-img-${imgIndex}`}
-       className=" w-100 h-100"
-       style={{ width: "240px", height: "340px", borderRadius: "20px" }}
-    
-     />
-   );
- });
+  const slides = Array.from({ length: 8 }, (_, index) => {
+    const imgIndex = index + 1; // Para que vaya de 1 a 10
+    return (
+      <img
+        key={imgIndex}
+        src={`/assets/img/ob_mobile/opt-img-${imgIndex}.jpg`}
+        alt={`opt-img-${imgIndex}`}
+        className=" w-100 h-100"
+        style={{ width: "240px", height: "340px", borderRadius: "20px" }}
+      />
+    );
+  });
 
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Unidad Móvil">
         <section className="blog-list pt-space pb-space">
           <div className="container">
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 gap-8 flex-nowrap">
-              <div className=" cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3   ">
+            <div className="container-mobile">
+              <div className="cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 item-mobile">
                 <div className="post-content">
                   <p
                     className="pra-clr  "
@@ -95,7 +94,7 @@ export default function BlogList() {
                   <EquipmentList items={equipmentItems} />
                 </div>
               </div>
-              <div className=" cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center">
+              <div className="item-mobile cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center">
                 <div
                   style={{ height: "60%", width: "100%" }}
                   data-aos="fade-left"
@@ -114,8 +113,9 @@ export default function BlogList() {
                   <EquipmentList items={optionalEquipmentItems} />
                 </div>
               </div>
-              <div className=" cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3"
-              style={{height:'50%'}}
+              <div
+                className="item-mobile cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3"
+                style={{ height: "50%" }}
               >
                 <div
                   className="position-relative"
@@ -145,7 +145,7 @@ export default function BlogList() {
                       position: "relative",
                       zIndex: 1,
                       backgroundColor: "transparent",
-                      fontStyle:'italic'
+                      fontStyle: "italic",
                     }}
                   >
                     {t("ob_mobile.quote")}
