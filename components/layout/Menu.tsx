@@ -207,7 +207,7 @@ export default function Menu() {
           </Link>
         </li>
         <li className="menu-item position-relative">
-          <Link href="/" className="fw_500">
+          <Link href="/cctv" className="fw_500">
             CCTV/IMAG/Media Pool
           </Link>
         </li>

@@ -128,6 +128,25 @@ p {
   color: var(--white);
 }
 
+.arrow-btn {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.arrow-btn-next {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.arrow-btn:hover {
+  transform: translateX(-5px);
+}
+
+.arrow-btn-next:hover {
+  transform: translateX(5px);
+}
+
+.orange:hover{
+  color:orange;
+}
+
 .zindex1 {
   z-index: 1;
 }
@@ -2299,6 +2318,7 @@ input.main-search-input::placeholder {
     padding: 24px 16px;
   }
 }
+
 
 .blog-post-details .single-blog-post .post-content .post-marry i {
   font-size: 10px;
