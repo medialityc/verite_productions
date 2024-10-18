@@ -26,7 +26,7 @@ export default function Galery({
     return () => clearInterval(slideInterval);
   }, [auto]);
 
-  const getSlideStyle = index => {
+  const getSlideStyle = (index:number) => {
     const diff = (index - curr + slides.length) % slides.length;
 
     if (diff === 0) {
@@ -56,12 +56,12 @@ export default function Galery({
     }
   };
 
-  const onTouchStart = e => {
+  const onTouchStart = (e:TouchEvent) => {
     const touch = e.touches[0];
     const startX = touch.clientX;
     const startY = touch.clientY;
 
-    const onTouchMove = e => {
+    const onTouchMove = (e:TouchEvent) => {
       const touch = e.touches[0];
       const currX = touch.clientX;
       const currY = touch.clientY;
@@ -92,7 +92,7 @@ export default function Galery({
   return (
     <div
       className="position-relative h-100 w-100 user-select-none"
-      onTouchStart={onTouchStart}
+      onTouchStart={(e)=>onTouchStart(e as unknown as TouchEvent)}
     >
       <div className="position-relative d-flex h-100 w-100 align-items-center justify-content-center">
         {slides.map((slide, index) => (

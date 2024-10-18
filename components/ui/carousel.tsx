@@ -67,12 +67,12 @@ export default function Carousel({
     }
   };
 
-  const onTouchStart = (e: { touches: any[] }) => {
+  const onTouchStart = (e: TouchEvent) => {
     const touch = e.touches[0];
     const startX = touch.clientX;
     const startY = touch.clientY;
 
-    const onTouchMove = (e: { touches: any[] }) => {
+    const onTouchMove = (e: TouchEvent) => {
       const touch = e.touches[0];
       const currX = touch.clientX;
       const currY = touch.clientY;
@@ -100,58 +100,54 @@ export default function Carousel({
     document.addEventListener("touchend", onTouchEnd);
   };
 
-  return (
-    <div
-      className="position-relative w-100 h-100 overflow-hidden"
-      onTouchStart={onTouchStart}
-    >
-      <div className="d-flex justify-content-center align-items-center h-100 w-100 position-relative">
-        {slides.map((slide, index) => (
-          <div
-            key={index}
-            onMouseEnter={() => setAuto(!autoSlide)}
-            onMouseLeave={() => setAuto(autoSlide)}
-            className={`position-absolute w-100 h-100`}
-            style={getSlideStyle(index)}
-          >
-            <div className="w-100 h-100">{slide}</div>
-          </div>
-        ))}
-      </div>
-
-      {/* Arrows positioned together in the bottom right corner */}
-      <div
-        className="position-absolute bottom-0 end-0 d-flex gap-2 m-3"
-        style={{ zIndex: 4 }}
-      >
-        {/* Left Arrow */}
-        <button
-          onClick={prev}
-          className="d-flex justify-content-center align-items-center bg-black text-white "
-          aria-label="Previous slide"
-          style={{
-            width: "48px",
-            height: "36px",
-            borderRadius: "20%",
-            
-          }}
+  return <div
+    className="position-relative w-100 h-100 overflow-hidden"
+    onTouchStart={(e) =>onTouchStart(e as unknown as TouchEvent)}
+  >
+    <div className="d-flex justify-content-center align-items-center h-100 w-100 position-relative">
+      {slides.map((slide, index) => <div
+          key={index}
+          onMouseEnter={() => setAuto(!autoSlide)}
+          onMouseLeave={() => setAuto(autoSlide)}
+          className={`position-absolute w-100 h-100`}
+          style={getSlideStyle(index)}
         >
-          <i className="fa fa-arrow-left arrow-btn  orange" />
-        </button>
-        <button
-          onClick={next}
-          className="d-flex justify-content-center align-items-center bg-black text-white"
-          aria-label="Next slide"
-          style={{
-            width: "48px",
-            height: "36px",
-            borderRadius: "20%",
-            
-          }}
-        >
-          <i className="fa fa-arrow-right  arrow-btn-next  orange  w-100" />
-        </button>
-      </div>
+          <div className="w-100 h-100">{slide}</div>
+        </div>)}
     </div>
-  );
+
+    {/* Arrows positioned together in the bottom right corner */}
+    <div
+      className="position-absolute bottom-0 end-0 d-flex gap-2 m-3"
+      style={{ zIndex: 4 }}
+    >
+      {/* Left Arrow */}
+      <button
+        onClick={prev}
+        className="d-flex justify-content-center align-items-center bg-black text-white "
+        aria-label="Previous slide"
+        style={{
+          width: "48px",
+          height: "36px",
+          borderRadius: "20%",
+
+        }}
+      >
+        <i className="fa fa-arrow-left arrow-btn  orange" />
+      </button>
+      <button
+        onClick={next}
+        className="d-flex justify-content-center align-items-center bg-black text-white"
+        aria-label="Next slide"
+        style={{
+          width: "48px",
+          height: "36px",
+          borderRadius: "20%",
+
+        }}
+      >
+        <i className="fa fa-arrow-right  arrow-btn-next  orange  w-100" />
+      </button>
+    </div>
+  </div>;
 }
