@@ -1,9 +1,54 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import { useTranslationServer } from "../../locales/server";
+import Card from "../../components/ui/card";
+import GaleryContainer from "../../components/ui/galeryContainer";
+import Galery from "../../components/ui/galery";
 
 async function Page() {
   const { t } = await useTranslationServer();
+  const imagesMock = [
+    {
+      src: "/assets/img/service/4 (1).jpg",
+      alt: "publicity",
+      title: t("service.publicity"),
+    },
+    {
+      src: "/assets/img/service/1 (1).jpg",
+      alt: "service-production",
+      title: t("service.service-production"),
+    },
+        {
+      src: "/assets/img/service/5.jpg",
+      alt: "movil",
+      title: t("service.movil"),
+    },
+    {
+      src: "/assets/img/service/6 (1).jpg",
+      alt: "streaming",
+      title: t("service.streaming"),
+    },  
+    {
+      src: "/assets/img/service/8.jpg",
+      alt: "time-lapse",
+      title: t("service.time-lapse"),
+    },
+    {
+      src: "/assets/img/service/14.jpg",
+      alt: "file-archive",
+      title: t("service.file-archive"),
+    },
+    {
+      src: "/assets/img/service/15.jpg",
+      alt: "promoter",
+      title: t("service.promoter"),
+    },     
+  ];
+
+  const slides = imagesMock.map((slide, index) => (
+    <Card key={index} index={index} alt={slide.alt} src={slide.src} />
+  ));
+
   return (
     <Layout
       headerStyle={1}
@@ -171,6 +216,11 @@ async function Page() {
             <p style={{ breakBefore: "always" }}>{t("service.loyal-text")}</p>
           </div>
         </div>
+      </div>
+      <div style={{overflowX: "hidden"}}>
+        <GaleryContainer>
+          <Galery autoSlide slides={slides} />
+        </GaleryContainer>
       </div>
     </Layout>
   );

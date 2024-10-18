@@ -6,6 +6,9 @@ import { useTranslationClient } from "../../locales/client";
 import Carousel from "../../components/ui/carousel";
 
 import React from "react";
+import GaleryContainer from "../../components/ui/galeryContainer";
+import Galery from "../../components/ui/galery";
+import Card from "../../components/ui/card";
 interface EquipmentListProps {
   items: { id: number; text: string }[];
 }
@@ -18,7 +21,7 @@ const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
       data-aos="fade-left"
       data-aos-duration={1550}
     >
-      {items.map((item) => (
+      {items.map(item => (
         <li className="mb-2" key={item.id}>
           <i className="fas fa-circle " style={{ marginRight: "20px" }} />
           <span className="pra-clr"> {item.text}</span>
@@ -59,12 +62,11 @@ export default function BlogList() {
   const slides = Array.from({ length: 8 }, (_, index) => {
     const imgIndex = index + 1; // Para que vaya de 1 a 10
     return (
-      <img
-        key={imgIndex}
-        src={`/assets/img/ob_mobile/opt-img-${imgIndex}.jpg`}
+      <Card
         alt={`opt-img-${imgIndex}`}
-        className=" w-100 h-100"
-        style={{ width: "240px", height: "340px", borderRadius: "20px" }}
+        index={imgIndex}
+        src={`/assets/img/ob_mobile/opt-img-${imgIndex}.jpg`}
+        key={imgIndex}
       />
     );
   });
@@ -156,6 +158,11 @@ export default function BlogList() {
             </div>
           </div>
         </section>
+        <div style={{ overflowX: "hidden" }}>
+          <GaleryContainer>
+            <Galery autoSlide slides={slides} />
+          </GaleryContainer>
+        </div>
       </Layout>
     </>
   );

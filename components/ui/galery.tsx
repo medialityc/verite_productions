@@ -1,3 +1,4 @@
+'use client'
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -36,13 +37,13 @@ export default function Galery({
       };
     } else if (diff === 1 || diff === slides.length - 1) {
       return {
-        transform: `translateX(${diff === 1 ? 20 : -20}%) scale(0.9)`,
+        transform: `translateX(${diff === 1 ? 10 : -10}%) scale(0.9)`,
         opacity: 0.7,
         zIndex: 2,
       };
     } else if (diff === 2 || diff === slides.length - 2) {
       return {
-        transform: `translateX(${diff === 2 ? 30 : -30}%) scale(0.8)`,
+        transform: `translateX(${diff === 2 ? 20 : -20}%) scale(0.8)`,
         opacity: 0.4,
         zIndex: 1,
       };

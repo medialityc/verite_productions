@@ -1,9 +1,27 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import { useTranslationServer } from "../../locales/server";
+import Card from "../../components/ui/card";
+import GaleryContainer from "../../components/ui/galeryContainer";
+import Galery from "../../components/ui/galery";
 
 async function Page() {
   const { t } = await useTranslationServer();
+const imagesMock = [
+  "/assets/img/service/2 (1).jpg",
+  "/assets/img/service/11.jpg",
+  "/assets/img/service/7 (1).jpg",
+  "/assets/img/service/10.jpg",
+  "/assets/img/service/13.jpg",
+  "/assets/img/service/12.jpg",
+  ];
+  
+    const slides = imagesMock.map((slide, index) => (
+      <Card key={index} index={index} alt={slide} src={slide} />
+    ));
+
+
+
   return (
     <Layout
       headerStyle={1}
@@ -32,7 +50,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type1").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -41,7 +59,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type2").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -50,7 +68,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type3").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -59,7 +77,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type4").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -68,7 +86,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type5").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -77,7 +95,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type6").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -86,7 +104,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type7").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -95,7 +113,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.cameras.type8").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -138,7 +156,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.filters.type1").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -147,7 +165,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.filters.type2").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -156,7 +174,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.filters.type3").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -165,7 +183,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.filters.type4").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -174,7 +192,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.filters.type5").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -196,7 +214,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.illumination").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -237,7 +255,7 @@ async function Page() {
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.movil-portatil").replace(
                       /\n/g,
-                      "<br>",
+                      "<br>"
                     ),
                   }}
                 />
@@ -245,6 +263,11 @@ async function Page() {
             </div>
           </div>
         </div>
+      </div>
+      <div style={{ overflowX: "hidden" }}>
+        <GaleryContainer>
+          <Galery autoSlide slides={slides} />
+        </GaleryContainer>
       </div>
     </Layout>
   );
