@@ -94,6 +94,34 @@ export default function Service1() {
                           <i className="fas fa-chevron-right" />{" "}
                           {t("production.timelapse")}
                         </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.fixer")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.productions")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.search")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.customs")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.advices")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.logistics")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("production.certification")}
+                        </li>
                       </ul>
                       <div className="tab-remove-thumb">
                         <img src="\assets\img\element\1.jpg" alt="img" />

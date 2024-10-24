@@ -117,6 +117,15 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.cameras.type9").replace(
+                      /\n/g,
+                      "<br>"
+                    ),
+                  }}
+                />
               </div>
             </div>
             <div className={"equipment-subcontainer"}>
