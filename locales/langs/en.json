@@ -27,12 +27,12 @@
     "prompter": "Presidential Prompter and Teleprompter",
     "timelapse": "Time-Lapse Photography for Industrial Projects",
     "fixer": "Fixer with more than 20 years of experience",
-    "productions":"Production coordination",
-    "search":"Location scout",
-    "customs":"Customs logistics and exemptions",
-    "advices":"Legal counsel",
-    "logistics":"Lodging and transportation logistics",
-    "certification":"Certification from the Panama Film Commission for tax reimbursements (Cash Rebate)."
+    "productions": "Production coordination",
+    "search": "Location scout",
+    "customs": "Customs logistics and exemptions",
+    "advices": "Legal counsel",
+    "logistics": "Lodging and transportation logistics",
+    "certification": "Certification from the Panama Film Commission for tax reimbursements (Cash Rebate)."
   },
   "movil": {
     "text": "This versatile and modern self-contained mobile unit comes complete with all the needs of a remote television production, all within a Volkswagen LT-35 Eurovan. The mobile unit, which is equipped with two air conditioners and its own power generator, can be rented in various configurations, from 1 to 16 cameras, with or without personnel."
@@ -136,7 +136,7 @@
       "type6": "<strong>SONY BRC H900 PTZ CAMERA</strong>\n1/2-type Exmor Full HD 3CMOS Image Sensor\nApproximately 2 Megapixels of Effective Picture Elements\n1080/59.58i, 720/59.98p, NTSC\n1080/50i, 720/50p, PAL\n14x Optical Zoom\nHD Video Output: Analog RGB/Component, SDI (HD/SD switchable)\n16 position presets\nRS-232C/RS-422 serial control (VISCA protocol)\nDaisy chain capability (up to 7 units)\nSONY and Vaddio Remote controls",
       "type7": "<strong>MARSHALL MICRO CAMS</strong>/LIPSTICK CAM\nFull-HD 2MP Miniature HD-SDI Camera 1080p60/59.94/50/30/25,\n1080i59.94/50, 720p60/50\n2.2 megapixels\nInterchangeable HD Prime Lens",
       "type8": "<strong>CAMERA SUPPORT</strong>\nPeter Lissand Tripod\nMiller Tripod\nTERIS tripod\nMiller head\nSachtler Tripod (lightweight)\nHi hat (100mm)\nHi hat (150mm)\nCamera wedge (45/90 degrees)\nDolly Chameleon\nDolly Track Matthews (straight/curved)\nBerlinga Dolly\nBerlinga Dolly Track (straight)\nSkateboard dolly\nJimmy Jib Triangle crane with dutch roll\nCinema Berlanga Crane\nBlackmagic 7” Monitor/Recorder\nNinja 7” 4k Monitor/Recorder\nPanasonic SDI-HD 17” Monitor\nViewsonic HDMI/VGA 22/24/27” Monitor\nMarshall 5.6” Monitor\nAnton Bauer HD video transmitter\nTeradek HD video transmitter\nHollyland HD/4K video transmitter\nAutoscript Teleprompter\nClearcom Wireless System\nIKAN wireless intercom system\nFiber optic cabling and conversion boxes\nCAT5 AND CAT6 Cabling\nLong SDI cabling",
-      "type9":"<strong>ZOWIETEK POV MICROS</strong>\n4K UHD CMOS Sensor: 1/2.3'' backlit \nSimultaneous 4K HDMI, 3G-SDI and NDI outputs | HX3 \nSeamless integration into any NDI environment through a single network cable\nInterchangeable lens: M12 AF mounts \nSimple setup and focus setting, WB, AE, color temperature, H.265/H.264\nAutofocus: Automatically adjusts the lens \nTRS stereo audio input"
+      "type9": "<strong>ZOWIETEK POV MICROS</strong>\n4K UHD CMOS Sensor: 1/2.3'' backlit \nSimultaneous 4K HDMI, 3G-SDI and NDI outputs | HX3 \nSeamless integration into any NDI environment through a single network cable\nInterchangeable lens: M12 AF mounts \nSimple setup and focus setting, WB, AE, color temperature, H.265/H.264\nAutofocus: Automatically adjusts the lens \nTRS stereo audio input"
     },
     "filters": {
       "type1": "<strong>Series 9</strong>\nTiffen plus 1/slp f06\nTiffen plus 1\nTiffen plus 2\nTiffen photar plus 2\nTiffen photar plus 3\nTiffen photar plus 4\nTiffen split field 2\nTiffen clear",
@@ -159,5 +159,6 @@
   "cctv": {
     "description": "A complete array of state-of-the-art equipment is provided for the coverage of summits, conferences, in-person or hybrid webinars, concerts and conventions, both small and large. We offer HD multi-camera setups with fiber optic and wireless transmission, media management, IP transmission to internal CCTV systems, standards conversions (NTSC/PAL) and distribution to a media pool, audio integration and embedding to multilanguage video feeds. We also offer streaming via web or satellite up/downlink",
     "clients_description": "Our international clients include Bunim-Murray Productions, World Race Productions, Critical Content LLC, Discovery Channel/WB, Mr.Beast LLC, the Inter-American Development Bank (IDB), the United Nations (UN), and the Latin American Parliament (Parlatino ). Locally we have worked with the Government of the Republic of Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Topline, Magicdreams Inc and the largest advertising agencies in the country."
-  }
+  },
+  "galery": "Galery"
 }

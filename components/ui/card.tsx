@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-interface CardProps{
-    index: number,
-    src: string,
-    alt: string,
+interface CardProps {
+  index: number;
+  src: string;
+  alt: string;
 }
 
-const Card = ({index, src, alt}: CardProps) => {
+const Card = ({ index, src, alt }: CardProps) => {
   return (
     <img
       key={index}
@@ -16,6 +16,6 @@ const Card = ({index, src, alt}: CardProps) => {
       style={{ width: "240px", height: "200px", borderRadius: "20px" }}
     />
   );
-}
+};
 
-export default Card
+export default Card;

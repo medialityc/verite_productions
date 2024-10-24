@@ -21,7 +21,7 @@ const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
       data-aos="fade-left"
       data-aos-duration={1550}
     >
-      {items.map(item => (
+      {items.map((item) => (
         <li className="mb-2" key={item.id}>
           <i className="fas fa-circle " style={{ marginRight: "20px" }} />
           <span className="pra-clr"> {item.text}</span>
