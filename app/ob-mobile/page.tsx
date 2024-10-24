@@ -21,7 +21,7 @@ const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
       data-aos="fade-left"
       data-aos-duration={1550}
     >
-      {items.map((item) => (
+      {items.map(item => (
         <li className="mb-2" key={item.id}>
           <i className="fas fa-circle " style={{ marginRight: "20px" }} />
           <span className="pra-clr"> {item.text}</span>
@@ -59,111 +59,114 @@ export default function BlogList() {
   ];
 
   const { t } = useTranslationClient();
-  const slides = Array.from({ length: 8 }, (_, index) => {
+  const slides = Array.from({ length: 5 }, (_, index) => {
     const imgIndex = index + 1; // Para que vaya de 1 a 10
     return (
-      <Card
-        alt={`opt-img-${imgIndex}`}
-        index={imgIndex}
-        src={`/assets/img/ob_mobile/opt-img-${imgIndex}.jpg`}
-        key={imgIndex}
-      />
+      <div style={{ maxHeight: "451px", maxWidth: "500px"}}>
+        <Card
+          alt={`opt-img-${imgIndex}`}
+          index={imgIndex}
+          src={`/assets/img/ob_mobile/opt-img-${imgIndex}.jpg`}
+          key={imgIndex}
+        />
+      </div>
     );
   });
 
   return (
-    <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Unidad Móvil">
-        <section className="blog-list pt-space pb-space">
-          <div className="container">
-            <div className="my-container row-cols-2 ">
-              <div className="cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 my-item">
-                <div className="post-content">
-                  <p
-                    className="pra-clr  "
-                    data-aos="fade-left"
-                    data-aos-duration={1550}
-                  >
-                    {t("ob_mobile.description")}
-                  </p>
-                  <p
-                    className="pra-clr  "
-                    data-aos="fade-left"
-                    data-aos-duration={1550}
-                  >
-                    {t("ob_mobile.included_equiptment_intro")}
-                  </p>
-                  <EquipmentList items={equipmentItems} />
-                </div>
-              </div>
-              <div className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center">
-                <div
-                  className="carousel"
+    <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Unidad Móvil">
+      <section className="blog-list pt-space pb-space">
+        <div className="container-fluid main-xpadding">
+          <div className="my-container row-cols-2 ">
+            <div className="cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 my-item">
+              <div className="post-content">
+                <p
+                  className="pra-clr  "
                   data-aos="fade-left"
                   data-aos-duration={1550}
                 >
-                  <Carousel slides={slides} />
-                </div>
-                <div className="post-content">
-                  <p
-                    className="pra-clr "
-                    data-aos="fade-left"
-                    data-aos-duration={1550}
-                  >
-                    {t("ob_mobile.opt")}
-                  </p>
-                  <EquipmentList items={optionalEquipmentItems} />
-                </div>
+                  {t("ob_mobile.description")}
+                </p>
+                <p
+                  className="pra-clr  "
+                  data-aos="fade-left"
+                  data-aos-duration={1550}
+                >
+                  {t("ob_mobile.included_equiptment_intro")}
+                </p>
+                <EquipmentList items={equipmentItems} />
               </div>
+            </div>
+            <div
+              className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center"
+              style={{ maxHeight: "700px" }}
+            >
               <div
-                className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3"
-                style={{ height: "50%" }}
+                className="carousel"
+                data-aos="fade-left"
+                data-aos-duration={1550}
+                style={{ maxHeight: "400px" }}
               >
-                <div
-                  className="position-relative"
+                <Carousel slides={slides} />
+              </div>
+              <div className="post-content">
+                <p
+                  className="pra-clr "
                   data-aos="fade-left"
                   data-aos-duration={1550}
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50%" // Ajusta el ancho del SVG al 100% del contenedor
-                    height="100%" // Ajusta el alto del SVG al 100% del contenedor
-                    fill="currentColor"
-                    className="bi bi-quote position-absolute"
-                    viewBox="0 0 16 16"
-                    style={{
-                      zIndex: -1,
-                      width: "100%",
-                      height: "100%",
-                      opacity: 0.1,
-                      left: "-120px",
-                      top: "0",
-                    }}
-                  >
-                    <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                  </svg>
-                  <p
-                    style={{
-                      position: "relative",
-                      zIndex: 1,
-                      backgroundColor: "transparent",
-                      fontStyle: "italic",
-                    }}
-                  >
-                    {t("ob_mobile.quote")}
-                  </p>
-                  <cite>// VERITE PRODUCCIONES</cite>
-                </div>
+                  {t("ob_mobile.opt")}
+                </p>
+                <EquipmentList items={optionalEquipmentItems} />
+              </div>
+            </div>
+            <div
+              className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3"
+              style={{ height: "50%" }}
+            >
+              <div
+                className="position-relative"
+                data-aos="fade-left"
+                data-aos-duration={1550}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50%" // Ajusta el ancho del SVG al 100% del contenedor
+                  height="100%" // Ajusta el alto del SVG al 100% del contenedor
+                  fill="currentColor"
+                  className="bi bi-quote position-absolute"
+                  viewBox="0 0 16 16"
+                  style={{
+                    zIndex: -1,
+                    width: "100%",
+                    height: "100%",
+                    opacity: 0.1,
+                    left: "-120px",
+                    top: "0",
+                  }}
+                >
+                  <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                </svg>
+                <p
+                  style={{
+                    position: "relative",
+                    zIndex: 1,
+                    backgroundColor: "transparent",
+                    fontStyle: "italic",
+                  }}
+                >
+                  {t("ob_mobile.quote")}
+                </p>
+                <cite>// VERITE PRODUCCIONES</cite>
               </div>
             </div>
           </div>
-        </section>
-        <div style={{ overflowX: "hidden" }}>
-          <GaleryContainer>
-            <Galery autoSlide slides={slides} />
-          </GaleryContainer>
         </div>
-      </Layout>
-    </>
+
+        <GaleryContainer>
+          <Galery autoSlide slides={slides} />
+        </GaleryContainer>
+      </section>
+    </Layout>
   );
 }

@@ -51,11 +51,15 @@ export default function CCTVPage() {
                   </p>
                 </div>
               </div>
-              <div className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center">
+              <div
+                className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center"
+                style={{ maxHeight: "400px" }}
+              >
                 <div
                   className="carousel"
                   data-aos="fade-left"
                   data-aos-duration={1550}
+                  style={{ maxHeight: "400px" }}
                 >
                   <Carousel slides={slides} />
                 </div>
