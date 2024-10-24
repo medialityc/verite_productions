@@ -17,7 +17,6 @@
     "movil": "Unidad móvil",
     "satelite": "Satelite UPLINK/DOWNLINK",
     "equipment": "Equipamiento"
-    
   },
   "production": {
     "publicity": "Producción publicitaria",
@@ -29,12 +28,12 @@
     "prompter": "Prompter presidencial y teleprompter",
     "timelapse": "Fotografía time-lapse (lapso de tiempo) para proyectos industriales",
     "fixer": "Fixer con mas de 20 annos de experiencia",
-    "productions":"Coordinación de producción",
-    "search":"Búsqueda locaciones",
-    "customs":"Logística aduanal Y exenciones",
-    "advices":"Asesoria legal",
-    "logistics":"Logística de hospedaje y transporte",
-    "certification":"Certificación de la dirección de cine para el rembolso fiscal (Cash Rebate)"
+    "productions": "Coordinación de producción",
+    "search": "Búsqueda locaciones",
+    "customs": "Logística aduanal Y exenciones",
+    "advices": "Asesoria legal",
+    "logistics": "Logística de hospedaje y transporte",
+    "certification": "Certificación de la dirección de cine para el rembolso fiscal (Cash Rebate)"
   },
   "movil": {
     "text": "Esta versátil y moderna unidad móvil auto contenida viene completa con todas las necesidades de una producción televisiva remota, todo dentro de un Eurovan Volkswagen LT-35. La unidad móvil, que viene equipada con dos aires acondicionados y su propia planta eléctrica, puede ser alquilada en varias configuraciones, desde 1 hasta 16 cámaras, con personal o sin personal."
@@ -138,7 +137,7 @@
       "type6": "<strong>SONY BRC H900 PTZ CAMERA</strong>\n1/2-type Exmor Full HD 3CMOS Image Sensor\nApproximately 2 Megapixels of Effective Picture Elements\n1080/59.58i, 720/59.98p, NTSC\n1080/50i, 720/50p, PAL\n14x Optical Zoom\nHD Video Output: Analog RGB/Component, SDI (HD/SD switchable)\n16 position presets\nRS-232C/RS-422 serial control (VISCA protocol)\nDaisy chain capability (up to 7 units)\nSONY and Vaddio Remote controls",
       "type7": "<strong>MARSHALL MICRO CAMS</strong>/LIPSTICK CAM\nFull-HD 2MP Miniature HD-SDI Camera 1080p60/59.94/50/30/25,\n1080i59.94/50, 720p60/50\n2.2 megapixels\nInterchangeable HD Prime Lens",
       "type8": "<strong>SOPORTE DE CAMARA</strong>\nTripode Peter Lissand\nTripode Miller\nTripode TERIS \nCabeza Miller\nTripode Sachtler (liviano)\nHi hat (100mm)\nHi hat (150mm)\nCuña camara (45/90 grados)\nDolly Chameleon\nDolly Track Matthews (recto/curvo)\nDolly Berlinga\nDolly Track Berlinga (recto)\nDolly patineta\nGrua Jimmy Jib Triangle con dutch roll\nCine Grua Berlanga\nMonitor /Grabador Blackmagic 7\nMonitor/Grabador 4k Ninja 7”\nMonitor Panasonic SDI-HD 17”\nMonitor Viewsonic HDMI/VGA 22/24/27 ”\nMonitor Marshall 5.6”\nTransmisor video HD Anton Bauer\nTransmisor video HD Teradek\nTransmisor video HD/4K Hollyland\nTeleprompter Autoscript\nSistema Clearcom Inalámbrico\nSistema intercomunicadores IKAN inalámbricos\nCableado fibra optica y cajas de conversión\nCableado CAT5 Y CAT6\nCableado SDI largo",
-      "type9":"<strong>ZOWIETEK POV MICROS</strong>\nSensor CMOS 4K UHD: retroiluminado de 1/2.3 ''\n Salidas simultáneas 4K HDMI, 3G-SDI y NDI | HX3 \nIntegración perfecta en cualquier entorno NDI a través de un solo cable de red\nLente intercambiable: monturas AF M12 \nConfiguración simple y configuración de enfoque, WB, AE, temperatura de color\nH.265/H.264\nEnfoque automático: ajusta automáticamente la lente\nEntrada de audio estéreo TRS"
+      "type9": "<strong>ZOWIETEK POV MICROS</strong>\nSensor CMOS 4K UHD: retroiluminado de 1/2.3 ''\n Salidas simultáneas 4K HDMI, 3G-SDI y NDI | HX3 \nIntegración perfecta en cualquier entorno NDI a través de un solo cable de red\nLente intercambiable: monturas AF M12 \nConfiguración simple y configuración de enfoque, WB, AE, temperatura de color\nH.265/H.264\nEnfoque automático: ajusta automáticamente la lente\nEntrada de audio estéreo TRS"
     },
     "filters": {
       "type1": "<strong>Series 9</strong>\nTiffen plus 1/slp f06\nTiffen plus 1\nTiffen plus 2\nTiffen photar plus 2\nTiffen photar plus 3\nTiffen photar plus 4\nTiffen split field 2\nTiffen clear",
@@ -161,5 +160,6 @@
   "cctv": {
     "description": "Un completo despliegue de equipos de última generación es provisto para la cobertura de cumbres, conferencias, webinars presenciales o híbridos, conciertos y convenciones, tanto pequeñas como grandes. Ofrecemos montajes multi-camaras HD con transmisión via fibra óptica e inalámbrica, administración de media, transmisión via IP a sistemas de CCTV internos, conversiones de estándares (NTSC/PAL) y distribución a un “pool\" de media, integracion y embebido de audios a videos multilenguaje. También ofrecemos “streaming” via web o up/downlink satelital.",
     "clients_description": "Entre nuestros clientes internacionales contamos con Bunim-Murray Productions, World Race Productions, Critical Content, Discovery Channel/WB, Mr.Beast LLC, el Banco Interamericano de Desarrollo (BID),  las Naciones Unidas (UN), y el Parlamento Latinoamericano (Parlatino). Localmente hemos trabajado con el Gobierno de la Republica de Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Topline, Magicdreams Inc y las mayores agencias publicitarias del país."
-  }
+  },
+  "gallery": "Galería"
 }
