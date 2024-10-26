@@ -5756,3 +5756,17 @@ input.main-search-input::placeholder {
     max-width: 500px;
   }
 }
+
+.galery-on-obmobile {
+  max-height: 190px;
+  max-width: 180px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+@media (min-width: 576px) {
+  .galery-on-obmobile {
+    max-height: 451px;
+    max-width: 500px;
+  }
+}

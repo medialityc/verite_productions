@@ -62,7 +62,7 @@ export default function BlogList() {
   const slides = Array.from({ length: 5 }, (_, index) => {
     const imgIndex = index + 1; // Para que vaya de 1 a 10
     return (
-      <div style={{ maxHeight: "451px", maxWidth: "500px"}}>
+      <div className="galery-on-obmobile">
         <Card
           alt={`opt-img-${imgIndex}`}
           index={imgIndex}

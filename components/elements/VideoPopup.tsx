@@ -9,13 +9,17 @@ export default function VideoPopup({ style }: { style: number }) {
     <>
       {style === 1 && (
         <a onClick={() => setOpen(true)} className="video-popup">
-          <span className="icon">
+          <span
+            className="icon"           
+          >
             <i className="fas fa-play" />
-          </span>
+          </span>        
+
           <img
-            src="/assets/img/element/Group.png"
+            src="/assets/img/element/bn1-circle.png"
             alt="img"
             className="hero-circle"
+            
           />
         </a>
       )}
