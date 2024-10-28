@@ -47,10 +47,7 @@ export default function Service1() {
                         </span>
                       </span>
                       <span className="mtitle d-block mt-6">
-                        <Link
-                          href="/service-details"
-                          className="white-clr whitehover"
-                        >
+                        <Link href="/services" className="white-clr whitehover">
                           {t("services.production")}
                         </Link>
                       </span>
@@ -146,7 +143,7 @@ export default function Service1() {
                       </span>
                       <span className="mtitle d-block mt-6">
                         <Link
-                          href="/service-details"
+                          href="/ob-mobile"
                           className="white-clr whitehover"
                         >
                           {t("services.movil")}
@@ -196,10 +193,7 @@ export default function Service1() {
                         </span>
                       </span>
                       <span className="mtitle d-block mt-6">
-                        <Link
-                          href="/service-details"
-                          className="white-clr whitehover"
-                        >
+                        <Link href="/services" className="white-clr whitehover">
                           {t("services.satelite")}
                         </Link>
                       </span>
@@ -248,7 +242,7 @@ export default function Service1() {
                       </span>
                       <span className="mtitle d-block mt-6">
                         <Link
-                          href="/service-details"
+                          href="/equipment"
                           className="white-clr whitehover"
                         >
                           {t("services.equipment")}
