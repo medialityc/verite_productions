@@ -18,6 +18,9 @@ export default async function Blog1() {
                   {t("client-section.international")}
                 </span>
               </h2>
+              <p style={{ textAlign: "start", fontSize: "24px" }}>
+                {t("client")}
+              </p>
             </div>
             <Link
               href="/blog-grid"

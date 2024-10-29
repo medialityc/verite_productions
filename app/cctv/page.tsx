@@ -32,72 +32,17 @@ export default function CCTVPage() {
       >
         <section className="blog-list pt-space pb-space">
           <div className="container-fluid main-xpadding">
-            <div className="my-container row-cols-2 ">
-              <div className="cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 my-item">
-                <div className="post-content">
-                  <p
-                    className="pra-clr  "
-                    data-aos="fade-left"
-                    data-aos-duration={1550}
-                  >
-                    <div
-                      style={{ fontSize: "20px" }}
-                      dangerouslySetInnerHTML={{
-                        __html: t("ob_mobile.description").replace(
-                          /\n/g,
-                          "<br>"
-                        ),
-                      }}
-                    />
-                  </p>
-                  {/* <p
-                    className="pra-clr  "
-                    data-aos="fade-left"
-                    data-aos-duration={1550}
-                  >
-                    {t("cctv.description")}
-                  </p> */}
-                </div>
-              </div>
-              <div
-                className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center"
-                style={{ maxHeight: "400px" }}
+            <div style={{ textAlign: "center" }}>
+              <h2>CCTV/IMAG/MEDIA POOL</h2>
+              <p
+                style={{
+                  textAlign: "start",
+                  fontSize: "24px",
+                  marginTop: "20px",
+                }}
               >
-                <div
-                  className="carousel"
-                  data-aos="fade-left"
-                  data-aos-duration={1550}
-                  style={{ maxHeight: "400px" }}
-                >
-                  <Carousel slides={slides} />
-                </div>
-              </div>
-              <div className="cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 my-item">
-                <div className="post-content">
-                  <p
-                    className="pra-clr  "
-                    data-aos="fade-left"
-                    data-aos-duration={1550}
-                  >
-                    <div
-                      style={{ fontSize: "20px" }}
-                      dangerouslySetInnerHTML={{
-                        __html: t("ob_mobile.description").replace(
-                          /\n/g,
-                          "<br>"
-                        ),
-                      }}
-                    />
-                  </p>
-                  <p
-                    className="pra-clr  "
-                    data-aos="fade-left"
-                    data-aos-duration={1550}
-                  >
-                    {t("cctv.clients_description")}
-                  </p>
-                </div>
-              </div>
+                {t("cctv.text")}
+              </p>
             </div>
           </div>
           <img

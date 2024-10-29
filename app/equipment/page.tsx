@@ -7,20 +7,18 @@ import Galery from "../../components/ui/galery";
 
 async function Page() {
   const { t } = await useTranslationServer();
-const imagesMock = [
-  "/assets/img/service/2 (1).jpg",
-  "/assets/img/service/11.jpg",
-  "/assets/img/service/7 (1).jpg",
-  "/assets/img/service/10.jpg",
-  "/assets/img/service/13.jpg",
-  "/assets/img/service/12.jpg",
+  const imagesMock = [
+    "/assets/img/service/2 (1).jpg",
+    "/assets/img/service/11.jpg",
+    "/assets/img/service/7 (1).jpg",
+    "/assets/img/service/10.jpg",
+    "/assets/img/service/13.jpg",
+    "/assets/img/service/12.jpg",
   ];
-  
-    const slides = imagesMock.map((slide, index) => (
-      <Card key={index} index={index} alt={slide} src={slide} />
-    ));
 
-
+  const slides = imagesMock.map((slide, index) => (
+    <Card key={index} index={index} alt={slide} src={slide} />
+  ));
 
   return (
     <Layout
@@ -45,6 +43,7 @@ const imagesMock = [
               </div>
               <div>
                 <h5>{t("equipment.cameras")}</h5>
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -54,6 +53,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -63,6 +63,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -72,6 +73,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -81,6 +83,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -90,6 +93,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -99,6 +103,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -108,6 +113,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -117,6 +123,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -128,7 +135,29 @@ const imagesMock = [
                 />
               </div>
             </div>
-            
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/13.jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment-text.grip")}</h5>
+                <br />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.grip-text").replace(
+                      /\n/g,
+                      "<br>"
+                    ),
+                  }}
+                />
+              </div>
+            </div>
           </div>
           <div className="equipment-container2">
             <div className={"equipment-subcontainer"}>
@@ -142,6 +171,7 @@ const imagesMock = [
               </div>
               <div>
                 <h5>{t("equipment.filters")}</h5>
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -151,6 +181,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -160,6 +191,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -169,6 +201,7 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
@@ -178,10 +211,35 @@ const imagesMock = [
                     ),
                   }}
                 />
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
                     __html: t("equipment-text.filters.type5").replace(
+                      /\n/g,
+                      "<br>"
+                    ),
+                  }}
+                />
+              </div>
+            </div>
+
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/12.jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment.cameras")}</h5>
+                <br />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.illumination").replace(
                       /\n/g,
                       "<br>"
                     ),
@@ -199,11 +257,12 @@ const imagesMock = [
                 />
               </div>
               <div>
-                <h5>{t("equipment.cameras")}</h5>
+                <h5>{t("equipment-text.camera-support")}</h5>
+                <br />
                 <div
                   style={{ fontSize: "20px" }}
                   dangerouslySetInnerHTML={{
-                    __html: t("equipment-text.illumination").replace(
+                    __html: t("equipment-text.camera-support-text").replace(
                       /\n/g,
                       "<br>"
                     ),
@@ -211,8 +270,28 @@ const imagesMock = [
                 />
               </div>
             </div>
-            
-            
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/service/7 (1).jpg"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment-text.lighting-and-electrical-support")}</h5>
+                <br />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t(
+                      "equipment-text.lighting-and-electrical-support-text"
+                    ).replace(/\n/g, "<br>"),
+                  }}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
