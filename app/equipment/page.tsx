@@ -128,25 +128,7 @@ const imagesMock = [
                 />
               </div>
             </div>
-            <div className={"equipment-subcontainer"}>
-              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                <img
-                  src="/assets/img/service/11.jpg"
-                  alt="img"
-                  className=" w-100 overflow-hidden"
-                  style={{ width: "100%", height: "330px" }}
-                />
-              </div>
-              <div>
-                <h5>{t("equipment.cameras")}</h5>
-                <div
-                  style={{ fontSize: "20px" }}
-                  dangerouslySetInnerHTML={{
-                    __html: t("equipment-text.grip").replace(/\n/g, "<br>"),
-                  }}
-                />
-              </div>
-            </div>
+            
           </div>
           <div className="equipment-container2">
             <div className={"equipment-subcontainer"}>
@@ -229,47 +211,8 @@ const imagesMock = [
                 />
               </div>
             </div>
-            <div className={"equipment-subcontainer"}>
-              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                <img
-                  src="/assets/img/service/13.jpg"
-                  alt="img"
-                  className=" w-100 overflow-hidden"
-                  style={{ width: "100%", height: "330px" }}
-                />
-              </div>
-              <div>
-                <h5>{t("equipment.audio")}</h5>
-                <div
-                  style={{ fontSize: "20px" }}
-                  dangerouslySetInnerHTML={{
-                    __html: t("equipment-text.audio").replace(/\n/g, "<br>"),
-                  }}
-                />
-              </div>
-            </div>
-            <div className={"equipment-subcontainer"}>
-              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                <img
-                  src="/assets/img/service/12.jpg"
-                  alt="img"
-                  className=" w-100 overflow-hidden"
-                  style={{ width: "100%", height: "330px" }}
-                />
-              </div>
-              <div>
-                <h5>{t("equipment.movil")}</h5>
-                <div
-                  style={{ fontSize: "20px" }}
-                  dangerouslySetInnerHTML={{
-                    __html: t("equipment-text.movil-portatil").replace(
-                      /\n/g,
-                      "<br>"
-                    ),
-                  }}
-                />
-              </div>
-            </div>
+            
+            
           </div>
         </div>
       </div>

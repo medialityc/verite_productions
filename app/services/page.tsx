@@ -18,7 +18,7 @@ async function Page() {
       alt: "service-production",
       title: t("service.service-production"),
     },
-        {
+    {
       src: "/assets/img/service/5.jpg",
       alt: "movil",
       title: t("service.movil"),
@@ -27,7 +27,7 @@ async function Page() {
       src: "/assets/img/service/6 (1).jpg",
       alt: "streaming",
       title: t("service.streaming"),
-    },  
+    },
     {
       src: "/assets/img/service/8.jpg",
       alt: "time-lapse",
@@ -42,7 +42,7 @@ async function Page() {
       src: "/assets/img/service/15.jpg",
       alt: "promoter",
       title: t("service.promoter"),
-    },     
+    },
   ];
 
   const slides = imagesMock.map((slide, index) => (
@@ -84,9 +84,15 @@ async function Page() {
           </div>
           <div className="service-text">
             <h5>{t("service.service-production")}</h5>
-            <p style={{ breakBefore: "always" }}>
-              {t("service.service-production-text")}
-            </p>
+            <p
+              style={{ breakBefore: "always" }}
+              dangerouslySetInnerHTML={{
+                __html: t("service.service-production-text").replace(
+                  /\n/g,
+                  "<br />"
+                ),
+              }}
+            />
           </div>
         </div>
         <div className="service-container">
@@ -96,12 +102,6 @@ async function Page() {
               alt="img"
               className=" w-100 overflow-hidden"
             />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.postproduction")}</h5>
-            <p style={{ breakBefore: "always" }}>
-              {t("service.postproductionText")}
-            </p>
           </div>
         </div>
         <div className="service-container-2">
@@ -125,12 +125,12 @@ async function Page() {
               className=" w-100 overflow-hidden"
             />
           </div>
-          <div className="service-text">
+          {/* <div className="service-text">
             <h5>{t("service.streaming")}</h5>
             <p style={{ breakBefore: "always" }}>
               {t("service.streamingText")}
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="service-container-2">
           <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
@@ -139,10 +139,6 @@ async function Page() {
               alt="img"
               className="w-100 overflow-hidden"
             />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.satelite")}</h5>
-            <p style={{ breakBefore: "always" }}>{t("service.sateliteText")}</p>
           </div>
         </div>
         <div className="service-container">
@@ -168,12 +164,6 @@ async function Page() {
               className="w-100 overflow-hidden"
             />
           </div>
-          <div className="service-text">
-            <h5>{t("service.file-archive")}</h5>
-            <p style={{ breakBefore: "always" }}>
-              {t("service.file-archive-text")}
-            </p>
-          </div>
         </div>
         <div className="service-container">
           <div className="service-image thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
@@ -183,12 +173,6 @@ async function Page() {
               className=" w-100 overflow-hidden"
             />
           </div>
-          <div className="service-text">
-            <h5>{t("service.promoter")}</h5>
-            <p style={{ breakBefore: "always" }}>
-              {t("service.promoter-text")}
-            </p>
-          </div>
         </div>
         <div className="service-container-2">
           <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
@@ -196,11 +180,7 @@ async function Page() {
               src="\assets\img\service\screen.png"
               alt="img"
               className="w-100 overflow-hidden"
-            />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.screen")}</h5>
-            <p style={{ breakBefore: "always" }}>{t("service.screen-text")}</p>
+            />{" "}
           </div>
         </div>
         <div className="service-container">
@@ -210,14 +190,10 @@ async function Page() {
               alt="img"
               className=" w-100 overflow-hidden"
             />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.loyal")}</h5>
-            <p style={{ breakBefore: "always" }}>{t("service.loyal-text")}</p>
-          </div>
+          </div>         
         </div>
       </div>
-      <div style={{overflowX: "hidden"}}>
+      <div style={{ overflowX: "hidden" }}>
         <GaleryContainer>
           <Galery autoSlide slides={slides} />
         </GaleryContainer>
