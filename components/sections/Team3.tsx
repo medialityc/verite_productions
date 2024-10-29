@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Tilt } from "react-tilt";
+
 const toltOptions = {
   reverse: false, // reverse the tilt direction
   max: 35, // max tilt rotation (degrees)

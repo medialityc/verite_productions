@@ -40,15 +40,23 @@ export default function CCTVPage() {
                     data-aos="fade-left"
                     data-aos-duration={1550}
                   >
-                    {t("ob_mobile.description")}
+                    <div
+                      style={{ fontSize: "20px" }}
+                      dangerouslySetInnerHTML={{
+                        __html: t("ob_mobile.description").replace(
+                          /\n/g,
+                          "<br>"
+                        ),
+                      }}
+                    />
                   </p>
-                  <p
+                  {/* <p
                     className="pra-clr  "
                     data-aos="fade-left"
                     data-aos-duration={1550}
                   >
                     {t("cctv.description")}
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div
@@ -71,7 +79,15 @@ export default function CCTVPage() {
                     data-aos="fade-left"
                     data-aos-duration={1550}
                   >
-                    {t("ob_mobile.description")}
+                    <div
+                      style={{ fontSize: "20px" }}
+                      dangerouslySetInnerHTML={{
+                        __html: t("ob_mobile.description").replace(
+                          /\n/g,
+                          "<br>"
+                        ),
+                      }}
+                    />
                   </p>
                   <p
                     className="pra-clr  "
