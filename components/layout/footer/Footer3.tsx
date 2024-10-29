@@ -203,60 +203,53 @@ export default function Footer3() {
                         href="https://www.google.ca/maps/place/Verite+Producciones,+S.+A./@9.0180786,-79.488278,17z/data=!3m1!4b1!4m2!3m1!1s0x8faca9eb5f4dec0f:0x4618abe8beafe0ea"
                         className="d-flex align-items-center gap-2 flink-items pra-clr"
                       >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
-                        </svg>
                         {t("footer.our-place")}
                       </Link>
-                      Ave. 5b Sur en Parque Lefebre en la Ciudad de Panama.
+                      {t("footer.our-place-desc")}
                     </li>
                     <li>
+                      <Link href="https://www.instagram.com/veriteproducciones/">
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          Instagram: Veriteproductions
+                        </div>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"https://x.com/veritepanama"}>
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          X: @veritepanama
+                        </div>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href={"https://www.facebook.com/veriteproducciones"}
+                      >
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          Facebook: Veriteproducciones
+                        </div>
+                      </Link>
+                    </li>
+                    <li>
+                      <p>{t("footer.email")}</p>
                       <div className="d-flex align-items-center gap-2 flink-items pra-clr">
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        Skype: rickybarria
+                        {t("footer.mail")}
                       </div>
                     </li>
                     <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        Twitter: @veritepanama
-                      </div>
-                    </li>
-                    <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        Facebook: Veriteproducciones
-                      </div>
-                    </li>
-                    <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        Instagram: Veriteproducciones
-                      </div>
-                    </li>
-                    <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        {t("footer.email")}: P.O.BOX 0832 - 02237 WTC Panamá
-                        Rep. of Panamá
-                      </div>
+                      <p>{t("footer.contacts")}</p>
                     </li>
                   </ul>
                 </div>

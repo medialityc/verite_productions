@@ -7,6 +7,7 @@
   "whoWeAreText2": "La lista de clientes internacionales de Verite Producciones incluye a Bunim-Murray Productions, Discovery Channel, FOX Television, Critical Content, Bright Bay Creative LLC, Mr.Beast LLC, E! Entertainment, The Today Show, World Race Productions y casi todas las agencias de publicidad locales.\n",
   "locationText": "Nuestra sede y estudio están ubicados en Calle W (Ave. 5a B sur) Parque Lefevre en la Ciudad de Panamá.\n",
   "whatWeDoText": "<strong><h4>What we do</h4></strong>\n<strong>Production services</strong>\n <strong>HD and 4K multi-camera mobile units</strong> \n<strong>Livestreaming</strong> \n<strong>Advertising production</strong> \n<strong>Rental of Grip and Lighting equipment</strong> \n<string>Presidential Prompter and Teleprompter </strong>\n<strong>Time-lapse photography for industrial projects</strong> \n<strong>Studio with air conditioning rental.</strong>",
+  "international_services": "<strong><h4>INTERNATIONAL PRODUCTION SERVICES:</h4></strong>\n<strong>Fixer with more than 20 years of experience</strong>\n<strong>Production coordination</strong>\n<strong>Location scout</strong>\n<strong>Customs logistics and exemptions</strong>\n<strong>Legal counsel</strong>\n<strong>Lodging and transportation logistics</strong>\n<strong>Certification from the Panama Film Commission for tax reimbursements (Cash Rebate).</strong>\n",
   "problematicClients": "Problematic Clients",
   "coffeeCups": "Cups of Coffee",
   "completedProjects": "Completed Projects",
@@ -74,13 +75,16 @@
     "contact-us": "Contact Us",
     "privacy-policy": "Privacy Policy",
     "terms-conditions": "Terms and Conditions",
-    "our-place": "Our Headquarters",
-    "email": "Email",
+    "our-place": "OUR HEADQUARTERS IS LOCATED IN:",
+    "our-place-desc": "Calle W (Ave. 5b Sur) Parque Lefebre en la Ciudad de Panamá.",
+    "mail": " P.O.BOX 0832 - 02237 WTC Panamá Rep. of Panamá",
+    "email": "Mail",
     "services": "Services",
     "phone": "Phone",
     "address": "Address",
     "copyright": "All rights reserved",
-    "proud-member": "Proud member of: "
+    "proud-member": "Proud member of: ",
+    "contacts": "rbarria@veriteproducciones.net\n rickybarria@gmail.com\n rguzman@veriteproducciones.net\n arivera@veriteproducciones.net \n(507) 221-9303 | (507) 224-0566 \n(507) 6612-7525 (Ricardo Barria) \n(507) 6612-6739 (Rigoberto Gúzman)"
   },
   "client-section": {
     "title": "Our Clients",

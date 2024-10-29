@@ -92,6 +92,15 @@ export default async function Product1() {
                     __html: t("whatWeDoText").replace(/\n/g, "<br>"),
                   }}
                 />
+                <br />
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration={1900}
+                  style={{ fontSize: "16px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("international_services").replace(/\n/g, "<br>"),
+                  }}
+                />
               </div>
             </div>
           </div>

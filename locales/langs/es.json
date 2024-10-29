@@ -7,7 +7,8 @@
   "whoWeAreText1": "Contamos con equipos de última generación, así como con personal capacitado para llevar a cabo todo tipo de producciones audiovisuales/comerciales, incluyendo, entre otros, CCTV/IMAG.\n",
   "whoWeAreText2": "La lista de clientes internacionales de Verite Producciones incluye a Bunim-Murray Productions, Discovery Channel, FOX Television, Critical Content, Bright Bay Creative LLC, Mr.Beast LLC, E! Entertainment, The Today Show, World Race Productions y casi todas las agencias de publicidad locales.\n",
   "locationText": "Nuestra sede y estudio están ubicados en Calle W (Ave. 5a B sur) Parque Lefevre en la Ciudad de Panamá.\n",
-  "whatWeDoText": "<strong><h4>Qué hacemos</h4></strong>\n<strong>Servicios de producción</strong>\n<strong>Unidades móviles multi-cámara en HD y 4K</strong>\n<strong>Transmisión en vivo</strong>\n<strong>Producción publicitaria</strong>\n<strong>Alquiler de equipo de iluminación y Grip</strong>\n<strong>Teleprompter y Prompter Presidencial</strong>\n<strong>Fotografía de time-lapse para proyectos industriales</strong>\n<strong>Alquiler de estudio con aire acondicionado.</strong>",
+  "whatWeDoText": "<strong><h4>Qué hacemos</h4></strong>\n<strong>Servicios de producción</strong>\n<strong>Unidades móviles multi-cámara en HD y 4K</strong>\n<strong>Transmisión en vivo</strong>\n<strong>Producción publicitaria</strong>\n<strong>Alquiler de equipo de iluminación y Grip</strong>\n<strong>Teleprompter y Prompter Presidencial</strong>\n<strong>Fotografía de time-lapse para proyectos industriales</strong>\n<strong>Alquiler de estudio con aire acondicionado.</strong>\n",
+  "international_services": "<strong><h4>SERVICIOS DE PRODUCCIÓN INTERNACIONAL:</h4></strong>\n<strong>Fixer con más de 20 años de experiencia</strong>\n<strong>Coordinación de producción</strong>\n<strong>Scout de locaciones</strong>\n<strong>Logística y exenciones aduaneras</strong>\n<strong>Asesoría legal</strong>\n<strong>Logística de alojamiento y transporte</strong>\n<strong>Certificación de la Comisión de Cine de Panamá para reembolsos fiscales (Cash Rebate).</strong>\n",
   "problematicClients": "Clientes Complacidos",
   "coffeeCups": "Tasas de Café",
   "completedProjects": "Proyectos Completados",
@@ -75,13 +76,16 @@
     "contact-us": "Contactános",
     "privacy-policy": "Politica de privacidad",
     "terms-conditions": "Terminos y condiciones",
-    "our-place": "Nuestra sede",
+    "our-place": "NUESTRA SEDE UBICADA EN:",
+    "our-place-desc": "W Street (Ave. 5b South) Parque Lefebre Panama City, Panama.",
+    "mail": "Calle W (Ave. 5b Sur) Parque Lefebre en la Ciudad de Panamá.",
     "email": "Correo",
     "services": "Servicios",
     "phone": "Telefon",
     "address": "Dirección",
     "copyright": "Derechos reservados",
-    "proud-member": "Miembro orgulloso de: "
+    "proud-member": "Miembro orgulloso de: ",
+    "contacts": "rbarria@veriteproducciones.net\n rickybarria@gmail.com\n rguzman@veriteproducciones.net\n arivera@veriteproducciones.net \n(507) 221-9303 | (507) 224-0566 \n(507) 6612-7525 (Ricardo Barria) \n(507) 6612-6739 (Rigoberto Gúzman)"
   },
   "client-section": {
     "title": "Nuestros clientes",

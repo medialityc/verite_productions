@@ -91,7 +91,7 @@ export default function Footer1() {
                     </li>
                     <li data-aos="zoom-in-right" data-aos-duration={1600}>
                       <Link
-                        href="https://twitter.com/veritepanama"
+                        href="https://x.com/veritepanama"
                         className="d-center"
                       >
                         <svg
@@ -206,60 +206,54 @@ export default function Footer1() {
                         href="https://www.google.ca/maps/place/Verite+Producciones,+S.+A./@9.0180786,-79.488278,17z/data=!3m1!4b1!4m2!3m1!1s0x8faca9eb5f4dec0f:0x4618abe8beafe0ea"
                         className="d-flex align-items-center gap-2 flink-items pra-clr"
                       >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
-                        </svg>
                         {t("footer.our-place")}
                       </Link>
-                      Ave. 5b Sur en Parque Lefebre en la Ciudad de Panama.
+                      {t("footer.our-place-desc")}
                     </li>
                     <li>
+                      <Link href="https://www.instagram.com/veriteproducciones/">
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          Instagram: Veriteproductions
+                        </div>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"https://x.com/veritepanama"}>
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          X: @veritepanama
+                        </div>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href={"https://www.facebook.com/veriteproducciones"}
+                      >
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          Facebook: Veriteproducciones
+                        </div>
+                      </Link>
+                    </li>
+
+                    <li>
+                      <p>{t("footer.email")}</p>
                       <div className="d-flex align-items-center gap-2 flink-items pra-clr">
                         <span className="ani-icons">
                           <i className="fas fa-angle-double-right pra-clr" />
                         </span>
-                        Skype: rickybarria
+                        {t("footer.mail")}
                       </div>
                     </li>
                     <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        Twitter: @veritepanama
-                      </div>
-                    </li>
-                    <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        Facebook: Veriteproducciones
-                      </div>
-                    </li>
-                    <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        Instagram: Veriteproducciones
-                      </div>
-                    </li>
-                    <li>
-                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        {t("footer.email")}: P.O.BOX 0832 - 02237 WTC Panamá
-                        Rep. of Panamá
-                      </div>
+                      <p>{t("footer.contacts")}</p>
                     </li>
                   </ul>
                 </div>
@@ -359,96 +353,6 @@ export default function Footer1() {
                   </ul>
                 </div>
               </div>
-              {/* <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer-widget">
-                  <h5
-                    className="footer-title mb-xxl-7 mb-xl-6 mb-5"
-                    data-aos="zoom-in-down"
-                    data-aos-duration={1900}
-                  >
-                    Newsletter
-                    <svg
-                      className="d-block mt-xxl-4 mt-3"
-                      width={83}
-                      height={2}
-                      viewBox="0 0 83 2"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <line
-                        y1={-1}
-                        x2={83}
-                        y2={-1}
-                        transform="matrix(1 0 0 -1 0 0)"
-                        stroke="url(#paint0_linear_6308_4306)"
-                        strokeWidth={2}
-                      />
-                      <defs>
-                        <linearGradient
-                          id="paint0_linear_6308_4306"
-                          x1="4.02912"
-                          y1="0.000277584"
-                          x2={80}
-                          y2="0.000110496"
-                          gradientUnits="userSpaceOnUse"
-                        >
-                          <stop offset={0} stopColor="#EF7F1A" />
-                          <stop
-                            offset={1}
-                            stopColor="#EF7F1A"
-                            stopOpacity={0}
-                          />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </h5>
-                  <p
-                    className="pra-clr mb-xxl-7 mb-6"
-                    data-aos="zoom-in"
-                    data-aos-duration={1600}
-                  >
-                    Sign up to seargin weekly newsletter to get the latest
-                    updates.
-                  </p>
-                  <form
-                    action="#"
-                    className="foote-formv1 d-flex align-items-center justify-content-between"
-                    data-aos="zoom-in-down"
-                    data-aos-duration={1200}
-                  >
-                    <input type="email" placeholder="Enter Email Address" />
-                    <button
-                      type="submit"
-                      className="themebg d-center rounded-1"
-                    >
-                      <svg
-                        width={25}
-                        height={24}
-                        viewBox="0 0 25 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clipPath="url(#clip0_6308_51)">
-                          <path
-                            d="M24.177 2.42216C24.294 1.87753 23.7601 1.4183 23.2392 1.61705L0.645685 10.242C0.512852 10.2927 0.398516 10.3825 0.317763 10.4995C0.23701 10.6165 0.193635 10.7553 0.193361 10.8975C0.193087 11.0397 0.235926 11.1786 0.316228 11.2959C0.396529 11.4133 0.510518 11.5035 0.643154 11.5547L6.99011 14.006V21.7269C6.9901 21.8851 7.04344 22.0387 7.14153 22.1628C7.23961 22.287 7.3767 22.3744 7.53062 22.411C7.68454 22.4476 7.84631 22.4312 7.98976 22.3645C8.13322 22.2977 8.24997 22.1846 8.32116 22.0433L10.9462 16.8342L17.3522 21.5884C17.7419 21.8776 18.302 21.6936 18.4438 21.2289C24.425 1.61859 24.1664 2.47143 24.177 2.42216ZM18.5999 4.8933L7.59357 12.7316L2.85793 10.9027L18.5999 4.8933ZM8.39634 13.8863L17.9901 7.05398C9.7348 15.7628 10.166 15.3044 10.13 15.3529C10.0765 15.4248 10.223 15.1444 8.39634 18.7692V13.8863ZM17.3896 19.8649L11.7508 15.6802L21.9465 4.92423L17.3896 19.8649Z"
-                            fill="black"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_6308_51">
-                            <rect
-                              width={24}
-                              height={24}
-                              fill="white"
-                              transform="translate(0.193359)"
-                            />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </button>
-                  </form>
-                </div>
-              </div>*/}
             </div>
           </div>
           <div
@@ -458,8 +362,6 @@ export default function Footer1() {
           >
             <Link href="/" className="footer-logov1 m-sm-0 m-auto">
               <Logo />
-
-              {/* <img src="/assets/img/logo/logo.png" alt="img" /> */}
             </Link>
             <Link href="/#mains" className="footer-topscroll d-center themebg">
               <i className="fas fa-arrow-up" />

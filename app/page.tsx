@@ -1,15 +1,10 @@
 import Layout from "../components/layout/Layout";
 import Blog1 from "../components/sections/Blog1";
-import CaseStudy1 from "../components/sections/CaseStudy1";
 import Hero1 from "../components/sections/Hero1";
 import Product1 from "../components/sections/Product1";
 import Service1 from "../components/sections/Service1";
-import Team1 from "../components/sections/Team1";
 import Testimonial1 from "../components/sections/Testimonial1";
 import TextSLider1 from "../components/sections/TextSLider1";
-import TextSLider2 from "../components/sections/TextSLider2";
-import TextSLider3 from "../components/sections/TextSLider3";
-import Watch1 from "../components/sections/Watch1";
 
 export default function Home() {
   return (

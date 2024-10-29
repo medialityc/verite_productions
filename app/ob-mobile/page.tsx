@@ -130,8 +130,8 @@ export default function BlogList() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="50%" // Ajusta el ancho del SVG al 100% del contenedor
-                  height="100%" // Ajusta el alto del SVG al 100% del contenedor
+                  width="50%"
+                  height="100%"
                   fill="currentColor"
                   className="bi bi-quote position-absolute"
                   viewBox="0 0 16 16"
