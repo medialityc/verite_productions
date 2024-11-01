@@ -76,6 +76,7 @@ export default async function Product1() {
                   {t("locationText")}
                 </p>
                 <Link
+                  target="_blank"
                   href="https://www.google.ca/maps/place/Verite+Producciones,+S.+A./@9.0181528,-79.4863139,17z/data=!4m6!3m5!1s0x8faca9eb5f4dec0f:0x4618abe8beafe0ea!8m2!3d9.0180663!4d-79.4863112!16s%2Fg%2F11b6v9g02d?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
                   className="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-7 mb-xl-6 mb-5"
                   data-aos="fade-up"
@@ -93,14 +94,6 @@ export default async function Product1() {
                   }}
                 />
                 <br />
-                <div
-                  data-aos="fade-up"
-                  data-aos-duration={1900}
-                  style={{ fontSize: "16px" }}
-                  dangerouslySetInnerHTML={{
-                    __html: t("international_services").replace(/\n/g, "<br>"),
-                  }}
-                />
               </div>
             </div>
           </div>

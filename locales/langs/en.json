@@ -1,11 +1,12 @@
 {
   "weAre": "We are",
+  "who": "Who",
   "whoWeAre": "Who we are",
   "whatWeDo": "What we do",
-  "whoWeAreText": "Fundada en 1993, Verite Producciones se dedica a la producción publicitaria, corporativa, industrial y televisiva de alto valor, así como a servicios de producción para empresas de producción extranjeras que visitan el país.\n",
-  "whoWeAreText1": "Contamos con equipos de última generación, así como con personal capacitado para llevar a cabo todo tipo de producciones audiovisuales/comerciales, incluyendo, entre otros, CCTV/IMAG.\n",
-  "whoWeAreText2": "La lista de clientes internacionales de Verite Producciones incluye a Bunim-Murray Productions, Discovery Channel, FOX Television, Critical Content, Bright Bay Creative LLC, Mr.Beast LLC, E! Entertainment, The Today Show, World Race Productions y casi todas las agencias de publicidad locales.\n",
-  "locationText": "Nuestra sede y estudio están ubicados en Calle W (Ave. 5a B sur) Parque Lefevre en la Ciudad de Panamá.\n",
+  "whoWeAreText": "Founded in 1993, Verite Producciones is dedicated to high-value advertising, corporate, industrial, and television production, as well as production services for foreign production companies visiting the country.\n",
+  "whoWeAreText1": "We have state-of-the-art equipment, along with trained personnel to carry out all types of audiovisual/commercial productions, including, among others, CCTV/IMAG.\n",
+  "whoWeAreText2": "Verite Producciones' international client list includes Bunim-Murray Productions, Discovery Channel, FOX Television, Critical Content, Bright Bay Creative LLC, Mr. Beast LLC, E! Entertainment, The Today Show, World Race Productions, and nearly all local advertising agencies.\n",
+  "locationText": "Our headquarters and studio are located on W Street (Ave. 5a B South), Parque Lefevre, Panama City.\n",
   "whatWeDoText": "<strong><h4>What we do</h4></strong>\n<strong>Production services</strong>\n <strong>HD and 4K multi-camera mobile units</strong> \n<strong>Livestreaming</strong> \n<strong>Advertising production</strong> \n<strong>Rental of Grip and Lighting equipment</strong> \n<string>Presidential Prompter and Teleprompter </strong>\n<strong>Time-lapse photography for industrial projects</strong> \n<strong>Studio with air conditioning rental.</strong>",
   "international_services": "<strong><h4>INTERNATIONAL PRODUCTION SERVICES:</h4></strong>\n<strong>Fixer with more than 20 years of experience</strong>\n<strong>Production coordination</strong>\n<strong>Location scout</strong>\n<strong>Customs logistics and exemptions</strong>\n<strong>Legal counsel</strong>\n<strong>Lodging and transportation logistics</strong>\n<strong>Certification from the Panama Film Commission for tax reimbursements (Cash Rebate).</strong>\n",
   "problematicClients": "Problematic Clients",
@@ -141,6 +142,7 @@
       "type4": "<strong>6x6</strong>\nTiffen 85\nTiffen nd3\nTiffen nd6\nTiffen polarizer",
       "type5": "<strong>138mm</strong>\nTiffen polarizer 138mm linear"
     },
+    "illumination-support": "ILLUMINATION SUPPORT",
     "illumination": "Hmi 4k arrisun (ff)\nHmi 1.2k arrisun (ff)\nHmi 575k arrisun (ff)\nJoker 800 with chimera\nJoker 400 with chimera\nArri kit 1k (3 lamps)\nArri kit 300/650 (2 each)\nArri 5k\n2k fresnel\n1k fresnel\nSource four Lekos\nKino flo diva light2\nKino flo diva light4\nLed LightPanels\nLedz kit (3 lamps)\nLed Panels 2x1 (Variable Temperature)\nMedium Chimera (5k rings)\nElectric generator 18kva\nElectric generator 2kva\n 3.5kva generator\nElectric distro panel\nMatthews distro box\nExtensions 4/0 with cam-locks (50’)\n110v Extensions",
     "camera-support": "CAMERA SUPPORT",
     "camera-support-text": "Tripode Peter Lissand\n Tripode Miller\n Tripode TERIS\nCabeza Miller\nTripode Sachtler (liviano)\nHi hat (100mm)\nHi hat (150mm)\nCuña camara (45/90 grados)\nDolly Chameleon\nDolly Track Matthews (recto/curvo)\nDolly Berlinga\nDolly Track Berlinga (recto)\nDolly patineta\nGrua Jimmy Jib Triangle con dutch roll\nCine Grua Berlanga\nMonitor /Grabador Blackmagic 7”\nMonitor/Grabador 4k Ninja 7”\nMonitor Panasonic SDI-HD 17”\nMonitor Viewsonic HDMI/VGA 22/24/27 ”\nMonitor Marshall 5.6”\nTransmisor video HD Anton Bauer\nTransmisor video HD Teradek\nTransmisor video HD/4K Hollyland\nTeleprompter Autoscript\nSistema Clearcom Inalámbrico\nSistema intercomunicadores IKAN inalámbricos\nCableado fibra optica y cajas de conversión\nCableado CAT5 Y CAT6\nCableado SDI largo\n",
@@ -161,5 +163,29 @@
     "clients_description": "Our international clients include Bunim-Murray Productions, World Race Productions, Critical Content LLC, Discovery Channel/WB, Mr.Beast LLC, the Inter-American Development Bank (IDB), the United Nations (UN), and the Latin American Parliament (Parlatino ). Locally we have worked with the Government of the Republic of Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Topline, Magicdreams Inc and the largest advertising agencies in the country."
   },
   "galery": "Galery",
-  "clinet": "Our international clients include Bunim-Murray Productions, World Race Productions, Critical Content LLC, Discovery Channel/WB, Mr.Beast LLC, the Inter-American Development Bank (IDB), the United Nations (UN), and the Latin American Parliament (Parlatino ). Locally we have worked with the Government of the Republic of Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Topline, Magicdreams Inc and the largest advertising agencies in the country"
+  "clinet": "Our international clients include Bunim-Murray Productions, World Race Productions, Critical Content LLC, Discovery Channel/WB, Mr.Beast LLC, the Inter-American Development Bank (IDB), the United Nations (UN), and the Latin American Parliament (Parlatino ). Locally we have worked with the Government of the Republic of Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Topline, Magicdreams Inc and the largest advertising agencies in the country",
+  "studio": {
+    "title": "Air-conditioned studio",
+    "text": "Double-height space suitable for recordings that require scenery. The space includes dressing rooms/makeup area, bathrooms with shower, kitchenette and air conditioning",
+    "plans": "Plans",
+    "see": "See plans",
+    "new": "Nuevo"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "text": "Send us a message",
+    "text2": "We will respond as soon as possible.",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "email": "Email address",
+    "location": "Our Location",
+    "hour": "Office Hour",
+    "social": "Social media",
+    "locationText": "W Street (Ave. 5a B South), Parque Lefevre, Panama City.",
+    "send": "Send Message"
+  },
+  "international-services": {
+    "title": "International Production Services",
+    "text": "Fixer with more than 20 years of experience\nProduction coordination\nLocation scout\nCustoms logistics and exemptions\nLegal counsel\nLodging and transportation logistics\nCertification from the Panama Film Commission for tax reimbursements (Cash Rebate).\n"
+  }
 }

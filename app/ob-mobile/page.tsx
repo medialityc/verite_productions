@@ -9,10 +9,21 @@ import React from "react";
 import GaleryContainer from "../../components/ui/galeryContainer";
 import Galery from "../../components/ui/galery";
 import Card from "../../components/ui/card";
+import Protfolio1 from "../../components/sections/Protfolio1";
 interface EquipmentListProps {
   items: { id: number; text: string }[];
 }
-
+const imagesMock = [
+  "/assets/img/equipo/EQUIPO ANAYANSI.JPG",
+  "/assets/img/equipo/EQUIPO.JPG",
+  "/assets/img/equipo/EQUIPO.PTZ.JPG",
+  "/assets/img/equipo/EQUIPO5.JPG",
+  "/assets/img/equipo/EQUIPO7.JPG",
+  "/assets/img/equipo/EQUIPO8.JPG",
+  "/assets/img/equipo/MOVIL INTERIOR.JPG",
+  "/assets/img/equipo/MOVIL MOSTRA.JPG",
+  "/assets/img/equipo/MOVIL.INTERIOR.JPG",
+];
 const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
   return (
     <ul
@@ -38,24 +49,6 @@ export default function BlogList() {
     { id: 3, text: "Newtek 3play (slowmo/replay)" },
     { id: 4, text: "Teradek T-Rax H.264 encoder (Streaming)" },
     { id: 5, text: "Satelite uplink/downlink" },
-  ];
-  const equipmentItems = [
-    { id: 1, text: "Sony PMW-350/400 y Sony HXCU-FB70 HD Cameras" },
-    { id: 2, text: "BM Atem 2 switcher con Surface Panel" },
-    { id: 3, text: "ESE SMPTE/EBU Master Clock Driver" },
-    { id: 4, text: "VSG Advanced Signal Generator" },
-    { id: 5, text: "Xdcam grabador" },
-    { id: 6, text: "Blackmagic Hyperdeck Grabadoras (3)" },
-    { id: 7, text: "Aja Kipro grabador" },
-    { id: 8, text: "Clear-com intercom" },
-    { id: 9, text: "Compix Generador de Caracteres" },
-    { id: 10, text: "Blackmagic video hub 40x40 router" },
-    { id: 11, text: "Blackmagic Teranex 2d" },
-    { id: 12, text: "Matrox Monarch HDX Dual Channel H.264 encoder" },
-    { id: 13, text: "Teradek T-Rax H.264 encoder" },
-    { id: 14, text: "Prosonus 16 channel mixer" },
-    { id: 15, text: "Wireless and wired mics" },
-    { id: 16, text: "Multiview Monitors" },
   ];
 
   const { t } = useTranslationClient();
@@ -162,9 +155,9 @@ export default function BlogList() {
           </div>
         </div>
 
-        <GaleryContainer>
-          <Galery autoSlide slides={slides} />
-        </GaleryContainer>
+        <div style={{ marginTop: "60px" }}>
+          <Protfolio1 images={imagesMock} />
+        </div>
       </section>
     </Layout>
   );

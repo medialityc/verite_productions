@@ -4,50 +4,24 @@ import { useTranslationServer } from "../../locales/server";
 import Card from "../../components/ui/card";
 import GaleryContainer from "../../components/ui/galeryContainer";
 import Galery from "../../components/ui/galery";
+import Protfolio1 from "../../components/sections/Protfolio1";
 
 async function Page() {
   const { t } = await useTranslationServer();
   const imagesMock = [
-    {
-      src: "/assets/img/service/4 (1).jpg",
-      alt: "publicity",
-      title: t("service.publicity"),
-    },
-    {
-      src: "/assets/img/service/1 (1).jpg",
-      alt: "service-production",
-      title: t("service.service-production"),
-    },
-    {
-      src: "/assets/img/service/5.jpg",
-      alt: "movil",
-      title: t("service.movil"),
-    },
-    {
-      src: "/assets/img/service/6 (1).jpg",
-      alt: "streaming",
-      title: t("service.streaming"),
-    },
-    {
-      src: "/assets/img/service/8.jpg",
-      alt: "time-lapse",
-      title: t("service.time-lapse"),
-    },
-    {
-      src: "/assets/img/service/14.jpg",
-      alt: "file-archive",
-      title: t("service.file-archive"),
-    },
-    {
-      src: "/assets/img/service/15.jpg",
-      alt: "promoter",
-      title: t("service.promoter"),
-    },
+    "/assets/international/CCTV.MULINO.TDP.17.jpg",
+    "/assets/international/DEBATES2024.CHIRIQUI11.jpg",
+    "/assets/international/IMAG.MORAT.JPG",
+    "/assets/international/CCTV.MULINO.TDP28.jpg",
+    "/assets/international/GOBIERNO5.jpg",
+    "/assets/international/IMAG JUANES.JPG",
+    "/assets/international/CCTV.LOMBANA24.4.jpg",
+    "/assets/international/PRODUCCION.SECH.JPG",
+    "/assets/international/IMAG.SHADING.JPG",
+    "/assets/international/CCTV.MULINO.TDP26.jpg",
+    "/assets/international/CCTV.MULINO.TDP.12(1).jpg",
+    "/assets/international/CCTV.MULINO.TDP.6.jpg",
   ];
-
-  const slides = imagesMock.map((slide, index) => (
-    <Card key={index} index={index} alt={slide.alt} src={slide.src} />
-  ));
 
   return (
     <Layout
@@ -68,9 +42,10 @@ async function Page() {
         <div className="service-container-2">
           <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
             <img
-              src="\assets\img\service\1 (1).jpg"
+              src="\assets\international\PRODUCCION.SECH.JPG"
               alt="img"
               className="w-100 overflow-hidden"
+              style={{ borderRadius: "20px" }}
             />
           </div>
           <div className="service-text">
@@ -89,8 +64,9 @@ async function Page() {
         <div className="service-container">
           <div className="service-image thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
             <img
-              src="\assets\img\service\5.jpg"
+              src="\assets\img\equipo\UNIDAD MOVIL.JPG"
               alt="img"
+              style={{ borderRadius: "20px" }}
               className="w-100 overflow-hidden"
             />
           </div>
@@ -102,8 +78,9 @@ async function Page() {
         <div className="service-container-2">
           <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
             <img
-              src="\assets\img\service\6 (1).jpg"
+              src="\assets\img\corporate\CORPORATE.BID1.jpg"
               alt="img"
+              style={{ borderRadius: "20px" }}
               className=" w-100 overflow-hidden"
             />
           </div>
@@ -117,8 +94,9 @@ async function Page() {
         <div className="service-container">
           <div className="service-image thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
             <img
-              src="\assets\img\service\4 (1).jpg"
+              src="\assets\img\corporate\CORPORATE.NESTLE.JPG"
               alt="img"
+              style={{ borderRadius: "20px" }}
               className=" w-100 overflow-hidden"
             />
           </div>
@@ -143,7 +121,8 @@ async function Page() {
             <img
               src="\assets\img\service\8.jpg"
               alt="img"
-              className=" w-100 overflow-hidden"
+              style={{ borderRadius: "20px" }}
+              className="w-100 overflow-hidden"
             />
           </div>
           <div className="service-text">
@@ -190,10 +169,8 @@ async function Page() {
           </div>
         </div> */}
       </div>
-      <div style={{ overflowX: "hidden" }}>
-        <GaleryContainer>
-          <Galery autoSlide slides={slides} />
-        </GaleryContainer>
+      <div style={{ marginTop: "60px" }}>
+        <Protfolio1 images={imagesMock} />
       </div>
     </Layout>
   );

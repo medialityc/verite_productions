@@ -1,15 +1,28 @@
 "use client";
 
 import Layout from "../../components/layout/Layout";
-import Link from "next/link";
 import { useTranslationClient } from "../../locales/client";
-import Carousel from "../../components/ui/carousel";
 
 import React from "react";
-import Galery from "../../components/ui/galery";
 import Card from "../../components/ui/card";
-import GaleryContainer from "../../components/ui/galeryContainer";
+import Protfolio1 from "../../components/sections/Protfolio1";
 
+const imageMock = [
+  "/assets/img/cctv/cctv-1.jpg",
+  "/assets/img/cctv/cctv-2.jpg",
+  "/assets/img/cctv/cctv-3.jpg",
+  "/assets/img/cctv/cctv-4.jpg",
+  "/assets/img/cctv/cctv-5.jpg",
+  "/assets/img/cctv/cctv-6.jpg",
+  "/assets/img/cctv/cctv-7.jpg",
+  "/assets/img/cctv/cctv-8.jpg",
+  "/assets/img/cctv/cctv-9.jpg",
+  "/assets/img/cctv/cctv-10.jpg",
+  "/assets/img/cctv/cctv-11.jpg",
+  "/assets/img/cctv/cctv-12.jpg",
+  "/assets/img/cctv/cctv-13.jpg",
+  "/assets/img/cctv/cctv-14.jpg",
+];
 export default function CCTVPage() {
   const { t } = useTranslationClient();
   const slides = Array.from({ length: 5 }, (_, index) => {
@@ -55,9 +68,9 @@ export default function CCTVPage() {
               borderRadius: "20px",
             }}
           />
-          <GaleryContainer>
-            <Galery autoSlide slides={slides} />
-          </GaleryContainer>
+          <div style={{ marginTop: "60px" }}>
+            <Protfolio1 images={imageMock} />
+          </div>
         </section>
       </Layout>
     </>

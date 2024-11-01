@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { PaginationOptions } from "swiper/types";
+import LogoOnly from "../layout/header/LogoOnly";
 
 const paginationOptions: PaginationOptions = {
   el: ".swiper-pagination",
@@ -27,97 +28,44 @@ const swiperOptions = {
   },
 };
 
-export default function Protfolio1() {
+export default function Protfolio1({ images }: { images: string[] }) {
   return (
     <>
       <section className="protfolio-solution pb-space">
         <div className="container">
           <div className="swiper protfolio-solutionwrap">
             <Swiper {...swiperOptions} className="swiper-wrapper">
-              <SwiperSlide>
-                <div className="protfolio-solution-item">
-                  <div className="thumb position-relative mb-xxl-7 mb-5">
-                    <img src="/assets/img/banner/solution1.png" alt="img" />
-                    <Link href="/service" className="mission-v4-btn d-center">
-                      <span className="rot60">
-                        <i className="fa-solid fa-arrow-up" />
-                      </span>
-                    </Link>
+              {images.map((image, index) => (
+                <SwiperSlide key={index}>
+                  <div className="protfolio-solution-item">
+                    <div className="thumb position-relative mb-xxl-7 mb-5">
+                      <img
+                        style={{
+                          height: "650px",
+                          borderRadius: "20px",
+                          border: "1px solid #fff",
+                        }}
+                        src={image}
+                        alt="img"
+                      />
+                      <Link href="/service" className="mission-v4-btn d-center">
+                        <span className="rot60">
+                          <i className="fa-solid fa-arrow-up" />
+                        </span>
+                      </Link>
+                    </div>
+                    <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
+                      <LogoOnly />
+                      <Link href="/service" className="cont">
+                        <h4 className="white-clr">
+                          Verite
+                          <span className="d-block">Productions</span>
+                        </h4>
+                      </Link>
+                    </div>
                   </div>
-                  <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                    <img src="/assets/img/element/arrow-cmn.png" alt="img" />
-                    <Link href="/service" className="cont">
-                      <h4 className="white-clr">
-                        Amazing Design
-                        <span className="d-block">and Solutions</span>
-                      </h4>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="protfolio-solution-item">
-                  <div className="thumb position-relative mb-xxl-7 mb-5">
-                    <img src="/assets/img/banner/solution1.png" alt="img" />
-                    <Link href="/service" className="mission-v4-btn d-center">
-                      <span className="rot60">
-                        <i className="fa-solid fa-arrow-up" />
-                      </span>
-                    </Link>
-                  </div>
-                  <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                    <img src="/assets/img/element/arrow-cmn.png" alt="img" />
-                    <Link href="/service" className="cont">
-                      <h4 className="white-clr">
-                        Amazing Design
-                        <span className="d-block">and Solutions</span>
-                      </h4>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="protfolio-solution-item">
-                  <div className="thumb position-relative mb-xxl-7 mb-5">
-                    <img src="/assets/img/banner/solution1.png" alt="img" />
-                    <Link href="/service" className="mission-v4-btn d-center">
-                      <span className="rot60">
-                        <i className="fa-solid fa-arrow-up" />
-                      </span>
-                    </Link>
-                  </div>
-                  <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                    <img src="/assets/img/element/arrow-cmn.png" alt="img" />
-                    <Link href="/service" className="cont">
-                      <h4 className="white-clr">
-                        Amazing Design
-                        <span className="d-block">and Solutions</span>
-                      </h4>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="protfolio-solution-item">
-                  <div className="thumb position-relative mb-xxl-7 mb-5">
-                    <img src="/assets/img/banner/solution1.png" alt="img" />
-                    <Link href="/service" className="mission-v4-btn d-center">
-                      <span className="rot60">
-                        <i className="fa-solid fa-arrow-up" />
-                      </span>
-                    </Link>
-                  </div>
-                  <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                    <img src="/assets/img/element/arrow-cmn.png" alt="img" />
-                    <Link href="/service" className="cont">
-                      <h4 className="white-clr">
-                        Amazing Design
-                        <span className="d-block">and Solutions</span>
-                      </h4>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
+                </SwiperSlide>
+              ))}
             </Swiper>
             <div className="swiper-pagination" />
           </div>

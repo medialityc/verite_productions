@@ -4,16 +4,31 @@ import { useTranslationServer } from "../../locales/server";
 import Card from "../../components/ui/card";
 import GaleryContainer from "../../components/ui/galeryContainer";
 import Galery from "../../components/ui/galery";
+import Protfolio1 from "../../components/sections/Protfolio1";
 
 async function Page() {
   const { t } = await useTranslationServer();
   const imagesMock = [
-    "/assets/img/service/2 (1).jpg",
-    "/assets/img/service/11.jpg",
-    "/assets/img/service/7 (1).jpg",
-    "/assets/img/service/10.jpg",
-    "/assets/img/service/13.jpg",
-    "/assets/img/service/12.jpg",
+    "/assets/img/equipo/CULTO.CCTV.JPG",
+    "/assets/img/equipo/CULTO3.JPG",
+    "/assets/img/equipo/CULTO6.JPG",
+    "/assets/img/equipo/CULTO9.JPG",
+    "/assets/img/equipo/DESFILE2.JPG",
+    "/assets/img/equipo/DESFILE9.JPG",
+    "/assets/img/equipo/DESFILE10.JPG",
+    "/assets/img/equipo/EQUIPO ANAYANSI.JPG",
+    "/assets/img/equipo/EQUIPO.JPG",
+    "/assets/img/equipo/EQUIPO.PTZ.JPG",
+    "/assets/img/equipo/EQUIPO5.JPG",
+    "/assets/img/equipo/EQUIPO7.JPG",
+    "/assets/img/equipo/EQUIPO8.JPG",
+    "/assets/img/equipo/MOVIL INTERIOR.JPG",
+    "/assets/img/equipo/MOVIL MOSTRA.JPG",
+    "/assets/img/equipo/MOVIL.INTERIOR.JPG",
+    "/assets/img/equipo/PROMPTER.JPG",
+    "/assets/img/equipo/PROMPTER6.JPG",
+    "/assets/img/equipo/PROMPTER20.JPG",
+    "/assets/img/equipo/UNIDAD MOVIL.JPG",
   ];
 
   const slides = imagesMock.map((slide, index) => (
@@ -35,7 +50,7 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/service/2 (1).jpg"
+                  src="/assets/img/equipo/CULTO6.JPG"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
@@ -163,7 +178,7 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/service/7 (1).jpg"
+                  src="/assets/img/equipo/MOVIL.INTERIOR.JPG"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
@@ -227,29 +242,6 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/service/12.jpg"
-                  alt="img"
-                  className=" w-100 overflow-hidden"
-                  style={{ width: "100%", height: "330px" }}
-                />
-              </div>
-              <div>
-                <h5>{t("equipment.cameras")}</h5>
-                <br />
-                <div
-                  style={{ fontSize: "20px" }}
-                  dangerouslySetInnerHTML={{
-                    __html: t("equipment-text.illumination").replace(
-                      /\n/g,
-                      "<br>"
-                    ),
-                  }}
-                />
-              </div>
-            </div>
-            <div className={"equipment-subcontainer"}>
-              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                <img
                   src="/assets/img/service/10.jpg"
                   alt="img"
                   className=" w-100 overflow-hidden"
@@ -273,7 +265,7 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/service/7 (1).jpg"
+                  src="/assets/img/equipo/DESFILE2.JPG"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
@@ -296,9 +288,7 @@ async function Page() {
         </div>
       </div>
       <div style={{ overflowX: "hidden" }}>
-        <GaleryContainer>
-          <Galery autoSlide slides={slides} />
-        </GaleryContainer>
+        <Protfolio1 images={imagesMock} />
       </div>
     </Layout>
   );

@@ -91,6 +91,7 @@ export default function Footer1() {
                     </li>
                     <li data-aos="zoom-in-right" data-aos-duration={1600}>
                       <Link
+                        target="_blank"
                         href="https://x.com/veritepanama"
                         className="d-center"
                       >
@@ -110,6 +111,7 @@ export default function Footer1() {
                     </li>
                     <li data-aos="zoom-in-right" data-aos-duration={1800}>
                       <Link
+                        target="_blank"
                         href="https://instagram.com/explore/tags/veriteproducciones/"
                         className="d-center"
                       >
