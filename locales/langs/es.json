@@ -184,5 +184,9 @@
     "hour": "Horario de oficina",
     "locationText": "Calle W (Ave. 5b Sur) Parque Lefebre en la Ciudad de Panamá.",
     "send": "Enviar mensaje"
+  },
+  "international-services": {
+    "title": "Servicios internacionales",
+    "text": "Fixer con más de 20 años de experiencia\nProducción de coordinación\nUbicación de locaciones\nLogística y exenciones aduaneras\nAsesoramiento legal\nLogística de alojamiento y transporte\nCertificación de la Comisión de Cine de Panamá para reembolsos fiscales (Cash Rebate)."
   }
 }
