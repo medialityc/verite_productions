@@ -23,7 +23,7 @@ export default async function Blog1() {
               </p>
             </div>
             <Link
-              href="/blog-grid"
+              href="/clients"
               className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2"
             >
               {t("client-section.see-clients")}
@@ -46,7 +46,7 @@ export default async function Blog1() {
                 <div className="blog-cont">
                   <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                     <Link
-                      href="/blog-details"
+                      href="/clients"
                       className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-2"
                     >
                       {t("client-section.international")}
@@ -76,7 +76,7 @@ export default async function Blog1() {
                 <div className="blog-cont">
                   <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                     <Link
-                      href="/blog-details"
+                      href="/clients"
                       className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-2"
                     >
                       {t("client-section.international")}
@@ -86,8 +86,8 @@ export default async function Blog1() {
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/blog-details" className="white-clr">
-                      La Organizacion de Estados Americanos (OEA)
+                    <Link href="https://www.oas.org/es/" className="white-clr">
+                      La Organización de Estados Americanos (OEA)
                     </Link>
                   </h5>
                 </div>
@@ -106,7 +106,7 @@ export default async function Blog1() {
                 <div className="blog-cont">
                   <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                     <Link
-                      href="/blog-details"
+                      href="/clients"
                       className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-2"
                     >
                       {t("client-section.national")}
@@ -116,8 +116,11 @@ export default async function Blog1() {
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/blog-details" className="white-clr">
-                      Gobierno de la Republica de Panama
+                    <Link
+                      href="https://www.presidencia.gob.pa/"
+                      className="white-clr"
+                    >
+                      Gobierno de la República de Panamá
                     </Link>
                   </h5>
                 </div>

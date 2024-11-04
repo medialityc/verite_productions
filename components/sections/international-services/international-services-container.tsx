@@ -10,8 +10,8 @@ const swiperOptions = {
   speed: 1500,
   loop: true,
   navigation: {
-    nextEl: ".cmn-prev",
-    prevEl: ".cmn-next",
+    nextEl: ".cmn-next",
+    prevEl: ".cmn-prev",
   },
 
   breakpoints: {
@@ -64,6 +64,14 @@ export default function InternationalServices() {
       >
         <section className="Service-details pt-space pb-space">
           <div className="container">
+            <h4>{t("international-services.title")}</h4>
+            <br />
+            <div
+              style={{ fontSize: "24px", fontWeight: "400" }}
+              dangerouslySetInnerHTML={{
+                __html: t("international-services.text").replace(/\n/g, "<br>"),
+              }}
+            />
             <div className="swiper study-slidewrap py-xxl-15 py-xl-10 py-9">
               <Swiper {...swiperOptions} className="swiper-wrapper">
                 {images.map((image, index) => (
@@ -72,8 +80,7 @@ export default function InternationalServices() {
                       <img
                         src={image}
                         alt="img"
-                        className="w-100"
-                        style={{ borderRadius: "20px", height: "650px" }}
+                        className="image-gallery w-100"
                       />
                     </div>
                   </SwiperSlide>

@@ -168,6 +168,7 @@
   "studio": {
     "title": "Estudio climatizado",
     "text": "Espacio de doble altura adecuado para grabaciones que requieren escenografías. El espacio incluye camerinos/área de maquillaje, baños con ducha, cocineta y aire acondicionado",
+    "formated-text": "Espacio de doble altura adecuado para grabaciones que requieren escenografías.\n El espacio incluye camerinos/área de maquillaje, baños con ducha, cocineta y aire acondicionado.\n",
     "plans": "Planos",
     "see": "Ver planos",
     "new": "Nuevo"

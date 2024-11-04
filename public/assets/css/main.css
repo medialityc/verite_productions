@@ -1242,6 +1242,12 @@ footer {
   width: 50%;
 }
 
+.image-gallery {
+  height: 650px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
 @media (max-width: 768px) {
   .service-container {
     flex-direction: column;
@@ -1259,7 +1265,10 @@ footer {
   }
 
   .service-text {
-    width: 50%;
+    width: 100%;
+  }
+  .image-gallery {
+    height: 450px;
   }
 }
 
@@ -5800,5 +5809,15 @@ input.main-search-input::placeholder {
   .galery-on-obmobile {
     max-height: 451px;
     max-width: 500px;
+  }
+}
+
+.hidden-service-text {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .hidden-service-text {
+    display: block;
   }
 }

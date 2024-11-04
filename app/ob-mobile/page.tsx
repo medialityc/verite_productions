@@ -16,12 +16,12 @@ interface EquipmentListProps {
 const imagesMock = [
   "/assets/img/equipo/EQUIPO ANAYANSI.JPG",
   "/assets/img/equipo/EQUIPO.JPG",
-  "/assets/img/equipo/EQUIPO.PTZ.JPG",
+  "/assets/img/equipo/EQUIPO3.jpg",
   "/assets/img/equipo/EQUIPO5.JPG",
   "/assets/img/equipo/EQUIPO7.JPG",
   "/assets/img/equipo/EQUIPO8.JPG",
   "/assets/img/equipo/MOVIL INTERIOR.JPG",
-  "/assets/img/equipo/MOVIL MOSTRA.JPG",
+  "/assets/img/equipo/MOVIL MOSTRA.jpg",
   "/assets/img/equipo/MOVIL.INTERIOR.JPG",
 ];
 const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
@@ -52,14 +52,14 @@ export default function BlogList() {
   ];
 
   const { t } = useTranslationClient();
-  const slides = Array.from({ length: 5 }, (_, index) => {
+  const slides = imagesMock.slice(0, 5).map((image, index) => {
     const imgIndex = index + 1; // Para que vaya de 1 a 10
     return (
       <div className="galery-on-obmobile">
         <Card
           alt={`opt-img-${imgIndex}`}
           index={imgIndex}
-          src={`/assets/img/ob_mobile/opt-img-${imgIndex}.jpg`}
+          src={image}
           key={imgIndex}
         />
       </div>

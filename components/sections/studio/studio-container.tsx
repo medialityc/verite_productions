@@ -11,8 +11,8 @@ const swiperOptions = {
   speed: 1500,
   loop: true,
   navigation: {
-    nextEl: ".cmn-prev",
-    prevEl: ".cmn-next",
+    nextEl: ".cmn-next",
+    prevEl: ".cmn-prev",
   },
 
   breakpoints: {
@@ -44,10 +44,20 @@ export default function ServiceDetails() {
       >
         <section className="Service-details pt-space pb-space">
           <div className="container">
+            <h3>{t("studio.title")}</h3>
+            <br />
+            <div
+              style={{ fontSize: "24px", fontWeight: "400" }}
+              dangerouslySetInnerHTML={{
+                __html: t("studio.formated-text").replace(/\n/g, "<br>"),
+              }}
+            />
+            <br />
             <div className="case-study-detials-inner ">
-              <h2 className="mb-xxl-7 mb-4 white-clr">{t("studio.plans")}</h2>
+              <h3 className="mb-xxl-7  white-clr">{t("studio.plans")}</h3>
             </div>
-            <div className="swiper study-slidewrap py-xxl-15 py-xl-10 py-9">
+            <br />
+            <div className="swiper study-slidewrap pb-xxl-15 pb-xl-10 pb-9">
               <Swiper {...swiperOptions} className="swiper-wrapper">
                 <SwiperSlide>
                   <div className="study-thumb-slide w-100">

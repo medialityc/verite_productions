@@ -6,22 +6,19 @@ import { useTranslationClient } from "../../locales/client";
 import React from "react";
 import Card from "../../components/ui/card";
 import Protfolio1 from "../../components/sections/Protfolio1";
-
 const imageMock = [
   "/assets/img/cctv/cctv-1.jpg",
   "/assets/img/cctv/cctv-2.jpg",
   "/assets/img/cctv/cctv-3.jpg",
   "/assets/img/cctv/cctv-4.jpg",
   "/assets/img/cctv/cctv-5.jpg",
-  "/assets/img/cctv/cctv-6.jpg",
-  "/assets/img/cctv/cctv-7.jpg",
+  "/assets/img/equipo/CULTO.CCTV.JPG",
+  "/assets/img/equipo/CULTO3.JPG",
   "/assets/img/cctv/cctv-8.jpg",
-  "/assets/img/cctv/cctv-9.jpg",
-  "/assets/img/cctv/cctv-10.jpg",
+  "/assets/img/equipo/CULTO6.JPG",
+  "/assets/img/equipo/CULTO9.JPG",
   "/assets/img/cctv/cctv-11.jpg",
-  "/assets/img/cctv/cctv-12.jpg",
-  "/assets/img/cctv/cctv-13.jpg",
-  "/assets/img/cctv/cctv-14.jpg",
+  "/assets/img/equipo/DESFILE2.JPG",
 ];
 export default function CCTVPage() {
   const { t } = useTranslationClient();
@@ -59,7 +56,7 @@ export default function CCTVPage() {
             </div>
           </div>
           <img
-            src={`/assets/img/cctv/postal.jpg`}
+            src={`/assets/img/cctv/cctv-14.jpg`}
             alt={`postal`}
             className=" w-100 h-100 main-padding"
             style={{

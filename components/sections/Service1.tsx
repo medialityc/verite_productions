@@ -62,6 +62,13 @@ export default function Service1() {
                           {t("studio.title")}
                         </Link>
                       </span>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4">
+                        <div className="d-md-none d-block">
+                          {t("studio.text")}
+                          {"  "}
+                          <Link href={"/studio"}>{`(${t("studio.see")})`}</Link>
+                        </div>
+                      </span>
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
@@ -78,7 +85,7 @@ export default function Service1() {
                   isAccordion === 2 ? "active" : ""
                 }`}
               >
-                <div className="header-area" onClick={() => handleAccordion(1)}>
+                <div className="header-area" onClick={() => handleAccordion(2)}>
                   <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
                     <div className="mtitle-ara">
                       <span className="d-inine-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr">
@@ -91,6 +98,70 @@ export default function Service1() {
                         <Link href="/services" className="white-clr whitehover">
                           {t("services.production")}
                         </Link>
+                      </span>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                        <ul className="modern-list d-md-none d-gid  gap-2">
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.publicity")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.services")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.movil")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.led-screens")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.streaming")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.file-archive")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.prompter")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.timelapse")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.fixer")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.productions")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.search")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.customs")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.advices")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.logistics")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("production.certification")}
+                          </li>
+                        </ul>
                       </span>
                       {/* <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
                         We build intelligent next-generation solutions at the
@@ -173,7 +244,7 @@ export default function Service1() {
                   isAccordion === 3 ? "active" : ""
                 }`}
               >
-                <div className="header-area" onClick={() => handleAccordion(2)}>
+                <div className="header-area" onClick={() => handleAccordion(3)}>
                   <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
                     <div className="mtitle-ara">
                       <span className="d-inine-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr">
@@ -224,7 +295,7 @@ export default function Service1() {
                   isAccordion === 4 ? "active" : ""
                 }`}
               >
-                <div className="header-area" onClick={() => handleAccordion(3)}>
+                <div className="header-area" onClick={() => handleAccordion(4)}>
                   <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
                     <div className="mtitle-ara">
                       <span className="d-inine-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr">
@@ -272,7 +343,7 @@ export default function Service1() {
                   isAccordion === 5 ? "active" : ""
                 }`}
               >
-                <div className="header-area" onClick={() => handleAccordion(4)}>
+                <div className="header-area" onClick={() => handleAccordion(5)}>
                   <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
                     <div className="mtitle-ara">
                       <span className="d-inine-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr">
@@ -288,6 +359,38 @@ export default function Service1() {
                         >
                           {t("services.equipment")}
                         </Link>
+                      </span>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                        <ul className="modern-list d-md-none d-gid gap-2">
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("equipment.cameras")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("equipment.filters")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("equipment.lights")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("equipment.grip")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("equipment.audio")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("equipment.movil-portatil")}
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <i className="fas fa-chevron-right" />{" "}
+                            {t("equipment.movil-movil")}
+                          </li>
+                        </ul>
                       </span>
                       {/* <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
                         We build intelligent next-generation solutions at the

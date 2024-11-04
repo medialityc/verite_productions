@@ -39,15 +39,7 @@ export default function Protfolio1({ images }: { images: string[] }) {
                 <SwiperSlide key={index}>
                   <div className="protfolio-solution-item">
                     <div className="thumb position-relative mb-xxl-7 mb-5">
-                      <img
-                        style={{
-                          height: "650px",
-                          borderRadius: "20px",
-                          border: "1px solid #fff",
-                        }}
-                        src={image}
-                        alt="img"
-                      />
+                      <img className="image-gallery" src={image} alt="img" />
                       <Link href="/service" className="mission-v4-btn d-center">
                         <span className="rot60">
                           <i className="fa-solid fa-arrow-up" />
