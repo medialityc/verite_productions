@@ -38,7 +38,7 @@ async function Page() {
         }}
         className="container p-6"
       >
-        <h3>{t("service.title")}</h3>
+        <h3>{t("service.service-production")}</h3>
         <div className="service-container-2">
           <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
             <img
@@ -48,8 +48,7 @@ async function Page() {
               style={{ borderRadius: "20px" }}
             />
           </div>
-          <div className="service-text">
-            <h5>{t("service.service-production")}</h5>
+          <div className="service-text">            
             <p
               style={{ breakBefore: "always" }}
               dangerouslySetInnerHTML={{
@@ -61,113 +60,6 @@ async function Page() {
             />
           </div>
         </div>
-        <div className="service-container">
-          <div className="service-image thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\equipo\UNIDAD MOVIL.JPG"
-              alt="img"
-              style={{ borderRadius: "20px" }}
-              className="w-100 overflow-hidden"
-            />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.movil")}</h5>
-            <p style={{ breakBefore: "always" }}>{t("service.movilText")}</p>
-          </div>
-        </div>
-        <div className="service-container-2">
-          <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\corporate\CORPORATE.BID1.jpg"
-              alt="img"
-              style={{ borderRadius: "20px" }}
-              className=" w-100 overflow-hidden"
-            />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.streaming")}</h5>
-            <p style={{ breakBefore: "always" }}>
-              {t("service.streamingText")}
-            </p>
-          </div>
-        </div>
-        <div className="service-container">
-          <div className="service-image thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\corporate\CORPORATE.NESTLE.JPG"
-              alt="img"
-              style={{ borderRadius: "20px" }}
-              className=" w-100 overflow-hidden"
-            />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.publicity")}</h5>
-            <p style={{ breakBefore: "always" }}>
-              {t("service.publicityText")}
-            </p>
-          </div>
-        </div>
-        {/* <div className="service-container-2">
-          <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\service\9.jpg"
-              alt="img"
-              className="w-100 overflow-hidden"
-            />
-          </div>
-        </div> */}
-        <div className="service-container-2">
-          <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\service\8.jpg"
-              alt="img"
-              style={{ borderRadius: "20px" }}
-              className="w-100 overflow-hidden"
-            />
-          </div>
-          <div className="service-text">
-            <h5>{t("service.time-lapse")}</h5>
-            <p style={{ breakBefore: "always" }}>
-              {t("service.time-lapse-text")}
-            </p>
-          </div>
-        </div>
-        {/* <div className="service-container-2">
-          <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\service\14.jpg"
-              alt="img"
-              className="w-100 overflow-hidden"
-            />
-          </div>
-        </div> */}
-        {/* <div className="service-container">
-          <div className="service-image thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\service\15.jpg"
-              alt="img"
-              className=" w-100 overflow-hidden"
-            />
-          </div>
-        </div> */}
-        {/* <div className="service-container-2">
-          <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\service\screen.png"
-              alt="img"
-              className="w-100 overflow-hidden"
-            />
-          </div>
-        </div> */}
-        {/* <div className="service-container">
-          <div className="service-image thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-            <img
-              src="\assets\img\service\16.jpg"
-              alt="img"
-              className=" w-100 overflow-hidden"
-            />
-          </div>
-        </div> */}
       </div>
       <div style={{ marginTop: "60px" }}>
         <Protfolio1 images={imagesMock} />
