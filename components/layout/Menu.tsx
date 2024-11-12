@@ -129,7 +129,7 @@ export default function Menu() {
               </Link>
             </li>
             <li className="menu-link py-1">
-              <Link href="/ob_units" className="fw_500 white-clr text-sm">
+              <Link href="/ob-mobile" className="fw_500 white-clr text-sm">
                 {t("nav-bar.ob_units")}
               </Link>
             </li>

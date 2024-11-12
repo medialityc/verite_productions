@@ -85,16 +85,7 @@ export default async function Hero1() {
           </div>
         </div> */}
         {/* Element */}
-        <div
-          style={{
-            position: "absolute",
-            bottom: "180px",
-            left: "0",
-            padding: "15px",
-          }}
-        >
-          <Logo />
-        </div>
+        
       </section>
     </>
   );

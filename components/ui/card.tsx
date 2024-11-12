@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 
 interface CardProps {
   index: number;
@@ -8,13 +9,13 @@ interface CardProps {
 
 const Card = ({ index, src, alt }: CardProps) => {
   return (
-    <img
-      key={index}
-      src={src}
-      alt={alt}
-      className=" w-100 h-100"
-      style={{ width: "240px", height: "200px", borderRadius: "20px" }}
-    />
+    <Image
+          src={src}
+          alt={"mock-banner"}
+          layout="fill"
+          objectFit="cover"
+          className="rounded"
+        />
   );
 };
 

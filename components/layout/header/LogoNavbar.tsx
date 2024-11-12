@@ -6,7 +6,7 @@ function Logo() {
       xmlns="http://www.w3.org/2000/svg"
       id="Layer_2"
       width={77.85}
-      height={50}
+      height={70}
       viewBox="0 0 77.85 80.19"
     >
       <defs>
