@@ -69,7 +69,7 @@ export default async function Hero1() {
           </div>
         </div>
         {/* Hero Exprience box */}
-        <div className="hero-expriencebox d-flex align-items-center">
+        {/* <div className="hero-expriencebox d-flex align-items-center">
           <div className="expri-thumb">
             <img src="/assets/img/banner/6.jpg" alt="img" />
           </div>
@@ -83,7 +83,7 @@ export default async function Hero1() {
               <span className="yer spantext-clr">{t("completedProjects")}</span>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Element */}
         <div
           style={{
