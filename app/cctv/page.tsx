@@ -34,7 +34,7 @@ export default function CCTVPage() {
   });
 
   return (
-    <>
+    
       <Layout
         headerStyle={1}
         footerStyle={1}
@@ -56,7 +56,7 @@ export default function CCTVPage() {
             </div>
           </div>
           <img
-            src={`/assets/img/cctv/cctv-14.jpg`}
+            src={`/assets/img/cctv/cctv.jpg`}
             alt={`postal`}
             className=" w-100 h-100 main-padding"
             style={{
@@ -70,6 +70,6 @@ export default function CCTVPage() {
           </div>
         </section>
       </Layout>
-    </>
+    
   );
 }
