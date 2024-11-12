@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Menu from "../Menu";
 import { LocaleSwitcher } from "../../lang/language-popover";
-import Logo from "./Logo";
+import Logo from "./LogoNavbar";
 
 type Props = {
   scroll: boolean;
