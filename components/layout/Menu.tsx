@@ -109,10 +109,61 @@ export default function Menu() {
               <Link href="/clients" className="fw_500 white-clr text-sm">
                 {t("nav-bar.client-list")}
               </Link>
+            </li>           
+          </ul>
+        </li>
+        <li className="menu-item position-relative">
+          <button
+            className="position-relative  ps-5 fw_500 white-clr cus-z1"
+            onClick={() => handleAccordion(2)}
+          >
+            {t("nav-bar.what_we_do")}
+          </button>
+          <ul
+            className="sub-menu px-lg-4 py-xxl-3 py-2"
+            style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}
+          >
+            <li className="menu-link py-1">
+              <Link href="/services" className="fw_500 white-clr text-sm">
+                {t("nav-bar.services")}
+              </Link>
             </li>
             <li className="menu-link py-1">
-              <Link href="/team-details" className="fw_500 white-clr text-sm">
-                {t("nav-bar.our-blog")}
+              <Link href="/ob_units" className="fw_500 white-clr text-sm">
+                {t("nav-bar.ob_units")}
+              </Link>
+            </li>
+            <li className="menu-link py-1">
+              <Link href="/cctv" className="fw_500 white-clr text-sm">
+                {t("nav-bar.cctv")}
+              </Link>
+            </li>
+            <li className="menu-link py-1">
+              <Link href="/live" className="fw_500 white-clr text-sm">
+                {t("nav-bar.live")}
+              </Link>
+            </li>
+            <li className="menu-link py-1">
+              <Link href="/av-production" className="fw_500 white-clr text-sm">
+                {t("nav-bar.av-prod")}
+              </Link>
+            </li>
+            <li className="menu-link py-1">
+              <Link href="/timelapse" className="fw_500 white-clr text-sm">
+                {t("nav-bar.timelapse")}
+              </Link>
+            </li>
+            <li className="menu-link py-1">
+              <Link href="/studio-rental" className="fw_500 white-clr text-sm">
+                {t("nav-bar.studio")}
+              </Link>
+            </li>
+            <li className="menu-link py-1">
+              <Link
+                href="/equipment-rental"
+                className="fw_500 white-clr text-sm"
+              >
+                {t("nav-bar.equipment")}
               </Link>
             </li>
           </ul>
@@ -190,27 +241,7 @@ export default function Menu() {
         {/*      </Link>*/}
         {/*    </li>*/}
         {/*  </ul>*/}
-        {/*</li>*/}
-        <li className="menu-item position-relative">
-          <Link href="/services" className="fw_500">
-            {t("nav-bar.services")}
-          </Link>
-        </li>
-        <li className="menu-item position-relative">
-          <Link href="/equipment" className="fw_500">
-            {t("nav-bar.equipment")}
-          </Link>
-        </li>
-        <li className="menu-item position-relative">
-          <Link href="/ob-mobile" className="fw_500">
-            {t("nav-bar.movil")}
-          </Link>
-        </li>
-        <li className="menu-item position-relative">
-          <Link href="/cctv" className="fw_500">
-            CCTV/IMAG/Media Pool
-          </Link>
-        </li>
+        {/*</li>*/}       
         <li className="menu-item position-relative">
           <Link href="/contact" className="fw_500">
             {t("nav-bar.contact")}
