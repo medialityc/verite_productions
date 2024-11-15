@@ -72,21 +72,21 @@
     }
   },
   "footer": {
-    "about-us": "Sobre nosotros",
+    "about-us": "Redes Sociales",
     "about-us-text": "Verite Producciones está dedicada a la producción publicitaria, industrial y de televisión de altos valores.",
-    "contact-us": "Contactános",
+    "contact-us": "Ubicación",
     "privacy-policy": "Politica de privacidad",
     "terms-conditions": "Terminos y condiciones",
     "our-place": "NUESTRA SEDE UBICADA EN:",
     "our-place-desc": "W Street (Ave. 5b South) Parque Lefebre Panama City, Panama.",
     "mail": "Calle W (Ave. 5b Sur) Parque Lefebre en la Ciudad de Panamá.",
     "email": "Correo",
-    "services": "Servicios",
+    "services": "Contáctanos",
     "phone": "Telefon",
     "address": "Dirección",
     "copyright": "Derechos reservados",
     "proud-member": "Miembro orgulloso de: ",
-    "contacts": "rbarria@veriteproducciones.net\n rickybarria@gmail.com\n rguzman@veriteproducciones.net\n arivera@veriteproducciones.net \n(507) 221-9303 | (507) 224-0566 \n(507) 6612-7525 (Ricardo Barria) \n(507) 6612-6739 (Rigoberto Gúzman)"
+    "contacts": "rbarria@veriteproducciones.net\n rickybarria@gmail.com\n rguzman@veriteproducciones.net\n arivera@veriteproducciones.net \n(507) 221-9303 | (507) 224-0566 \n(507) 6612-7525 Ricardo Barria \n(507) 6612-6739 Rigoberto Gúzman"
   },
   "client-section": {
     "title": "Nuestros clientes",
@@ -196,5 +196,9 @@
   "international-services": {
     "title": "Servicios internacionales",
     "text": "Fixer con más de 20 años de experiencia\nProducción de coordinación\nUbicación de locaciones\nLogística y exenciones aduaneras\nAsesoramiento legal\nLogística de alojamiento y transporte\nCertificación de la Comisión de Cine de Panamá para reembolsos fiscales (Cash Rebate)."
+  },
+  "clients-text": {
+    "international": "Internacionales",
+    "local": "Locales"
   }
 }

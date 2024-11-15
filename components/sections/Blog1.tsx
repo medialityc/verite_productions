@@ -32,7 +32,7 @@ export default async function Blog1() {
               </span>
             </Link>
           </div>
-          <div className="row g-xxl-7 g-xl-6 g-4">
+          {/* <div className="row g-xxl-7 g-xl-6 g-4">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="blog-widget-item">
                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
@@ -126,7 +126,7 @@ export default async function Blog1() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

@@ -6,7 +6,7 @@ import { useTranslationClient } from "../../locales/client";
 import React from "react";
 import Card from "../../components/ui/card";
 import Protfolio1 from "../../components/sections/Protfolio1";
-const imageMock = [
+export const imageMock = [
   "/assets/img/cctv/cctv-1.jpg",
   "/assets/img/cctv/cctv-2.jpg",
   "/assets/img/cctv/cctv-3.jpg",

@@ -42,7 +42,7 @@
     "text": "This versatile and modern self-contained mobile unit comes complete with all the needs of a remote television production, all within a Volkswagen LT-35 Eurovan. The mobile unit, which is equipped with two air conditioners and its own power generator, can be rented in various configurations, from 1 to 16 cameras, with or without personnel."
   },
   "satelite": {
-    "text": "Verite Productions now offers satellite Uplink/Downlink service to its domestic and international clients, enabling global interconnection of any event, from any point on the Isthmus with a versatile flyaway package. Whether it's just a news desk or a full-day conference, we'll have you connected via a reliable network of satellite service providers, with top-of-the-line technology."
+    "text": "Verite Producciones now offers satellite Uplink/Downlink service to its domestic and international clients, enabling global interconnection of any event, from any point on the Isthmus with a versatile flyaway package. Whether it's just a news desk or a full-day conference, we'll have you connected via a reliable network of satellite service providers, with top-of-the-line technology."
   },
   "equipment": {
     "cameras": "Cameras",
@@ -70,22 +70,22 @@
       "company": "(State System of Radio and Television SERTV)"
     }
   },
-  "footer": {
-    "about-us": "About Us",
-    "about-us-text": "Verite Productions is dedicated to advertising, industrial, and television production of high value.",
-    "contact-us": "Contact Us",
+  "": {
+    "about-us": "Social Media",
+    "about-us-text": "Verite Producciones is dedicated to advertising, industrial, and television production of high value.",
+    "contact-us": "Location",
     "privacy-policy": "Privacy Policy",
     "terms-conditions": "Terms and Conditions",
     "our-place": "OUR HEADQUARTERS IS LOCATED IN:",
     "our-place-desc": "Calle W (Ave. 5b Sur) Parque Lefebre en la Ciudad de Panamá.",
     "mail": " P.O.BOX 0832 - 02237 WTC Panamá Rep. of Panamá",
     "email": "Mail",
-    "services": "Services",
+    "services": "Contact us",
     "phone": "Phone",
     "address": "Address",
     "copyright": "All rights reserved",
     "proud-member": "Proud member of: ",
-    "contacts": "rbarria@veriteproducciones.net\n rickybarria@gmail.com\n rguzman@veriteproducciones.net\n arivera@veriteproducciones.net \n(507) 221-9303 | (507) 224-0566 \n(507) 6612-7525 (Ricardo Barria) \n(507) 6612-6739 (Rigoberto Gúzman)"
+    "contacts": "rbarria@veriteproducciones.net\n rickybarria@gmail.com\n rguzman@veriteproducciones.net\n arivera@veriteproducciones.net \n(507) 221-9303 | (507) 224-0566 \n(507) 6612-7525 Ricardo Barria \n(507) 6612-6739 Rigoberto Gúzman"
   },
   "client-section": {
     "title": "Our Clients",
@@ -194,5 +194,9 @@
   "international-services": {
     "title": "International Production Services",
     "text": "Fixer with more than 20 years of experience\nProduction coordination\nLocation scout\nCustoms logistics and exemptions\nLegal counsel\nLodging and transportation logistics\nCertification from the Panama Film Commission for tax reimbursements (Cash Rebate).\n"
+  },
+  "clients-text": {
+    "international": "Internationals",
+    "local": "Locals"
   }
 }

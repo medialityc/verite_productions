@@ -9,17 +9,14 @@ export default function VideoPopup({ style }: { style: number }) {
     <>
       {style === 1 && (
         <a onClick={() => setOpen(true)} className="video-popup">
-          <span
-            className="icon"           
-          >
+          <span className="icon">
             <i className="fas fa-play" />
-          </span>        
+          </span>
 
           <img
             src="/assets/img/element/bn1-circle.png"
             alt="img"
             className="hero-circle"
-            
           />
         </a>
       )}
@@ -56,7 +53,7 @@ export default function VideoPopup({ style }: { style: number }) {
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
-        videoId="exbOAK_ijfo"
+        videoId="0YL7VYWPwNI"
         onClose={() => setOpen(false)}
       />
     </>

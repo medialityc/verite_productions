@@ -54,14 +54,43 @@ export default function Footer1() {
                       </defs>
                     </svg>
                   </h5>
-                  <p
-                    className="pra-clr mb-xxl-7 mb-6"
+                  <ul
+                    className="link-footer d-grid gap-xxl-5 gap-4"
                     data-aos="zoom-in"
-                    data-aos-duration={1600}
+                    data-aos-duration={1400}
                   >
-                    {t("footer.about-us-text")}
-                  </p>
-                  <ul className="common-social d-flex align-items-center gap-2">
+                    <li>
+                      <Link href="https://www.instagram.com/veriteproducciones/">
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          Instagram: Veriteproductions
+                        </div>
+                      </Link>
+                    </li>
+                    <Link href={"https://x.com/veritepanama"}>
+                      <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                        <span className="ani-icons">
+                          <i className="fas fa-angle-double-right pra-clr" />
+                        </span>
+                        X: @veritepanama
+                      </div>
+                    </Link>
+                    <li>
+                      <Link
+                        href={"https://www.facebook.com/veriteproducciones"}
+                      >
+                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
+                          <span className="ani-icons">
+                            <i className="fas fa-angle-double-right pra-clr" />
+                          </span>
+                          Facebook: Veriteproducciones
+                        </div>
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul className="common-social d-flex align-items-center gap-2 mt-4">
                     <li data-aos="zoom-in-right" data-aos-duration={1400}>
                       <Link
                         href="https://www.facebook.com/VERITEPRODUCCIONES/timeline/"
@@ -93,19 +122,22 @@ export default function Footer1() {
                       <Link
                         target="_blank"
                         href="https://x.com/veritepanama"
-                        className="d-center"
+                        className="d-center p-2"
                       >
                         <svg
-                          width={16}
-                          height={16}
-                          viewBox="0 0 16 16"
-                          fill="none"
+                          id="Layer_2"
                           xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 1000.77 936.69"
                         >
-                          <path
-                            d="M14.3553 4.74149C14.3655 4.88362 14.3655 5.02577 14.3655 5.1679C14.3655 9.5029 11.066 14.4978 5.03553 14.4978C3.17766 14.4978 1.45178 13.9597 0 13.0258C0.263969 13.0562 0.51775 13.0664 0.791875 13.0664C2.32484 13.0664 3.73603 12.5486 4.86294 11.6654C3.42131 11.6349 2.21319 10.6907 1.79694 9.39124C2 9.42168 2.20303 9.44199 2.41625 9.44199C2.71066 9.44199 3.00509 9.40137 3.27919 9.33034C1.77666 9.02574 0.649719 7.70596 0.649719 6.11205V6.07146C1.08625 6.31512 1.59391 6.4674 2.13194 6.48768C1.24869 5.89884 0.670031 4.89377 0.670031 3.75671C0.670031 3.14759 0.832437 2.58921 1.11672 2.1019C2.73094 4.09174 5.15734 5.39121 7.87812 5.53337C7.82737 5.28971 7.79691 5.03593 7.79691 4.78212C7.79691 2.97499 9.25884 1.50293 11.0761 1.50293C12.0202 1.50293 12.873 1.89887 13.472 2.53846C14.2131 2.39634 14.9238 2.12221 15.5532 1.74659C15.3096 2.50802 14.7918 3.14762 14.1116 3.55368C14.7715 3.48265 15.4111 3.29987 15.9999 3.04609C15.5533 3.6958 14.9949 4.27446 14.3553 4.74149V4.74149Z"
-                            fill="white"
-                          />
+                          <g id="Layer_1-2" data-name="Layer_1">
+                            <g id="layer1">
+                              <path
+                                id="path1009"
+                                fill="#ffffff"
+                                d="M2.43,0l386.39,516.64L0,936.69h87.51l340.42-367.76,275.04,367.76h297.8l-408.13-545.7L954.57,0h-87.51l-313.51,338.7L300.23,0H2.43ZM131.13,64.46h136.81l604.13,807.76h-136.81L131.13,64.46Z"
+                              />
+                            </g>
+                          </g>
                         </svg>
                       </Link>
                     </li>
@@ -213,39 +245,6 @@ export default function Footer1() {
                       {t("footer.our-place-desc")}
                     </li>
                     <li>
-                      <Link href="https://www.instagram.com/veriteproducciones/">
-                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                          <span className="ani-icons">
-                            <i className="fas fa-angle-double-right pra-clr" />
-                          </span>
-                          Instagram: Veriteproductions
-                        </div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href={"https://x.com/veritepanama"}>
-                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                          <span className="ani-icons">
-                            <i className="fas fa-angle-double-right pra-clr" />
-                          </span>
-                          X: @veritepanama
-                        </div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href={"https://www.facebook.com/veriteproducciones"}
-                      >
-                        <div className="d-flex align-items-center gap-2 flink-items pra-clr">
-                          <span className="ani-icons">
-                            <i className="fas fa-angle-double-right pra-clr" />
-                          </span>
-                          Facebook: Veriteproducciones
-                        </div>
-                      </Link>
-                    </li>
-
-                    <li>
                       <p>{t("footer.email")}</p>
                       <div className="d-flex align-items-center gap-2 flink-items pra-clr">
                         <span className="ani-icons">
@@ -254,13 +253,10 @@ export default function Footer1() {
                         {t("footer.mail")}
                       </div>
                     </li>
-                    <li>
-                      <p>{t("footer.contacts")}</p>
-                    </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div className="footer-widget">
                   <h5
                     className="footer-title mb-xxl-7 mb-xl-6 mb-5"
@@ -309,48 +305,12 @@ export default function Footer1() {
                     data-aos-duration={1400}
                   >
                     <li>
-                      <Link
-                        href="/production"
-                        className="d-flex align-items-center gap-2 flink-items pra-clr"
-                      >
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        {t("services.production")}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/movil"
-                        className="d-flex align-items-center gap-2 flink-items pra-clr"
-                      >
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        {t("services.movil")}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/satelite"
-                        className="d-flex align-items-center gap-2 flink-items pra-clr"
-                      >
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        {t("services.satelite")}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/equipment"
-                        className="d-flex align-items-center gap-2 flink-items pra-clr"
-                      >
-                        <span className="ani-icons">
-                          <i className="fas fa-angle-double-right pra-clr" />
-                        </span>
-                        {t("services.equipment")}
-                      </Link>
+                      <div
+                        style={{ fontSize: "16px" }}
+                        dangerouslySetInnerHTML={{
+                          __html: t("footer.contacts").replace(/\n/g, "<br>"),
+                        }}
+                      />
                     </li>
                   </ul>
                 </div>

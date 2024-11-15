@@ -1,8 +1,6 @@
 "use server";
-import Link from "next/link";
 import VideoPopup from "../elements/VideoPopup";
 import { useTranslationServer } from "../../locales/server";
-import Logo from "../layout/header/Logo";
 
 export default async function Hero1() {
   const { t } = await useTranslationServer();
@@ -31,11 +29,11 @@ export default async function Hero1() {
                     </span>{" "}
                     <span
                       className="designers"
-                      data-text="Productions"
+                      data-text="Producciones"
                       data-aos="zoom-in"
                       data-aos-duration={2000}
                     >
-                      Productions
+                      Producciones
                     </span>
                   </span>
                 </h1>
@@ -85,7 +83,6 @@ export default async function Hero1() {
           </div>
         </div> */}
         {/* Element */}
-        
       </section>
     </>
   );
