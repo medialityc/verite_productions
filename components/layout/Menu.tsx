@@ -109,7 +109,7 @@ export default function Menu() {
               <Link href="/clients" className="fw_500 white-clr text-sm">
                 {t("nav-bar.client-list")}
               </Link>
-            </li>           
+            </li>
           </ul>
         </li>
         <li className="menu-item position-relative">
@@ -124,7 +124,10 @@ export default function Menu() {
             style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}
           >
             <li className="menu-link py-1">
-              <Link href="/services" className="fw_500 white-clr text-sm">
+              <Link
+                href="/international-services"
+                className="fw_500 white-clr text-sm"
+              >
                 {t("nav-bar.services")}
               </Link>
             </li>
@@ -154,15 +157,12 @@ export default function Menu() {
               </Link>
             </li>
             <li className="menu-link py-1">
-              <Link href="/studio-rental" className="fw_500 white-clr text-sm">
+              <Link href="/studio" className="fw_500 white-clr text-sm">
                 {t("nav-bar.studio")}
               </Link>
             </li>
             <li className="menu-link py-1">
-              <Link
-                href="/equipment-rental"
-                className="fw_500 white-clr text-sm"
-              >
+              <Link href="/equipment" className="fw_500 white-clr text-sm">
                 {t("nav-bar.equipment")}
               </Link>
             </li>
@@ -241,7 +241,7 @@ export default function Menu() {
         {/*      </Link>*/}
         {/*    </li>*/}
         {/*  </ul>*/}
-        {/*</li>*/}       
+        {/*</li>*/}
         <li className="menu-item position-relative">
           <Link href="/contact" className="fw_500">
             {t("nav-bar.contact")}

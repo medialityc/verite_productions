@@ -173,6 +173,26 @@ async function Page() {
                 />
               </div>
             </div>
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/equipo/CULTO9.JPG"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment-hd")}</h5>
+                <br />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.hd-text").replace(/\n/g, "<br>"),
+                  }}
+                />
+              </div>
+            </div>
           </div>
           <div className="equipment-container2">
             <div className={"equipment-subcontainer"}>
@@ -284,8 +304,40 @@ async function Page() {
                 />
               </div>
             </div>
+            <div className={"equipment-subcontainer"}>
+              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                <img
+                  src="/assets/img/equipo/CULTO6.JPG"
+                  alt="img"
+                  className=" w-100 overflow-hidden"
+                  style={{ width: "100%", height: "330px" }}
+                />
+              </div>
+              <div>
+                <h5>{t("equipment-text.video")}</h5>
+                <br />
+                <div
+                  style={{ fontSize: "20px" }}
+                  dangerouslySetInnerHTML={{
+                    __html: t("equipment-text.video-text").replace(
+                      /\n/g,
+                      "<br>"
+                    ),
+                  }}
+                />
+              </div>
+            </div>
           </div>
         </div>
+        <img
+          src={`/assets/img/equipo/Equipment-banner.jpg`}
+          alt={`postal`}
+          className=" w-100  main-padding"
+          style={{
+            width: "240px",
+            borderRadius: "20px",
+          }}
+        />
       </div>
       <div style={{ overflowX: "hidden" }}>
         <Protfolio1 images={imagesMock} />

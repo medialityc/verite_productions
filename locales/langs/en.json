@@ -45,13 +45,16 @@
     "text": "Verite Producciones now offers satellite Uplink/Downlink service to its domestic and international clients, enabling global interconnection of any event, from any point on the Isthmus with a versatile flyaway package. Whether it's just a news desk or a full-day conference, we'll have you connected via a reliable network of satellite service providers, with top-of-the-line technology."
   },
   "equipment": {
-    "cameras": "Cameras",
-    "filters": "Filters",
-    "lights": "Lighting and Electrical Support",
-    "grip": "Grip Module",
-    "audio": "Audio",
-    "movil-portatil": "Portable Mobile Unit",
-    "movil": "Mobile Unit"
+    "cameras": "CAMERAS",
+    "video": "VIDEO SWITCHERS & MATRIX",
+    "hd": "HD/4K DIGITAL RECORDERS",
+    "support": "CAMERA SUPPORT",
+    "filters": "FILTERS",
+    "lights": "LIGHTING AND ELECTRICAL SUPPORT",
+    "grip": "GRIP MODULE",
+    "audio": "AUDIO",
+    "movil-portatil": "PORTABLE MOBILE UNIT",
+    "movil": "MOBILE UNIT"
   },
   "testimonials": {
     "customer1": {
@@ -131,15 +134,15 @@
   },
   "equipment-text": {
     "cameras": {
-      "type1": "<strong>BLACKMAGIC POCKET 4K & 6K</strong>\nEffective Sensor Size 36mm x 24mm (Full Frame)\nLens Mount Active L-Mount.\nLens Control Iris and focus on supported lenses\nDynamic Range 13 Stops\nDual Native ISO400 and 3200 Shooting Resolutions\n6048 x 4032 (Open Gate 3:2) up to 36 fps\n4832 x 4032 (Anamorphic 6:5) up to 36 fps\n6048 x 3200 (6K DCI 17:9) up to 48 fps\n6048 x 2520 (6K 2.4:1) up to 60 fps\n4096 x 3072 (Super 35 4:3) up to 50 fps\n4096 x 2160 (4K DCI 17:9) up to 60 fps\n2112 x 1184 (Super 16 16:9) up to 100 fps\n1920 x 1080 (1080 HD 16:9) up to 120 fps\nFrame Rates 23.98, 24, 25, 29.97, 30, 50, 59.94 and 60 fps supported\nScreen Dimensions 5” 1920 x 1080\nScreen Brightness 1500 nits",
-      "type2": "<strong>BIRDDOG P4K PTZ</strong>\nSensor: 1.0-type back-illuminated Exmor R CMOS\n3840 x 2160, 8.29 Megapixels\nLens: Optical, 12X\n12X Digital Zoom, with SRZ feature,18X zoom at 4K, or 24X zoom at FHD\nAperture F2.8 Constant (W)~(T), 16 Steps\nShutter speed 1/10000s to 1/8 (59.94/29.97)\nS/N Ratio: ≥50db\nBIRDDOG Remote Control",
-      "type3": "<strong>SONY PMW350</strong>/400 XdCAM\nExmor full HD CMOS sensors\nElectronic viewfinder\nFujinon 16x zoom lens\nStereo microphone\nSxS Card 32 gb\nAnton Bauer gold mount\nPelican Case",
-      "type4": "<strong>SONY HXCD70/FB70</strong> \nThree (3) full HD Exmor CMOS sensors \nelectronic viewfinder\nFujinon 20x zoom lens\nstereo microphone\nIntegrated fiber optic\nCompatible with OLED studio viewfinders and RCP1000 remote control",
+      "type1": "<strong>SONY PMW350/400 XdCAM</strong>\nExmor full HD CMOS sensors\nElectronic viewfinder\nFujinon 18x zoom lens\nStereo microphone\nSxS 32gb card\nAnton Bauer gold mount\nPelican Case\n",
+      "type2": "<strong>SONY HXCD70/FB70</strong>\nThree (3) full HD Exmor CMOS sensors\nElectronic viewfinder\nFujinon 20x zoom lens\nStereo microphone\nIntegrated fiber optic\nCompatible with OLED studio viewfinders and RCP1000 remote control\n",
+      "type3": "<strong>SONY HXR-NX5 NXCAM CAMCORDER</strong>/400 XdCAM\nThree (3) 1/3” cmos sensors with exmor\nMpeg-4 AVCHD format\n1920x1080 HD images\nLCD monitor built in\n20x zoom lens\nSD/SDHC flash memory card\nVarizoom remote control\n",
+      "type4": "<strong>SONY BRC H900 PTZ</strong> \n½-type Exmor Full HD 3CMOS Image Sensor\nApproximately 2 Megapixels of Effective Picture Elements\n1080/59.58i, 720/59.98p, NTSC\n1080/50i, 720/50p, PAL\n14x Optical Zoom \nHD Video Output: Analog RGB/Component, SDI (HD/SD switchable)\n16 position presets\nRS-232C/RS-422 serial control (VISCA protocol)\nDaisy chain capability (up to 7 units)\nSONY and Vaddio Remote controls\n",
       "type5": "<strong>SONY HXR-NX5 NXCAM CAMCORDER</strong> \nThree (3) 1/3” CMOS sensors with Exmor\nMpeg-4 AVCHD format\n1920x1080 HD images\nBuilt-in LCD monitor\n20x zoom lens\nSD/SDHC flash memory card\nVarizoom remote control",
-      "type6": "<strong>SONY BRC H900 PTZ CAMERA</strong>\n1/2-type Exmor Full HD 3CMOS Image Sensor\nApproximately 2 Megapixels of Effective Picture Elements\n1080/59.58i, 720/59.98p, NTSC\n1080/50i, 720/50p, PAL\n14x Optical Zoom\nHD Video Output: Analog RGB/Component, SDI (HD/SD switchable)\n16 position presets\nRS-232C/RS-422 serial control (VISCA protocol)\nDaisy chain capability (up to 7 units)\nSONY and Vaddio Remote controls",
+      "type6": "<strong>BIRDDOG P4K PTZ </strong>\nSensor: 1.0-type back-illuminated Exmor R CMOS\n3840 x 2160, 8.29 Megapixels\nLens: Optical, 12X\n12X Digital Zoom, with SRZ feature,18X zoom at 4K, or 24X zoom at FHD\nAperture F2.8 Constant (W)~(T), 16 Steps\nShutter speed 1/10000s to 1/8 (59.94/29.97)\nS/N Ratio: ≥50db\nBIRDDOG Remote Control\n",
       "type7": "<strong>MARSHALL MICRO CAMS</strong>/LIPSTICK CAM\nFull-HD 2MP Miniature HD-SDI Camera 1080p60/59.94/50/30/25,\n1080i59.94/50, 720p60/50\n2.2 megapixels\nInterchangeable HD Prime Lens",
-      "type8": "<strong>CAMERA SUPPORT</strong>\nPeter Lissand Tripod\nMiller Tripod\nTERIS tripod\nMiller head\nSachtler Tripod (lightweight)\nHi hat (100mm)\nHi hat (150mm)\nCamera wedge (45/90 degrees)\nDolly Chameleon\nDolly Track Matthews (straight/curved)\nBerlinga Dolly\nBerlinga Dolly Track (straight)\nSkateboard dolly\nJimmy Jib Triangle crane with dutch roll\nCinema Berlanga Crane\nBlackmagic 7” Monitor/Recorder\nNinja 7” 4k Monitor/Recorder\nPanasonic SDI-HD 17” Monitor\nViewsonic HDMI/VGA 22/24/27” Monitor\nMarshall 5.6” Monitor\nAnton Bauer HD video transmitter\nTeradek HD video transmitter\nHollyland HD/4K video transmitter\nAutoscript Teleprompter\nClearcom Wireless System\nIKAN wireless intercom system\nFiber optic cabling and conversion boxes\nCAT5 AND CAT6 Cabling\nLong SDI cabling",
-      "type9": "<strong>ZOWIETEK POV MICROS</strong>\n4K UHD CMOS Sensor: 1/2.3'' backlit \nSimultaneous 4K HDMI, 3G-SDI and NDI outputs | HX3 \nSeamless integration into any NDI environment through a single network cable\nInterchangeable lens: M12 AF mounts \nSimple setup and focus setting, WB, AE, color temperature, H.265/H.264\nAutofocus: Automatically adjusts the lens \nTRS stereo audio input"
+      "type8": "<strong>ZOWIETEK POV MICROS</strong>\n4K UHD CMOS Sensor: 1/2.3'' backlit \nSimultaneous 4K HDMI, 3G-SDI and NDI outputs | HX3 \nSeamless integration into any NDI environment through a single network cable\nInterchangeable lens: M12 AF mounts \nSimple setup and focus setting, WB, AE, color temperature, H.265/H.264\nAutofocus: Automatically adjusts the lens \nTRS stereo audio input",
+      "type9": "<strong>BLACKMAGIC POCKET 4K & 6K</strong>\nEffective Sensor Size 36mm x 24mm (Full Frame)\nLens Mount Active L-Mount.\nLens Control Iris and focus on supported lenses.\nDynamic Range 13 Stops.\nDual Native ISO400 and 3200 Shooting Resolutions\n6048 x 4032 (Open Gate 3:2) up to 36 fps\n4832 x 4032 (Anamorphic 6:5) up to 36 fps\n6048 x 3200 (6K DCI 17:9) up to 48 fps\n6048 x 2520 (6K 2.4:1) up to 60 fps\n4096 x 3072 (Super 35 4:3) up to 50 fps\n4096 x 2160 (4K DCI 17:9) up to 60 fps\n2112 x 1184 (Super 16 16:9) up to 100 fps\n1920 x 1080 (1080 HD 16:9) up to 120 fps\nFrame Rates 23.98, 24, 25, 29.97, 30, 50, 59.94 and 60 fps supported.\nScreen Dimensions 5” 1920 x 1080.\nScreen Brightness 1500 nits\n"
     },
     "filters": {
       "type1": "<strong>Series 9</strong>\nTiffen plus 1/slp f06\nTiffen plus 1\nTiffen plus 2\nTiffen photar plus 2\nTiffen photar plus 3\nTiffen photar plus 4\nTiffen split field 2\nTiffen clear",
@@ -148,6 +151,10 @@
       "type4": "<strong>6x6</strong>\nTiffen 85\nTiffen nd3\nTiffen nd6\nTiffen polarizer",
       "type5": "<strong>138mm</strong>\nTiffen polarizer 138mm linear"
     },
+    "video": "VIDEO SWITCHERS & MATRIX",
+    "video-text": "Blackmagic ATEM 2M/E with control surface\nROSS Carbonite Black Solo\nVizrt Tricaster TC1-Pro\nBlackmagic ATEM SDI Extreme ISO\nRoss ULTRIX\nBlackmagic Videohub 20x20\n",
+    "hd": "HD/4K DIGITAL RECORDERS",
+    "hd-text": "Blackmagic Hyperdeck Studio HD\nBlackmagic Hyperdeck Studio 4k Pro\nBlackmagic Hyperdeck Studio HD Mini (H.264)\nAJA Ki-Pro\n",
     "illumination-support": "ILLUMINATION SUPPORT",
     "illumination": "Hmi 4k arrisun (ff)\nHmi 1.2k arrisun (ff)\nHmi 575k arrisun (ff)\nJoker 800 with chimera\nJoker 400 with chimera\nArri kit 1k (3 lamps)\nArri kit 300/650 (2 each)\nArri 5k\n2k fresnel\n1k fresnel\nSource four Lekos\nKino flo diva light2\nKino flo diva light4\nLed LightPanels\nLedz kit (3 lamps)\nLed Panels 2x1 (Variable Temperature)\nMedium Chimera (5k rings)\nElectric generator 18kva\nElectric generator 2kva\n 3.5kva generator\nElectric distro panel\nMatthews distro box\nExtensions 4/0 with cam-locks (50’)\n110v Extensions",
     "camera-support": "CAMERA SUPPORT",
@@ -171,7 +178,7 @@
   "galery": "Galery",
   "clinet": "Our international clients include Bunim-Murray Productions, World Race Productions, Critical Content LLC, Discovery Channel/WB, Mr.Beast LLC, the Inter-American Development Bank (IDB), the United Nations (UN), and the Latin American Parliament (Parlatino ). Locally we have worked with the Government of the Republic of Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Topline, Magicdreams Inc and the largest advertising agencies in the country",
   "studio": {
-    "title": "Air-conditioned studio",
+    "title": "Studio rental",
     "text": "Double-height space suitable for recordings that require scenery. The space includes dressing rooms/makeup area, bathrooms with shower, kitchenette and air conditioning",
     "formated-text": "Double-height space suitable for recordings that require scenery.\n The space includes dressing rooms/makeup area, bathrooms with shower, kitchenette and air conditioning\n",
     "plans": "Plans",
@@ -193,10 +200,27 @@
   },
   "international-services": {
     "title": "International Production Services",
-    "text": "Fixer with more than 20 years of experience\nProduction coordination\nLocation scout\nCustoms logistics and exemptions\nLegal counsel\nLodging and transportation logistics\nCertification from the Panama Film Commission for tax reimbursements (Cash Rebate).\n"
+    "text": "We offer the visitor, production services with bilingual personnel for logistics and technical needs, location scouting, transportation (marine/air/land), legal services and catering, amongst others.\n\nOur legal team is prepared to offer advice and process benefits and incentives offered by Panama’s Film Law 16, enacted in April 2012. This law aims to promote the development of the local film and audiovisual industry, promote the protection and conservation of Panamanian audiovisual heritage, stimulate audiovisual culture and most important to our clients, establish a special regime that grants incentives and benefits to those who carry out this activity, including a 25% cash back on moneys spent in the country.\n\nPanama’s Law 16 also grants the visiting production,  customs exemptions and one-stop work permit processing. Another advantage of the new law is that all bureaucratic processes (work permits, equipment internment, etc.) are handled in a single window at the Ministry of Commerce and Industries (MICI).                                                  Additionally, we offer a complete line of equipment including cameras in various formats (HD/4K PTZ), generators, walkies, Jimmy Jib Triangle, and grip and lighting equipment."
   },
   "clients-text": {
     "international": "Internationals",
     "local": "Locals"
+  },
+  "accordeon": {
+    "international-production-services": "International Production Services",
+    "international-production-services-text": "We offer the visitor, production services with bilingual personnel for logistics and technical needs, location scouting, transportation (marine/air/land), legal services and catering, amongst others.",
+    "international-production-services-long-text": "We offer the visitor, production services with bilingual personnel for logistics and technical needs, location scouting, transportation (marine/air/land), legal services and catering, amongst others.\nOur legal team is prepared to offer advice and process benefits and incentives offered by Panama’s Film Law 16, enacted in April 2012. This law aims to promote the development of the local film and audiovisual industry, promote the protection and conservation of Panamanian audiovisual heritage, stimulate audiovisual culture and most important to our clients, establish a special regime that grants incentives and benefits to those who carry out this activity, including a 25% cash back on moneys spent in the country.\nPanama’s Law 16 also grants the visiting production,  customs exemptions and one-stop work permit processing. Another advantage of the new law is that all bureaucratic processes (work permits, equipment internment, etc.) are handled in a single window at the Ministry of Commerce and Industries (MICI). Additionally, we offer a complete line of equipment including cameras in various formats (HD/4K PTZ), generators, walkies, Jimmy Jib Triangle, and grip and lighting equipment.",
+    "ob-units": "OB Units",
+    "ob-units-text": "Versatile and self-contained OB units come complete with all the needs of a remote television production, closed circuit (CCTV) for IMAG, documentation and live streaming, amongst other uses.",
+    "cctv-img": "CCTV IMAG",
+    "cctv-img-text": "A complete array of state-of-the-art equipment is provided for the coverage of summits, conferences, in-person or hybrid webinars, concerts, conventions and all type of mass outdoor/indoor events. We offer HD multi-camera setups with fiber optic and wireless transmission, media management, IP transmission to internal CCTV systems, standards conversions (NTSC/PAL) and distribution to a media pool, audio integration and embedding to multi-language video feeds. We also offer live-streaming via internet, SRT, IP-video or via satellite.",
+    "live-streaming": "Live streaming",
+    "live-streaming-text": "Take advantage of the ease of a fast internet connection to broadcast your event or production to the world. Efficient “encoders” are responsible for processing the images and preparing them to be “streamed” to the web.",
+    "av-productions": "AV Productions",
+    "av-productions-text": "More than 20 years of experience in the Central American and Panama markets, with a varied portfolio of directors for clients such as banks, beers, telecommunications, food and retail. Innovation and creativity at work with the most modern technology.",
+    "timelapse": "Timelapse Photography",
+    "timelapse-text": "Installation of self-contained systems for capturing images for extended periods. These systems allow the construction period of a mega project to be compressed to facilitate the observation of its progress.",
+    "studio": "Studio Rental",
+    "equipment": "Equipment Rental"
   }
 }

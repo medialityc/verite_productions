@@ -1,10 +1,10 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import { useTranslationServer } from "../../locales/server";
-import Card from "../../components/ui/card";
-import GaleryContainer from "../../components/ui/galeryContainer";
-import Galery from "../../components/ui/galery";
-import Protfolio1 from "../../components/sections/Protfolio1";
+import Layout from "../../layout/Layout";
+import { useTranslationServer } from "../../../locales/server";
+import Card from "../../ui/card";
+import GaleryContainer from "../../ui/galeryContainer";
+import Galery from "../../ui/galery";
+import Protfolio1 from "../../sections/Protfolio1";
 
 async function Page() {
   const { t } = await useTranslationServer();
@@ -48,7 +48,7 @@ async function Page() {
               style={{ borderRadius: "20px" }}
             />
           </div>
-          <div className="service-text">            
+          <div className="service-text">
             <p
               style={{ breakBefore: "always" }}
               dangerouslySetInnerHTML={{

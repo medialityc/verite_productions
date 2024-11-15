@@ -1,8 +1,8 @@
 "use client";
 
-import { imageMock } from "../../../app/cctv/page";
 import { useTranslationClient } from "../../../locales/client";
 import Layout from "../../layout/Layout";
+import { imageMock } from "../../utils/images";
 import Protfolio1 from "../Protfolio1";
 
 export default function ClientsContainer() {

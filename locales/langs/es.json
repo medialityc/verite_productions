@@ -46,13 +46,16 @@
     "text": "Verite Producciones ahora ofrece servicio de Uplink/Downlink satelital a sus clientes nacionales e internacionales, proveyendo así la interconexión mundial de cualquier evento, desde cualquier punto del Istmo con un versátil paquete flyaway. Ya sea que tan solo sea un despacho noticioso o bien una conferencia que dure un día completo, le tendremos conectado via una confiable red de proveedores de servicios satelitales, con tecnología de punta."
   },
   "equipment": {
-    "cameras": "Cámaras",
-    "filters": "Filtros",
-    "ligths": "Iluminación y Soporte Eléctrico",
-    "grip": "Módulo de agarre",
+    "cameras": "CAMERAS",
+    "video": "VIDEO SWITCHERS & MATRIX",
+    "hd": "HD/4K DIGITAL RECORDERS",
+    "support": "CAMERA SUPPORT",
+    "filters": "Filters",
+    "lights": "LIGHTING AND ELECTRICAL SUPPORT",
+    "grip": "Grip Module",
     "audio": "Audio",
-    "movil-portatil": "Unidad móvil portátil",
-    "movil": "Unidad móvil"
+    "movil-portatil": "Portable Mobile Unit",
+    "movil": "Mobile Unit"
   },
   "testimonials": {
     "customer1": {
@@ -173,7 +176,7 @@
   "gallery": "Galería",
   "client": "Entre nuestros clientes internacionales contamos con Bunim-Murray Productions, World Race Productions, Critical Content, Discovery Channel/WB, Mr.Beast LLC, el Banco Interamericano de Desarrollo (BID),  las Naciones Unidas (UN), y el Parlamento Latinoamericano (Parlatino). Localmente hemos trabajado con el Gobierno de la Republica de Panama, Festi Eventos, Roots, Meetings & Shows, Rockway, ShowPro, Topline, Magicdreams Inc y las mayores agencias publicitarias del país.",
   "studio": {
-    "title": "Estudio climatizado",
+    "title": "Renta de Estudio",
     "text": "Espacio de doble altura adecuado para grabaciones que requieren escenografías. El espacio incluye camerinos/área de maquillaje, baños con ducha, cocineta y aire acondicionado",
     "formated-text": "Espacio de doble altura adecuado para grabaciones que requieren escenografías.\n El espacio incluye camerinos/área de maquillaje, baños con ducha, cocineta y aire acondicionado.\n",
     "plans": "Planos",
@@ -200,5 +203,15 @@
   "clients-text": {
     "international": "Internacionales",
     "local": "Locales"
+  },
+  "accordeon": {
+    "international-production-services": "Servicios de Producción Internacional",
+    "ob-units": "Unidades OB",
+    "cctv-img": "IMAGEN CCTV",
+    "live-streaming": "Transmisión en vivo",
+    "av-productions": "Producciones AV",
+    "timelapse": "Fotografía Timelapse",
+    "studio": "Alquiler de Estudio",
+    "equipment": "Alquiler de Equipos"
   }
 }

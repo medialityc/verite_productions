@@ -46,7 +46,7 @@ export default function Service1() {
                           <i className="fa-solid fa-arrow-right" />
                         </span>
                       </span>
-                      <span
+                      {/* <span
                         style={{
                           border: "1px solid #ee7e1a",
                           borderRadius: "20px",
@@ -55,26 +55,27 @@ export default function Service1() {
                           backgroundColor: "#ee7e1a",
                         }}
                       >
-                        {t("studio.new")}
-                      </span>
+                        {t("accordeon.international-production-services")}
+                      </span> */}
                       <span className="mtitle d-block mt-6">
-                        <Link href="/studio" className="white-clr whitehover">
-                          {t("studio.title")}
+                        <Link
+                          href="/international-services"
+                          className="white-clr whitehover"
+                        >
+                          {t("accordeon.international-production-services")}
                         </Link>
                       </span>
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4">
                         <div className="d-md-none d-block">
-                          {t("studio.text")}
-                          {"  "}
-                          <Link href={"/studio"}>{`(${t("studio.see")})`}</Link>
+                          {t(
+                            "accordeon.international-production-services-text"
+                          )}
                         </div>
                       </span>
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        {t("studio.text")}
-                        {"  "}
-                        <Link href={"/studio"}>{`(${t("studio.see")})`}</Link>
+                        {t("accordeon.international-production-services-text")}
                       </span>
                     </div>
                   </div>
@@ -95,146 +96,23 @@ export default function Service1() {
                         </span>
                       </span>
                       <span className="mtitle d-block mt-6">
-                        <Link href="/services" className="white-clr whitehover">
-                          {t("services.production")}
+                        <Link
+                          href="/ob-mobile"
+                          className="white-clr whitehover"
+                        >
+                          {t("accordeon.ob-units")}
                         </Link>
                       </span>
-                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        <ul className="modern-list d-md-none d-gid  gap-2">
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.publicity")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.services")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.movil")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.led-screens")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.streaming")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.file-archive")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.prompter")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.timelapse")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.fixer")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.productions")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.search")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.customs")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.advices")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.logistics")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("production.certification")}
-                          </li>
-                        </ul>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4">
+                        <div className="d-md-none d-block">
+                          {t("accordeon.ob-units")}
+                        </div>
                       </span>
-                      {/* <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        We build intelligent next-generation solutions at the
-                        intersection of new business opportunities and
-                        technological innovations.
-                      </span> */}
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
-                      <ul className="modern-list d-grid gap-2">
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.publicity")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.services")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.movil")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.led-screens")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.streaming")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.file-archive")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.prompter")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.timelapse")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.fixer")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.productions")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.search")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.customs")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.advices")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.logistics")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("production.certification")}
-                        </li>
-                      </ul>
-                      <div className="tab-remove-thumb">
-                        <img src="\assets\img\element\1.jpg" alt="img" />
-                      </div>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                        {t("accordeon.ob-units-text")}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -254,15 +132,12 @@ export default function Service1() {
                         </span>
                       </span>
                       <span className="mtitle d-block mt-6">
-                        <Link
-                          href="/ob-mobile"
-                          className="white-clr whitehover"
-                        >
-                          {t("services.movil")}
+                        <Link href="/cctv" className="white-clr whitehover">
+                          {t("accordeon.cctv-img")}
                         </Link>
                       </span>
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        {t("movil.text")}
+                        {t("accordeon.cctv-img-text")}
                       </span>
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
@@ -284,7 +159,7 @@ export default function Service1() {
                         </li>
                       </ul> */}
                       <div className="tab-remove-thumb">
-                        <img src="\assets\img\element\um2.jpg" alt="img" />
+                        <img src="\assets\img\element\1.jpg" alt="img" />
                       </div>
                     </div>
                   </div>
@@ -305,34 +180,22 @@ export default function Service1() {
                         </span>
                       </span>
                       <span className="mtitle d-block mt-6">
-                        <Link href="/services" className="white-clr whitehover">
-                          {t("services.satelite")}
+                        <Link href="/live" className="white-clr whitehover">
+                          {t("accordeon.live-streaming")}
                         </Link>
                       </span>
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        {t("satelite.text")}
+                        {t("accordeon.live-streaming-text")}
                       </span>
                     </div>
                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
-                      {/* <ul className="modern-list d-grid gap-2">
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("services.movil")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Solution Design
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Technology
-                          Enabling
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Mobile-First
-                          Systems
-                        </li>
-                      </ul> */}
                       <div className="tab-remove-thumb">
-                        <img src="\assets\img\element\um4.jpg" alt="img" />
+                        <img
+                          width={350}
+                          height={350}
+                          src="\assets\img\element\7.jpg"
+                          alt="img"
+                        />
                       </div>
                     </div>
                   </div>
@@ -354,43 +217,149 @@ export default function Service1() {
                       </span>
                       <span className="mtitle d-block mt-6">
                         <Link
-                          href="/equipment"
+                          href="/av-productions"
                           className="white-clr whitehover"
                         >
-                          {t("services.equipment")}
+                          {t("accordeon.av-productions")}
+                        </Link>
+                      </span>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4">
+                        <div className="d-md-none d-block">
+                          {t("accordeon.av-productions-text")}
+                        </div>
+                      </span>
+                    </div>
+                    <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                        {t("accordeon.av-productions-text")}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={`accordion-single py-xxl-9 py-xl-7 py-lg-6 py-5 bb-border bt-border ${
+                  isAccordion === 6 ? "active" : ""
+                }`}
+              >
+                <div className="header-area" onClick={() => handleAccordion(6)}>
+                  <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
+                    <div className="mtitle-ara">
+                      <span className="d-inine-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr">
+                        06
+                        <span className="rot60 d-inline-block theme-clr">
+                          <i className="fa-solid fa-arrow-right" />
+                        </span>
+                      </span>
+                      <span className="mtitle d-block mt-6">
+                        <Link
+                          href="/time-lapse"
+                          className="white-clr whitehover"
+                        >
+                          {t("accordeon.timelapse")}
                         </Link>
                       </span>
                       <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                        <ul className="modern-list d-md-none d-gid gap-2">
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("equipment.cameras")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("equipment.filters")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("equipment.lights")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("equipment.grip")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("equipment.audio")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("equipment.movil-portatil")}
-                          </li>
-                          <li className="d-flex align-items-center gap-2">
-                            <i className="fas fa-chevron-right" />{" "}
-                            {t("equipment.movil-movil")}
-                          </li>
-                        </ul>
+                        {t("accordeon.timelapse-text")}
+                      </span>
+                    </div>
+                    <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
+                      <div className="tab-remove-thumb">
+                        <img
+                          width={500}
+                          height={500}
+                          src="\assets\img\element\timelapse_9718.jpg"
+                          alt="img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={`accordion-single py-xxl-9 py-xl-7 py-lg-6 py-5 bb-border bt-border ${
+                  isAccordion === 7 ? "active" : ""
+                }`}
+              >
+                <div className="header-area" onClick={() => handleAccordion(7)}>
+                  <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
+                    <div className="mtitle-ara">
+                      <span className="d-inine-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr">
+                        07
+                        <span className="rot60 d-inline-block theme-clr">
+                          <i className="fa-solid fa-arrow-right" />
+                        </span>
+                      </span>
+                      <span className="mtitle d-block mt-6">
+                        <Link href="/studio" className="white-clr whitehover">
+                          {t("accordeon.studio")}
+                        </Link>
+                      </span>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4">
+                        <div className="d-md-none d-block">
+                          {t("studio.text")}
+                        </div>
+                      </span>
+                    </div>
+                    <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                        {t("studio.text")}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={`accordion-single py-xxl-9 py-xl-7 py-lg-6 py-5 bb-border bt-border ${
+                  isAccordion === 8 ? "active" : ""
+                }`}
+              >
+                <div className="header-area" onClick={() => handleAccordion(8)}>
+                  <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
+                    <div className="mtitle-ara">
+                      <span className="d-inine-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr">
+                        08
+                        <span className="rot60 d-inline-block theme-clr">
+                          <i className="fa-solid fa-arrow-right" />
+                        </span>
+                      </span>
+                      <span className="mtitle d-block mt-6">
+                        <Link
+                          href="/equipment"
+                          className="white-clr whitehover"
+                        >
+                          {t("accordeon.equipment")}
+                        </Link>
+                      </span>
+                      <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
+                        <div className="d-md-none d-block">
+                          <ul className="modern-list d-grid gap-2">
+                            <li className="d-flex align-items-center gap-2">
+                              <i className="fas fa-chevron-right" />{" "}
+                              {t("equipment.cameras")}
+                            </li>
+                            <li className="d-flex align-items-center gap-2">
+                              <i className="fas fa-chevron-right" />{" "}
+                              {t("equipment.video")}
+                            </li>
+                            <li className="d-flex align-items-center gap-2">
+                              <i className="fas fa-chevron-right" />{" "}
+                              {t("equipment.hd")}
+                            </li>
+                            <li className="d-flex align-items-center gap-2">
+                              <i className="fas fa-chevron-right" />{" "}
+                              {t("equipment.support")}
+                            </li>
+                            <li className="d-flex align-items-center gap-2">
+                              <i className="fas fa-chevron-right" />{" "}
+                              {t("equipment.filters")}
+                            </li>
+                            <li className="d-flex align-items-center gap-2">
+                              <i className="fas fa-chevron-right" />{" "}
+                              {t("equipment.grip")}
+                            </li>
+                          </ul>
+                        </div>
                       </span>
                       {/* <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
                         We build intelligent next-generation solutions at the
@@ -406,27 +375,23 @@ export default function Service1() {
                         </li>
                         <li className="d-flex align-items-center gap-2">
                           <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.video")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.hd")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
+                          {t("equipment.support")}
+                        </li>
+                        <li className="d-flex align-items-center gap-2">
+                          <i className="fas fa-chevron-right" />{" "}
                           {t("equipment.filters")}
                         </li>
                         <li className="d-flex align-items-center gap-2">
                           <i className="fas fa-chevron-right" />{" "}
-                          {t("equipment.lights")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
                           {t("equipment.grip")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("equipment.audio")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("equipment.movil-portatil")}
-                        </li>
-                        <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" />{" "}
-                          {t("equipment.movil-movil")}
                         </li>
                       </ul>
                       <div className="tab-remove-thumb">

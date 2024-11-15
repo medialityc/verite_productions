@@ -52,10 +52,21 @@ export default function ServiceDetails() {
                 __html: t("studio.formated-text").replace(/\n/g, "<br>"),
               }}
             />
+            <img
+              src={`/assets/img/studio/collage-studio.jpg`}
+              alt={`postal`}
+              className=" w-100 h-100 main-padding"
+              style={{
+                width: "240px",
+                height: "340px",
+                borderRadius: "20px",
+              }}
+            />
             <br />
             <div className="case-study-detials-inner ">
               <h3 className="mb-xxl-7  white-clr">{t("studio.plans")}</h3>
             </div>
+
             <br />
             <div className="swiper study-slidewrap pb-xxl-15 pb-xl-10 pb-9">
               <Swiper {...swiperOptions} className="swiper-wrapper">

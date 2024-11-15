@@ -40,11 +40,11 @@ export default function Protfolio1({ images }: { images: string[] }) {
                   <div className="protfolio-solution-item">
                     <div className="thumb position-relative mb-xxl-7 mb-5">
                       <img className="image-gallery" src={image} alt="img" />
-                      <Link href="/service" className="mission-v4-btn d-center">
+                      {/* <Link href="/service" className="mission-v4-btn d-center">
                         <span className="rot60">
                           <i className="fa-solid fa-arrow-up" />
                         </span>
-                      </Link>
+                      </Link> */}
                     </div>
                     <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
                       <LogoOnly />

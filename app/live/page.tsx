@@ -38,7 +38,6 @@ async function Page() {
         }}
         className="container p-6"
       >
-        <h3>{t("service.streaming")}</h3>
         {/* live */}
         <div className="service-container-2">
           <div className="service-image-2 thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
@@ -50,7 +49,7 @@ async function Page() {
             />
           </div>
           <div className="service-text">
-            <p style={{ breakBefore: "always" }}>
+            <p style={{ breakBefore: "always", fontSize: "24px" }}>
               {t("service.streamingText")}
             </p>
           </div>
