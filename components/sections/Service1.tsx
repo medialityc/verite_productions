@@ -13,7 +13,7 @@ export default function Service1() {
     <>
       <section className="service-section pt-space pb-space">
         <div className="container position-relative">
-          <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-17 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
+          {/* <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-17 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
             <div className="pricing-title">
               <div className="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5">
                 {t("whatWeOffer")}
@@ -28,7 +28,7 @@ export default function Service1() {
                 <i className="fas fa-arrow-up theme-clr" />
               </span>
             </Link>
-          </div>
+          </div> */}
           {/*Service Tabing section*/}
           <div className="row g-xxl-6 g-4">
             <div className="service-tabing-wrap Faqs-section">
@@ -217,7 +217,7 @@ export default function Service1() {
                       </span>
                       <span className="mtitle d-block mt-6">
                         <Link
-                          href="/av-productions"
+                          href="/av-production"
                           className="white-clr whitehover"
                         >
                           {t("accordeon.av-productions")}
@@ -253,7 +253,7 @@ export default function Service1() {
                       </span>
                       <span className="mtitle d-block mt-6">
                         <Link
-                          href="/time-lapse"
+                          href="/timelapse"
                           className="white-clr whitehover"
                         >
                           {t("accordeon.timelapse")}

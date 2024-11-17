@@ -4,6 +4,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { PaginationOptions } from "swiper/types";
 import LogoOnly from "../layout/header/LogoOnly";
+import Image from "next/image";
 
 const paginationOptions: PaginationOptions = {
   el: ".swiper-pagination",
@@ -39,7 +40,13 @@ export default function Protfolio1({ images }: { images: string[] }) {
                 <SwiperSlide key={index}>
                   <div className="protfolio-solution-item">
                     <div className="thumb position-relative mb-xxl-7 mb-5">
-                      <img className="image-gallery" src={image} alt="img" />
+                      <Image
+                        width={800}
+                        height={100}
+                        className="image-gallery h-100"
+                        src={image}
+                        alt="img"
+                      />
                       {/* <Link href="/service" className="mission-v4-btn d-center">
                         <span className="rot60">
                           <i className="fa-solid fa-arrow-up" />

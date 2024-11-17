@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useTranslationClient } from "../../locales/client";
-import LogoOnly from "./header/LogoOnly";
 
 export default function Breadcrumb({
   breadcrumbTitle,
@@ -17,6 +16,7 @@ export default function Breadcrumb({
             <div className="col-lg-7">
               <div className="breadcrumnd-content text-center">
                 <h1
+                  style={{ fontSize: "44px" }}
                   className="white mb-xxl-10 mb-xl-8 mb-6"
                   data-aos="zoom-in-left"
                   data-aos-duration={1800}
@@ -45,11 +45,6 @@ export default function Breadcrumb({
           </div>
         </div>
         {/*Element*/}
-        <img
-          src="\assets\img\element\Group.png"
-          alt="img"
-          className="cmn-dots"
-        />
         <div className="cmn-svg-shape cmn-svg">
           <svg
             width={211}

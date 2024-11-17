@@ -67,7 +67,11 @@ export default function BlogList() {
   });
 
   return (
-    <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Unidad Móvil">
+    <Layout
+      headerStyle={1}
+      footerStyle={1}
+      breadcrumbTitle={t("accordeon.ob-units-title")}
+    >
       <section className="blog-list pt-space pb-space">
         <div className="container-fluid main-xpadding">
           <div className="my-container row-cols-2 ">
@@ -91,7 +95,7 @@ export default function BlogList() {
             </div>
             <div
               className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center"
-              style={{ maxHeight: "700px" }}
+              style={{ maxHeight: "800px" }}
             >
               <div
                 className="carousel"
@@ -110,46 +114,65 @@ export default function BlogList() {
                   {t("ob_mobile.opt")}
                 </p>
                 <EquipmentList items={optionalEquipmentItems} />
+                <div
+                  className="position-relative"
+                  data-aos="fade-left"
+                  data-aos-duration={1550}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50%"
+                    height="100%"
+                    fill="currentColor"
+                    className="bi bi-quote position-absolute"
+                    viewBox="0 0 16 16"
+                    style={{
+                      zIndex: -1,
+                      width: "100%",
+                      height: "100%",
+                      opacity: 0.1,
+                      left: "-120px",
+                      top: "0",
+                    }}
+                  >
+                    <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                  </svg>
+                  <p
+                    style={{
+                      position: "relative",
+                      zIndex: 1,
+                      backgroundColor: "transparent",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    {t("ob_mobile.quote")}
+                  </p>
+                  <cite>// VERITE PRODUCCIONES</cite>
+                </div>
               </div>
             </div>
             <div
               className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3"
               style={{ height: "50%" }}
             >
-              <div
-                className="position-relative"
-                data-aos="fade-left"
-                data-aos-duration={1550}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="50%"
-                  height="100%"
-                  fill="currentColor"
-                  className="bi bi-quote position-absolute"
-                  viewBox="0 0 16 16"
-                  style={{
-                    zIndex: -1,
-                    width: "100%",
-                    height: "100%",
-                    opacity: 0.1,
-                    left: "-120px",
-                    top: "0",
-                  }}
-                >
-                  <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                </svg>
+              <div className="post-content">
                 <p
-                  style={{
-                    position: "relative",
-                    zIndex: 1,
-                    backgroundColor: "transparent",
-                    fontStyle: "italic",
-                  }}
+                  className="pra-clr  "
+                  data-aos="fade-left"
+                  data-aos-duration={1550}
                 >
-                  {t("ob_mobile.quote")}
+                  <div
+                    style={{ fontSize: "20px" }}
+                    dangerouslySetInnerHTML={{
+                      __html: t("ob_mobile.description2").replace(
+                        /\n/g,
+                        "<br>"
+                      ),
+                    }}
+                  />
                 </p>
-                <cite>// VERITE PRODUCCIONES</cite>
+
+                {/* <EquipmentList items={equipmentItems} /> */}
               </div>
             </div>
           </div>

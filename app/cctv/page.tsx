@@ -52,9 +52,6 @@ export default function CCTVPage() {
             borderRadius: "20px",
           }}
         />
-        <div style={{ marginTop: "60px" }}>
-          <Protfolio1 images={imageMock} />
-        </div>
       </section>
     </Layout>
   );

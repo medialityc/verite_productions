@@ -153,7 +153,7 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/service/13.jpg"
+                  src="\assets\img\equipo\GRIPweb.jpg"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
@@ -174,14 +174,14 @@ async function Page() {
               </div>
             </div>
             <div className={"equipment-subcontainer"}>
-              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+              {/* <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
                   src="/assets/img/equipo/CULTO9.JPG"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
                 />
-              </div>
+              </div> */}
               <div>
                 <h5>{t("equipment-hd")}</h5>
                 <br />
@@ -198,7 +198,7 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/equipo/MOVIL.INTERIOR.JPG"
+                  src="\assets\img\equipo\FILTERS-web.jpg"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
@@ -262,7 +262,7 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/service/10.jpg"
+                  src="\assets\img\equipo\CAMERA-SUPPORTweb.jpg"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
@@ -285,7 +285,7 @@ async function Page() {
             <div className={"equipment-subcontainer"}>
               <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
-                  src="/assets/img/equipo/DESFILE2.JPG"
+                  src="\assets\img\equipo\LIGHTING-AND-ELECweb.jpg"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
@@ -305,14 +305,14 @@ async function Page() {
               </div>
             </div>
             <div className={"equipment-subcontainer"}>
-              <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+              {/* <div className="thumb overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
                 <img
                   src="/assets/img/equipo/CULTO6.JPG"
                   alt="img"
                   className=" w-100 overflow-hidden"
                   style={{ width: "100%", height: "330px" }}
                 />
-              </div>
+              </div> */}
               <div>
                 <h5>{t("equipment-text.video")}</h5>
                 <br />
