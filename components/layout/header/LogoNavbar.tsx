@@ -1,12 +1,19 @@
 import React from "react";
 
-function Logo() {
+type Props = {
+  width?: number;
+  height?: number;
+  className?: string;
+};
+
+function Logo({ width = 77.85, height = 70, className }: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       id="Layer_2"
-      width={77.85}
-      height={70}
+      width={width}
+      height={height}
+      className={className}
       viewBox="0 0 77.85 80.19"
     >
       <defs>

@@ -17,7 +17,7 @@ function ServicesHome() {
                 data-aos-duration={1500}
               >
                 <img
-                  src="\assets\img\corporate\CORPORATE.WEF.JPG"
+                  src="\assets\img\production\__TARS2 (1).jpg"
                   alt="img"
                   className="w-100"
                   style={{ borderRadius: "20px" }}
@@ -29,7 +29,7 @@ function ServicesHome() {
                 data-aos-duration={1800}
               >
                 <img
-                  src="\assets\international\CCTV.MULINO.TDP28.jpg"
+                  src="\assets\img\production\_ saving the raft.JPG"
                   alt="img"
                   className="w-100"
                   style={{ borderRadius: "20px" }}

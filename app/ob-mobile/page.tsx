@@ -44,11 +44,11 @@ const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
 
 export default function BlogList() {
   const optionalEquipmentItems = [
-    { id: 1, text: "Gr a Jimmy Jib" },
+    { id: 1, text: "Grúa Jimmy Jib Extreme" },
     { id: 2, text: "50x Fujinon box lens" },
     { id: 3, text: "Newtek 3play (slowmo/replay)" },
-    { id: 4, text: "Teradek T-Rax H.264 encoder (Streaming)" },
-    { id: 5, text: "Satelite uplink/downlink" },
+    { id: 4, text: "Wirecast Encoder" },
+    { id: 5, text: "Teleprompter " },
   ];
 
   const { t } = useTranslationClient();

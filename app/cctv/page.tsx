@@ -5,8 +5,6 @@ import { useTranslationClient } from "../../locales/client";
 
 import React from "react";
 import Card from "../../components/ui/card";
-import Protfolio1 from "../../components/sections/Protfolio1";
-import { imageMock } from "../../components/utils/images";
 
 export default function CCTVPage() {
   const { t } = useTranslationClient();
@@ -22,11 +20,7 @@ export default function CCTVPage() {
   });
 
   return (
-    <Layout
-      headerStyle={1}
-      footerStyle={1}
-      breadcrumbTitle="CCTV/IMAG/MEDIA POOL"
-    >
+    <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="CCTV/IMAG">
       <section className="blog-list pt-space pb-space">
         <div className="container-fluid main-xpadding">
           <div style={{ textAlign: "center" }}>

@@ -39,7 +39,7 @@ async function Page() {
     <Layout
       headerStyle={1}
       footerStyle={3}
-      breadcrumbTitle={t("nav-bar.services")}
+      breadcrumbTitle={t("nav-bar.equipment")}
     >
       <div
         style={{ display: "flex", flexDirection: "column", gap: "60px" }}

@@ -21,17 +21,16 @@ export default async function Hero1() {
                   </span>
                   <span className="text-banner">
                     <span
-                      className="text-italic me-3"
+                      className=" me-3"
                       data-aos="zoom-in-right"
                       data-aos-duration={2100}
                     >
                       VERITE
-                    </span>{" "}
+                    </span>
                     <span
-                      className="designers"
-                      data-text="Producciones"
-                      data-aos="zoom-in"
-                      data-aos-duration={2000}
+                      data-aos="zoom-in-right"
+                      data-aos-duration={2200}
+                      style={{ color: "#ef7f1a" }}
                     >
                       Producciones
                     </span>

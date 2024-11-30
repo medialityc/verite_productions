@@ -4,6 +4,8 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslationClient } from "../../../locales/client";
 import Layout from "../../layout/Layout";
+import Protfolio1 from "../Protfolio1";
+import ModalVideo from "react-modal-video";
 
 const swiperOptions = {
   modules: [Pagination, Navigation],
@@ -14,25 +16,18 @@ const swiperOptions = {
     nextEl: ".cmn-next",
     prevEl: ".cmn-prev",
   },
-
-  breakpoints: {
-    1199: {
-      slidesPerView: 1,
-    },
-    991: {
-      slidesPerView: 1,
-    },
-    767: {
-      slidesPerView: 1,
-    },
-    575: {
-      slidesPerView: 1,
-    },
-    0: {
-      slidesPerView: 1,
-    },
-  },
 };
+
+const imagesMock = [
+  "/assets/img/ESTUDIO/_ ESTUDIO HYBRID.JPG",
+  "/assets/img/ESTUDIO/__CORPORATE_HYBRID_2.jpg",
+  "/assets/img/ESTUDIO/__CORPORATE.HYBRID.jpg",
+  "/assets/img/ESTUDIO/__ESTUDIO.jpg",
+  "/assets/img/ESTUDIO/__FACHADA_ESTUDIO.jpg",
+  "/assets/img/ESTUDIO/__HYBRID_NESTLE_3.jpg",
+  "/assets/img/ESTUDIO/__Solar1.jpg",
+  "/assets/img/ESTUDIO/__Solar2.jpg",
+];
 export default function ServiceDetails() {
   const { t } = useTranslationClient();
   return (
@@ -52,39 +47,41 @@ export default function ServiceDetails() {
                 __html: t("studio.formated-text").replace(/\n/g, "<br>"),
               }}
             />
-            <img
-              src={`/assets/img/studio/collage-studio.jpg`}
-              alt={`postal`}
-              className=" w-100 h-100 main-padding"
-              style={{
-                width: "240px",
-                height: "340px",
-                borderRadius: "20px",
-              }}
-            />
             <br />
             <div className="case-study-detials-inner ">
               <h3 className="mb-xxl-7  white-clr">{t("studio.plans")}</h3>
             </div>
-
+            <div style={{ marginTop: "60px" }}>
+              <Protfolio1 images={imagesMock} />
+            </div>
             <br />
             <div className="swiper study-slidewrap pb-xxl-15 pb-xl-10 pb-9">
               <Swiper {...swiperOptions} className="swiper-wrapper">
-                <SwiperSlide>
-                  <div className="study-thumb-slide w-100">
+                <SwiperSlide
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <div
+                    className="study-thumb-slide w-75"
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
                     <img
                       src="\assets\img\studio\planos1.PNG"
                       alt="img"
-                      className="w-100"
+                      className="w-75"
                     />
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <div className="study-thumb-slide w-100">
+                <SwiperSlide
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <div
+                    className="study-thumb-slide w-75"
+                    style={{ display: "flex", justifyContent: "center" }}
+                  >
                     <img
                       src="\assets\img\studio\planos2.PNG"
                       alt="img"
-                      className="w-100"
+                      className="w-75"
                     />
                   </div>
                 </SwiperSlide>

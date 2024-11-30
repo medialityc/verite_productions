@@ -1371,7 +1371,7 @@ footer {
 }
 
 .hero-section-version1 {
-  background-image: url(../img/banner/2.jpg);
+  background-image: url(../img/banner-photos/amanecer.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1385,39 +1385,35 @@ footer {
   animation-direction: alternate-reverse;
   animation-play-state: running;
   animation-timing-function: ease-in-out;
-  animation-duration: 30s;
+  animation-duration: 120s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
 
 @keyframes animate {
   0%,
-  10% {
-    background-image: url(../img/banner/2.jpg);
+  25% {
+    background-image: url(../img/banner-photos/amanecer.JPG);
   }
 
-  20%,
-  30% {
-    background-image: url(../img/banner/4.jpg);
-  }
-
-  40%,
+  26%,
   50% {
-    background-image: url(../img/element/1.jpg);
+    background-image: url(../img/banner-photos/Mariposa.JPG);
   }
 
-  60%,
-  70% {
-    background-image: url(../img/element/um2.jpg);
+  51%,
+  75% {
+    background-image: url(../img/banner-photos/Santa\ Catalina.JPG);
   }
 
-  80%,
+  76%,
   90% {
-    background-image: url(../img/International/GOBIERNO5.jpg);
+    background-image: url(../img/banner-photos/zona\ bancaria.JPG);
   }
 
+  91%,
   100% {
-    background-image: url(../img/banner/2.jpg);
+    background-image: url("../img/banner-photos/playa\,\ palmeras\,\ Bocas.JPG");
   }
 }
 
@@ -1568,6 +1564,10 @@ footer {
   color: transparent;
   transition: all 0.5s;
   position: relative;
+}
+.hero-v1-content h1 .text-banner {
+  -webkit-text-strokewidth: 1px;
+  -webkit-text-stroke-color: var(--theme);
 }
 
 .hero-v1-content h1 .designers::before {
@@ -5881,4 +5881,17 @@ input.main-search-input::placeholder {
   .clients-container {
     flex-direction: column;
   }
+}
+
+.bullet-list {
+  font-size: "16px";
+}
+
+.bullet-list ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.bullet-list ul li {
+  color: white;
 }

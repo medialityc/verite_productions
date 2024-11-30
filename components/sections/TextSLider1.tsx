@@ -7,43 +7,35 @@ export default function TextSLider1() {
         <div className="mycustom-marque">
           <div className="scrolling-wrap">
             <div className="comm">
-              <div className="cmn-textslide textitalick">
-                Verite Media Producciones
-              </div>
+              <div className="cmn-textslide ">Verite Producciones</div>
               <div>
                 <LogoOnly />
               </div>
               <div className="cmn-textslide text-custom-storke">
-                Verite Media Producciones
+                Verite Producciones
               </div>
-              <div className="cmn-textslide textitalick">
-                Verite Media Producciones
-              </div>
+              <div className="cmn-textslide ">Verite Producciones</div>
               <div>
                 <LogoOnly />
               </div>
               <div className="cmn-textslide text-custom-storke">
-                Verite Media Producciones
+                Verite Producciones
               </div>
             </div>
             <div className="comm">
-              <div className="cmn-textslide textitalick">
-                Verite Media Producciones
-              </div>
+              <div className="cmn-textslide ">Verite Producciones</div>
               <div>
                 <LogoOnly />
               </div>
               <div className="cmn-textslide text-custom-storke">
-                Verite Media Producciones
+                Verite Producciones
               </div>
-              <div className="cmn-textslide textitalick">
-                Verite Media Producciones
-              </div>
+              <div className="cmn-textslide ">Verite Producciones</div>
               <div>
                 <LogoOnly />
               </div>
               <div className="cmn-textslide text-custom-storke">
-                Verite Media Producciones
+                Verite Producciones
               </div>
             </div>
           </div>

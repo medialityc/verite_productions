@@ -1,6 +1,7 @@
 "use server";
 import Link from "next/link";
 import { useTranslationServer } from "../../locales/server";
+import Logo from "../layout/header/LogoNavbar";
 
 export default async function Product1() {
   const { t } = await useTranslationServer();
@@ -14,11 +15,7 @@ export default async function Product1() {
               data-aos="zoom-in"
               data-aos-duration={2000}
             >
-              <img
-                src="/assets/img/about/veritelogo.png"
-                alt="img"
-                className="w-100"
-              />
+              <Logo className="w-75 h-75" />
             </div>
           </div>
           <div className="col-lg-8">
@@ -88,7 +85,7 @@ export default async function Product1() {
                 <div
                   data-aos="fade-up"
                   data-aos-duration={1900}
-                  style={{ fontSize: "16px" }}
+                  className="bullet-list"
                   dangerouslySetInnerHTML={{
                     __html: t("whatWeDoText").replace(/\n/g, "<br>"),
                   }}

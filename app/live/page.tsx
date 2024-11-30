@@ -19,8 +19,6 @@ async function Page() {
     "/assets/international/PRODUCCION.SECH.JPG",
     "/assets/international/IMAG.SHADING.JPG",
     "/assets/international/CCTV.MULINO.TDP26.jpg",
-    "/assets/international/CCTV.MULINO.TDP.12(1).jpg",
-    "/assets/international/CCTV.MULINO.TDP.6.jpg",
   ];
 
   return (

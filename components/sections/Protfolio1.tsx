@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { PaginationOptions } from "swiper/types";
-import LogoOnly from "../layout/header/LogoOnly";
 import Image from "next/image";
+import Logo from "../layout/header/LogoNavbar";
 
 const paginationOptions: PaginationOptions = {
   el: ".swiper-pagination",
@@ -54,11 +54,11 @@ export default function Protfolio1({ images }: { images: string[] }) {
                       </Link> */}
                     </div>
                     <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                      <LogoOnly />
+                      <Logo />
                       <Link href="/service" className="cont">
                         <h4 className="white-clr">
                           Verite
-                          <span className="d-block">Productions</span>
+                          <span className="d-block">Producciones</span>
                         </h4>
                       </Link>
                     </div>

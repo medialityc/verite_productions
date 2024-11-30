@@ -18,7 +18,7 @@ export default function Home() {
         <Service1 />
         <TextSLider1 />
         <Testimonial1 />
-        <Blog1 />
+        {/* <Blog1 /> */}
       </div>
     </Layout>
   );
