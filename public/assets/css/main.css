@@ -5758,6 +5758,7 @@ input.main-search-input::placeholder {
   gap: 20px;
   justify-content: center;
   align-content: center;
+  position: relative;
 }
 
 .my-item {

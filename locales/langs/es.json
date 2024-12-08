@@ -8,7 +8,7 @@
   "whoWeAreText1": "Contamos con equipos de última generación, así como con personal capacitado para llevar a cabo todo tipo de producciones audiovisuales/comerciales, incluyendo, entre otros, CCTV/IMAG.\n",
   "whoWeAreText2": "La lista de clientes internacionales de Verite Producciones incluye a Bunim-Murray Productions, Discovery Channel, FOX Television, Critical Content, Bright Bay Creative LLC, Mr.Beast LLC, E! Entertainment, The Today Show, World Race Productions y casi todas las agencias de publicidad locales.\n",
   "locationText": "Nuestra sede y estudio están ubicados en Calle W (Ave. 5a B sur) Parque Lefevre en la Ciudad de Panamá.\n",
-  "whatWeDoText": "<strong><h4>Qué hacemos</h4></strong>\n<strong>Servicios de producción</strong>\n<strong>Unidades móviles multi-cámara en HD y 4K</strong>\n<strong>Transmisión en vivo</strong>\n<strong>Producción publicitaria</strong>\n<strong>Alquiler de equipo de iluminación y Grip</strong>\n<strong>Teleprompter y Prompter Presidencial</strong>\n<strong>Fotografía de time-lapse para proyectos industriales</strong>\n<strong>Alquiler de estudio con aire acondicionado.</strong>\n",
+  "whatWeDoText": "<strong><h4>Qué hacemos</h4></strong>\n<ul>\n<li><strong>Servicios de producción</strong></li>\n<li><strong>Unidades móviles multi-cámara en HD y 4K</strong></li>\n<li><strong>Transmisión en vivo</strong></li>\n<li><strong>Producción publicitaria</strong></li>\n<li><strong>Alquiler de equipo de iluminación y Grip</strong></li>\n<li><strong>Teleprompter y Prompter Presidencial</strong></li>\n<li><strong>Fotografía de time-lapse para proyectos industriales</strong></li>\n<li><strong>Alquiler de estudio con aire acondicionado</strong></li>\n</ul>",
   "international_services": "<strong><h4>SERVICIOS DE PRODUCCIÓN INTERNACIONAL:</h4></strong>\n<strong>Fixer con más de 20 años de experiencia</strong>\n<strong>Coordinación de producción</strong>\n<strong>Scout de locaciones</strong>\n<strong>Logística y exenciones aduaneras</strong>\n<strong>Asesoría legal</strong>\n<strong>Logística de alojamiento y transporte</strong>\n<strong>Certificación de la Comisión de Cine de Panamá para reembolsos fiscales (Cash Rebate).</strong>\n",
   "problematicClients": "Clientes Complacidos",
   "coffeeCups": "Tasas de Café",
@@ -130,7 +130,7 @@
     "movil": "UNIDAD MÓVIL MULTI-CÁMARAS HD",
     "movilText": "Versátiles unidades móviles auto-contenidas, vienen completas con todas las necesidades de una produccion televisiva remota, circuito cerrado (CCTV) para IMAG, documentación y transmisión en vivo, entre varios otros, son tan solo algunos de los usos que ofrecemos.",
     "streaming": "STREAMING VIA INTERNET",
-    "streamingText": "Aproveche la facilidad que ofrece una conexión rápida de internet para transmitir al mundo su evento o producción. Eficientes “encoders” se encargan de procesar las imagenes y prepararlas para ser “stremeadas” a la web.",
+    "streamingText": "Aproveche la facilidad que ofrece una conexión rápida de internet para transmitir al mundo su evento o producción. Eficientes “encoders” se encargan de procesar las imágenes y prepararlas para ser “stremeadas” a la web.",
     "time-lapse": "FOTOGRAFIA TIME-LAPSE (LAPSO DE TIEMPO) PARA PROYECTOS INDUSTRIALES",
     "time-lapse-text": "Instalación de sistemas auto-contenidos para la captura de imágenes por periodos prolongados. Estos sistemas permiten comprimir el periodo de construcción de un mega proyecto para facilitar la observación de sus avances."
   },

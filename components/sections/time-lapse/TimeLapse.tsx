@@ -22,12 +22,12 @@ export default function TimeLapse() {
       >
         <section className="Service-details pt-space pb-space">
           <div className="container-fluid main-xpadding">
-            <div className="my-container row-cols-lg-4 row-cols-md-2 row-cols-1 ">
+            <div className="my-container row-cols-lg-6 row-cols-md-3 row-cols-2 ">
               <Image
                 src={"/assets/img/element/timelapse_9171.jpg"}
                 alt=""
                 height={200}
-                width={330}
+                width={230}
                 style={{ borderRadius: "20px" }}
               />
               <div className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center h-100">
@@ -51,7 +51,7 @@ export default function TimeLapse() {
                 src={"/assets/img/element/timelapse_9718.jpg"}
                 alt=""
                 height={200}
-                width={300}
+                width={220}
                 style={{ borderRadius: "20px" }}
               />
             </div>
