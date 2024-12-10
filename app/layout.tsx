@@ -5,6 +5,7 @@ import "/public/assets/css/nice-select.css";
 import "/public/assets/css/swiper.min.css";
 import "/public/assets/css/aos.css";
 import "/public/assets/css/main.css";
+import "yet-another-react-lightbox/styles.css";
 import { Manrope, Plus_Jakarta_Sans } from "next/font/google";
 import acceptLanguage from "accept-language";
 import { cookieI18Name, fallbackLng, languages } from "../locales/lang";

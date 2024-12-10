@@ -14,7 +14,7 @@ export default function CCTVPage() {
       <Card
         index={imgIndex}
         alt={`cctv-${imgIndex}`}
-        src={`/assets/img/cctv/cctv-${imgIndex}.jpg`}
+        src={`/assets/img/cctv1/cctv-${imgIndex}.jpg`}
       />
     );
   });
@@ -24,7 +24,7 @@ export default function CCTVPage() {
       <section className="blog-list pt-space pb-space">
         <div className="container-fluid main-xpadding">
           <div style={{ textAlign: "center" }}>
-            <h2>CCTV/IMAG/MEDIA POOL</h2>
+            <h2>CCTV/IMAG</h2>
             <p
               style={{
                 textAlign: "start",
@@ -37,7 +37,7 @@ export default function CCTVPage() {
           </div>
         </div>
         <img
-          src={`/assets/img/cctv/cctv.jpg`}
+          src={`/assets/img/cctv1/cctv.jpg`}
           alt={`postal`}
           className=" w-100 h-100 main-padding"
           style={{

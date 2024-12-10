@@ -1,10 +1,10 @@
 "use client";
-import { Lightbox } from "yet-another-react-lightbox";
 import { useTranslationClient } from "../../../locales/client";
 import Layout from "../../layout/Layout";
 import Protfolio1 from "../Protfolio1";
 import Image from "next/image";
 import { useState } from "react";
+import LightboxComponent from "./lightbox";
 
 const imagesMock = [
   "/assets/img/ESTUDIO/_ ESTUDIO HYBRID.JPG",
@@ -15,6 +15,7 @@ const imagesMock = [
   "/assets/img/ESTUDIO/__HYBRID_NESTLE_3.jpg",
   "/assets/img/ESTUDIO/__Solar1.jpg",
   "/assets/img/ESTUDIO/__Solar2.jpg",
+  "/assets/img/ESTUDIO/HYBRID.ESTUDIO.jpg",
 ];
 export default function ServiceDetails() {
   const { t } = useTranslationClient();
@@ -29,14 +30,28 @@ export default function ServiceDetails() {
         <section className="Service-details pt-space pb-space">
           <div className="container-fluid main-xpadding">
             <div className="my-container row-cols-lg-4 row-cols-md-2 row-cols-1 ">
-              <Image
-                src={"/assets/img/studio/planos1.PNG"}
-                alt=""
-                height={200}
-                width={330}
-                style={{ borderRadius: "20px" }}
-                onClick={() => setBasicExampleOpen(true)}
-              />
+              <div style={{ position: "relative" }}>
+                <Image
+                  src={"/assets/img/studio/planos1.PNG"}
+                  alt=""
+                  fill
+                  className="elemento"
+                  style={{ borderRadius: "20px", cursor: "pointer" }}
+                  onClick={() => setBasicExampleOpen(true)}
+                />
+                <p
+                  style={{
+                    position: "absolute",
+                    color: "black",
+                    fontSize: "18px",
+                    fontWeight: "600",
+                    bottom: "15px",
+                    right: "10px",
+                  }}
+                >
+                  {t("click-to-expand")}
+                </p>
+              </div>
               <div className="my-item cmn-border p-xxl-7 p-xl-6 p-lg-4 p-3 d-flex flex-column justify-content-start gap-6 align-items-center h-100">
                 <div data-aos="fade-left" data-aos-duration={1550}>
                   <div className="container">
@@ -54,28 +69,42 @@ export default function ServiceDetails() {
                   </div>
                 </div>
               </div>
-              <Image
-                src={"/assets/img/studio/planos2.PNG"}
-                alt=""
-                height={200}
-                width={320}
-                style={{ borderRadius: "20px" }}
-                onClick={() => setBasicExampleOpen(true)}
-              />
+
+              <div style={{ position: "relative" }}>
+                <Image
+                  src={"/assets/img/studio/planos2.PNG"}
+                  alt=""
+                  fill
+                  className="elemento"
+                  style={{
+                    borderRadius: "20px",
+                    cursor: "pointer",
+                  }}
+                  onClick={() => setBasicExampleOpen(true)}
+                />
+                <p
+                  style={{
+                    position: "absolute",
+                    color: "black",
+                    fontWeight: "600",
+                    fontSize: "18px",
+                    bottom: "15px",
+                    right: "10px",
+                  }}
+                >
+                  {t("click-to-expand")}
+                </p>
+              </div>
             </div>
             <div style={{ marginTop: "60px" }}>
               <Protfolio1 images={imagesMock} />
             </div>
           </div>
-          <Lightbox
-            open={basicExampleOpen}
-            close={() => setBasicExampleOpen(false)}
-            slides={[
-              { src: "/assets/img/studio/planos1.PNG" },
-              { src: "/assets/img/studio/planos2.PNG" },
-            ]}
-          />
         </section>
+        <LightboxComponent
+          open={basicExampleOpen}
+          setOpen={setBasicExampleOpen}
+        />
       </Layout>
     </>
   );

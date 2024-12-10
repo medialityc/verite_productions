@@ -1,13 +1,10 @@
 "use client";
 
 import Layout from "../../components/layout/Layout";
-import Link from "next/link";
 import { useTranslationClient } from "../../locales/client";
 import Carousel from "../../components/ui/carousel";
 
 import React from "react";
-import GaleryContainer from "../../components/ui/galeryContainer";
-import Galery from "../../components/ui/galery";
 import Card from "../../components/ui/card";
 import Protfolio1 from "../../components/sections/Protfolio1";
 interface EquipmentListProps {
@@ -15,14 +12,12 @@ interface EquipmentListProps {
 }
 const imagesMock = [
   "/assets/img/equipo/EQUIPO ANAYANSI.JPG",
-  "/assets/img/equipo/EQUIPO.JPG",
   "/assets/img/equipo/EQUIPO3.jpg",
   "/assets/img/equipo/EQUIPO5.JPG",
   "/assets/img/equipo/EQUIPO7.JPG",
-  "/assets/img/equipo/EQUIPO8.JPG",
   "/assets/img/equipo/MOVIL INTERIOR.JPG",
   "/assets/img/equipo/MOVIL MOSTRA.jpg",
-  "/assets/img/equipo/MOVIL.INTERIOR.JPG",
+  "/assets/img/corporate/CORPORATE.LONCHERA.JPG",
 ];
 const EquipmentList: React.FC<EquipmentListProps> = ({ items }) => {
   return (

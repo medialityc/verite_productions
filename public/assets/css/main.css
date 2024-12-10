@@ -5896,3 +5896,11 @@ input.main-search-input::placeholder {
 .bullet-list ul li {
   color: white;
 }
+
+.elemento {
+  transition: transform 0.3s ease;
+}
+
+.elemento:hover {
+  transform: scale(1.05);
+}

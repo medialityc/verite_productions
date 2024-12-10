@@ -2,33 +2,34 @@ import React from "react";
 import Layout from "../../components/layout/Layout";
 import { useTranslationServer } from "../../locales/server";
 import Card from "../../components/ui/card";
-import GaleryContainer from "../../components/ui/galeryContainer";
-import Galery from "../../components/ui/galery";
 import Protfolio1 from "../../components/sections/Protfolio1";
 
 async function Page() {
   const { t } = await useTranslationServer();
   const imagesMock = [
-    "/assets/img/equipo/CULTO.CCTV.JPG",
-    "/assets/img/equipo/CULTO3.JPG",
-    "/assets/img/equipo/CULTO6.JPG",
-    "/assets/img/equipo/CULTO9.JPG",
-    "/assets/img/equipo/DESFILE2.JPG",
-    "/assets/img/equipo/DESFILE9.JPG",
-    "/assets/img/equipo/DESFILE10.JPG",
-    "/assets/img/equipo/EQUIPO ANAYANSI.JPG",
-    "/assets/img/equipo/EQUIPO.JPG",
-    "/assets/img/equipo/EQUIPO3.jpg",
-    "/assets/img/equipo/EQUIPO5.JPG",
-    "/assets/img/equipo/EQUIPO7.JPG",
-    "/assets/img/equipo/EQUIPO8.JPG",
-    "/assets/img/equipo/MOVIL INTERIOR.JPG",
-    "/assets/img/equipo/MOVIL MOSTRA.jpg",
-    "/assets/img/equipo/MOVIL.INTERIOR.JPG",
-    "/assets/img/equipo/PROMPTER.JPG",
-    "/assets/img/equipo/PROMPTER6.JPG",
-    "/assets/img/equipo/PROMPTER20.JPG",
-    "/assets/img/equipo/UNIDAD MOVIL.JPG",
+    "/assets/img/equipo-images/BLOOMBERG2.jpg",
+    "/assets/img/equipo-images/CULTO6.JPG",
+    "/assets/img/equipo-images/DESFILE10.JPG",
+    "/assets/img/equipo-images/ENG_HYBRID.jpg",
+    "/assets/img/equipo-images/ENG3.jpg",
+    "/assets/img/equipo-images/EQUIPO ANAYANSI.JPG",
+    "/assets/img/equipo-images/EQUIPO_22.jpg",
+    "/assets/img/equipo-images/EQUIPO_CCTV_2.jpg",
+    "/assets/img/equipo-images/EQUIPO.CAMARA.jpg",
+    "/assets/img/equipo-images/EQUIPO7.JPG",
+    "/assets/img/equipo-images/EQUIPO9.jpg",
+    "/assets/img/equipo-images/EQUIPO11.jpg",
+    "/assets/img/equipo-images/EQUIPO15.jpg",
+    "/assets/img/equipo-images/EQUIPO27.jpg",
+    "/assets/img/equipo-images/EQUIPO30.jpg",
+    "/assets/img/equipo-images/GRUA_ACP.jpg",
+    "/assets/img/equipo-images/LONCHERA_MOVIL.jpg",
+    "/assets/img/equipo-images/MASTERCONTROL2.jpg",
+    "/assets/img/equipo-images/MASTERCONTROL4.jpg",
+    "/assets/img/equipo-images/MOVIL MOSTRA.jpg",
+    "/assets/img/equipo-images/MOVIL.INTERIOR.JPG",
+    "/assets/img/equipo-images/PROMPTER.CORPORATE.JPG",
+    "/assets/img/equipo-images/PROMPTER3.jpg",
   ];
 
   const slides = imagesMock.map((slide, index) => (
