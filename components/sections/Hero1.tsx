@@ -16,23 +16,17 @@ export default async function Hero1() {
                     className="d-block"
                     data-aos="zoom-in-left"
                     data-aos-duration={1800}
+                    style={{ fontWeight: "500" }}
                   >
                     {t("weAre")}
                   </span>
-                  <span className="text-banner">
-                    <span
-                      className=" me-3"
-                      data-aos="zoom-in-right"
-                      data-aos-duration={2100}
-                    >
-                      VERITE
-                    </span>
+                  <span className="text-banner text-uppercase">
                     <span
                       data-aos="zoom-in-right"
                       data-aos-duration={2200}
-                      style={{ color: "#ef7f1a" }}
+                      style={{ color: "#ef7f1a", fontWeight: "700" }}
                     >
-                      Producciones
+                      VERITE Producciones
                     </span>
                   </span>
                 </h1>

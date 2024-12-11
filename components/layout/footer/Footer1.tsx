@@ -306,7 +306,7 @@ export default function Footer1() {
                   >
                     <li>
                       <div
-                        style={{ fontSize: "16px" }}
+                        style={{ fontSize: "16px", color: "white" }}
                         dangerouslySetInnerHTML={{
                           __html: t("footer.contacts").replace(/\n/g, "<br>"),
                         }}

@@ -67,7 +67,7 @@ export default function InternationalServices() {
             <h4>{t("international-services.title")}</h4>
             <br />
             <div
-              style={{ fontSize: "24px", fontWeight: "400" }}
+              style={{ fontSize: "24px", fontWeight: "400", color: "white" }}
               dangerouslySetInnerHTML={{
                 __html: t("international-services.text").replace(/\n/g, "<br>"),
               }}
