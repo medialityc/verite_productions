@@ -5904,3 +5904,12 @@ input.main-search-input::placeholder {
 .elemento:hover {
   transform: scale(1.05);
 }
+
+.fill-image {
+  display: block;
+}
+@media (max-width: 768px) {
+  .fill-image {
+    height: 230px;
+  }
+}

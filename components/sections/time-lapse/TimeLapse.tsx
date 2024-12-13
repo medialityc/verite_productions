@@ -23,7 +23,7 @@ export default function TimeLapse() {
         <section className="Service-details pt-space pb-space">
           <div className="container-fluid main-xpadding">
             <div className="my-container row-cols-lg-6 row-cols-md-3 row-cols-2">
-              <div style={{ position: "relative" }}>
+              <div style={{ position: "relative" }} className="fill-image">
                 <Image
                   src={"/assets/img/element/timelapse_9171.jpg"}
                   alt=""
@@ -48,7 +48,7 @@ export default function TimeLapse() {
                   </div>
                 </div>
               </div>
-              <div style={{ position: "relative" }}>
+              <div style={{ position: "relative" }} className="fill-image">
                 <Image
                   src={"/assets/img/element/timelapse_9718.jpg"}
                   alt=""

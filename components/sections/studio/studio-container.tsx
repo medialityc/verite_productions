@@ -30,7 +30,7 @@ export default function ServiceDetails() {
         <section className="Service-details pt-space pb-space">
           <div className="container-fluid main-xpadding">
             <div className="my-container row-cols-lg-4 row-cols-md-2 row-cols-1 ">
-              <div style={{ position: "relative" }}>
+              <div style={{ position: "relative" }} className="fill-image">
                 <Image
                   src={"/assets/img/studio/planos1.PNG"}
                   alt=""
@@ -70,7 +70,7 @@ export default function ServiceDetails() {
                 </div>
               </div>
 
-              <div style={{ position: "relative" }}>
+              <div style={{ position: "relative" }} className="fill-image">
                 <Image
                   src={"/assets/img/studio/planos2.PNG"}
                   alt=""
