@@ -8,14 +8,17 @@ export default function VideoPopup({ style }: { style: number }) {
   return (
     <>
       {style === 1 && (
-        <a onClick={() => setOpen(true)} className="video-popup">
+        <a onClick={() => setOpen(true)} className="video-popup ">
           <span className="icon">
-            <i className="fas fa-play" />
+            <i
+              className="fas fa-play icon-mobile"
+              style={{ zIndex: 10, position: "relative" }}
+            />
           </span>
-
           <img
             src="/assets/img/element/bn1-circle.png"
             alt="img"
+            style={{ background: "#161616", borderRadius: "50%" }}
             className="hero-circle"
           />
         </a>

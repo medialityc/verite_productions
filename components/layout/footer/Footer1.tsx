@@ -65,7 +65,7 @@ export default function Footer1() {
                           <span className="ani-icons">
                             <i className="fas fa-angle-double-right pra-clr" />
                           </span>
-                          Instagram: Veriteproductions
+                          Instagram: veriteproducciones
                         </div>
                       </Link>
                     </li>

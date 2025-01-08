@@ -4,16 +4,17 @@ import Layout from "../../layout/Layout";
 import Protfolio1 from "../Protfolio1";
 
 const images = [
-  "/assets/international/DEBATES2024.CHIRIQUI2.jpg",
-  "/assets/international/DEBATES2024.CHIRIQUI15.jpg",
-  "/assets/international/DEBATES2024.CHIRIQUI6.jpg",
-  "/assets/international/DEBATES2024.CHIRIQUI16.jpg",
-  "/assets/international/DEBATES2024.CHIRIQUI14(1).jpg",
-  "/assets/international/CCTV.MULINO.TDP.6.jpg",
-  "/assets/international/CCTV.MULINO.TDP.12(1).jpg",
-  "/assets/international/CCTV.MULINO.TDP28.jpg",
-  "/assets/international/CCTV.MULINO.TDP.9.jpg",
-  "/assets/international/CCTV.MULINO.TDP.4.jpg",
+  "/assets/img/av-prod/__IMG_5352.JPG",
+  "/assets/img/av-prod/_IMG_1825.jpg",
+  "/assets/img/av-prod/_IMG_1827.jpg",
+  "/assets/img/av-prod/_IMG_1828.jpg",
+  "/assets/img/av-prod/_IMG_1845.jpg",
+  "/assets/img/av-prod/_IMG_1850.jpg",
+  "/assets/img/av-prod/_IMG_4524.JPG",
+  "/assets/img/av-prod/_IMG_4528.JPG",
+  "/assets/img/av-prod/_IMG_4556.JPG",
+  "/assets/img/av-prod/_IMG_6729.jpg",
+  "/assets/img/av-prod/_IMG_6768.jpg",
 ];
 
 export default function AvProductions() {

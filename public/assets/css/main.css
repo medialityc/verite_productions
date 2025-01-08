@@ -1691,7 +1691,7 @@ footer {
   .hero-v1-content .video-popup .hero-circle {
     width: 80px;
     height: 80px;
-    top: -28px;
+    top: 18px;
     left: -36px;
   }
 
@@ -5911,5 +5911,16 @@ input.main-search-input::placeholder {
 @media (max-width: 768px) {
   .fill-image {
     height: 230px;
+  }
+}
+
+.video-button {
+  border-radius: 100%;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .icon-mobile {
+    top: 47px;
   }
 }
