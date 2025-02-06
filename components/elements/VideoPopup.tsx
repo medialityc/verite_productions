@@ -54,9 +54,9 @@ export default function VideoPopup({ style }: { style: number }) {
         </a>
       )}
       <ModalVideo
-        channel="youtube"
+        channel="custom"
+        url="https://res.cloudinary.com/dwpepqgjw/video/upload/v1738871417/VERITE_SERVICIOS_2024_xxi4zs.mp4"
         isOpen={isOpen}
-        videoId="0YL7VYWPwNI"
         onClose={() => setOpen(false)}
       />
     </>

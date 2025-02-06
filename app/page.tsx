@@ -1,10 +1,8 @@
 import Layout from "../components/layout/Layout";
-import Blog1 from "../components/sections/Blog1";
 import Hero1 from "../components/sections/Hero1";
 import ServicesHome from "../components/sections/international-services/services-home";
 import Product1 from "../components/sections/Product1";
 import Service1 from "../components/sections/Service1";
-import Testimonial1 from "../components/sections/Testimonial1";
 import TextSLider1 from "../components/sections/TextSLider1";
 
 export default function Home() {
