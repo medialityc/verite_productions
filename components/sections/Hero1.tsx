@@ -5,8 +5,15 @@ import { useTranslationServer } from "../../locales/server";
 export default async function Hero1() {
   const { t } = await useTranslationServer();
   return (
-    <>
-      <section className="hero-section-version1 position-relative">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <section className="text-section position-relative">
         <div className="container">
           <div className="row g-5">
             <div className="hero-v1-content position-relative">
@@ -32,9 +39,9 @@ export default async function Hero1() {
                 </h1>
                 <VideoPopup style={1} />
               </div>
-              <div className="hero-sponsor">
+              {/* <div className="hero-sponsor">
                 <div className="sponsor-inner d-flex align-items-center gap-xxl-13 gap-xl-10 gap-lg-8 gap-md-6 gap-5 mb-xxl-10 mb-xl-7 mb-lg-6 mb-6">
-                  {/* <img
+                  <img
                     src="\assets\img\client\download (4).jpeg"
                     style={{ width: "168px", height: "53px" }}
                     alt="img"
@@ -48,14 +55,14 @@ export default async function Hero1() {
                     src="\assets\img\testimonial\download.jpeg"
                     style={{ width: "168px", height: "53px" }}
                     alt="img"
-                  /> */}
+                  />
                 </div>
-                {/* <div className="brandin-wrap d-block">
+                <div className="brandin-wrap d-block">
                   <h4 className="white-clr brading-text">
                     1k + Brands Trust Us
                   </h4>
-                </div> */}
-              </div>
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -77,6 +84,7 @@ export default async function Hero1() {
         </div> */}
         {/* Element */}
       </section>
-    </>
+      <div className="hero-section-version1 position-relative"></div>
+    </div>
   );
 }
