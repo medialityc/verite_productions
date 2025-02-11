@@ -14,7 +14,6 @@ const imagesMock = [
   "/assets/img/ESTUDIO/__FACHADA_ESTUDIO.jpg",
   "/assets/img/ESTUDIO/__HYBRID_NESTLE_3.jpg",
   "/assets/img/ESTUDIO/__Solar1.jpg",
-  "/assets/img/ESTUDIO/__Solar2.jpg",
   "/assets/img/ESTUDIO/HYBRID.ESTUDIO.jpg",
 ];
 export default function ServiceDetails() {
