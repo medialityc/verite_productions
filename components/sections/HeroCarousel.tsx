@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -29,8 +30,8 @@ function HeroCarousel() {
     <Swiper {...swiperOptions} className="custom-carousel-banner">
       {images.map((src, index) => (
         <SwiperSlide key={index}>
-          <div className="slide-banner">
-            <img src={src} alt={`Slide ${index + 1}`} />
+          <div className="slide-banner position-relative">
+            <Image fill src={src} alt={`Slide ${index + 1}`} />
           </div>
         </SwiperSlide>
       ))}
