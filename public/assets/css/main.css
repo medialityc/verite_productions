@@ -5950,7 +5950,7 @@ input.main-search-input::placeholder {
 }
 
 .custom-carousel-banner {
-  height: 100vh;
+  height: 80vh;
   width: 80%;
   padding: 0px 5px 30px;
   border-radius: 20px;
