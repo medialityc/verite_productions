@@ -1,9 +1,14 @@
 "use server";
 import VideoPopup from "../elements/VideoPopup";
 import { useTranslationServer } from "../../locales/server";
+import Protfolio1 from "./Protfolio1";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import HeroCarousel from "./HeroCarousel";
 
 export default async function Hero1() {
   const { t } = await useTranslationServer();
+
   return (
     <div
       style={{
@@ -84,7 +89,8 @@ export default async function Hero1() {
         </div> */}
         {/* Element */}
       </section>
-      <div className="hero-section-version1 position-relative"></div>
+      <HeroCarousel />
+      {/* <div className="hero-section-version1 position-relative"></div> */}
     </div>
   );
 }
