@@ -5952,7 +5952,7 @@ input.main-search-input::placeholder {
 .custom-carousel-banner {
   height: 100vh;
   width: 80%;
-  padding: 190px 5px 30px;
+  padding: 0px 5px 30px;
   border-radius: 20px;
   z-index: 1;
   position: relative;
@@ -5983,4 +5983,10 @@ input.main-search-input::placeholder {
 .swiper-button-next-banner,
 .swiper-button-prev-banner {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .custom-carousel-banner {
+    height: 50vh;
+  }
 }
