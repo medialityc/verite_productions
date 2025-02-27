@@ -1,5 +1,8 @@
-import { redirect } from "next/navigation";
+"use client";
+import { useEffect } from "react";
 
 export default function Page() {
-  redirect("/home");
+  useEffect(() => {
+    window.location.replace("/home");
+  }, []);
 }
