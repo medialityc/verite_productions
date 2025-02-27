@@ -1,3 +1,8 @@
-export default function NotFound() {
-  return <>Error 404</>;
+"use client";
+import { useEffect } from "react";
+
+export default function Page() {
+  useEffect(() => {
+    window.location.replace("/home");
+  }, []);
 }
